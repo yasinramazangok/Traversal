@@ -1,0 +1,13 @@
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\bin\Debug\net8.0\Traversal.ServiceDefaults.deps.json
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\bin\Debug\net8.0\Traversal.ServiceDefaults.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\bin\Debug\net8.0\Traversal.ServiceDefaults.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\Traversal.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\Traversal.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\Traversal.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\Traversal.ServiceDefaults.AssemblyInfo.cs
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\Traversal.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\Traversal.ServiceDefaults.sourcelink.json
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\Traversal.ServiceDefaults.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\refint\Traversal.ServiceDefaults.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\Traversal.ServiceDefaults.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.ServiceDefaults\obj\Debug\net8.0\ref\Traversal.ServiceDefaults.dll

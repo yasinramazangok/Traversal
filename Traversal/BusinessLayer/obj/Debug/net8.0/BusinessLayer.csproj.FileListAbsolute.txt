@@ -1,6 +1,8 @@
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\bin\Debug\net8.0\BusinessLayer.runtimeconfig.json
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
@@ -9,4 +11,5 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

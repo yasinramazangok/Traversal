@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal", "Traversal\Traversal.csproj", "{AD73C1BE-D91C-445F-88B4-E48FF62694D5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal.AppHost", "Traversal.AppHost\Traversal.AppHost.csproj", "{C4211930-F1AD-4ADE-ACAB-FA783728A677}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal.ServiceDefaults", "Traversal.ServiceDefaults\Traversal.ServiceDefaults.csproj", "{136D67E7-9E66-4689-8C76-9A28E74AB941}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{B3E4D3BC-53EC-45E7-A34E-DB378A40B7FF}"
 EndProject
@@ -25,14 +21,6 @@ Global
 		{AD73C1BE-D91C-445F-88B4-E48FF62694D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD73C1BE-D91C-445F-88B4-E48FF62694D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD73C1BE-D91C-445F-88B4-E48FF62694D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4211930-F1AD-4ADE-ACAB-FA783728A677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4211930-F1AD-4ADE-ACAB-FA783728A677}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4211930-F1AD-4ADE-ACAB-FA783728A677}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4211930-F1AD-4ADE-ACAB-FA783728A677}.Release|Any CPU.Build.0 = Release|Any CPU
-		{136D67E7-9E66-4689-8C76-9A28E74AB941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{136D67E7-9E66-4689-8C76-9A28E74AB941}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{136D67E7-9E66-4689-8C76-9A28E74AB941}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{136D67E7-9E66-4689-8C76-9A28E74AB941}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B3E4D3BC-53EC-45E7-A34E-DB378A40B7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B3E4D3BC-53EC-45E7-A34E-DB378A40B7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E4D3BC-53EC-45E7-A34E-DB378A40B7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU

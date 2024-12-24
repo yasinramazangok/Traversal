@@ -11,6 +11,6 @@ namespace EntityLayer.Concrete
     {
         public int EmailSubscriptionId { get; set; }
 
-        public string Email { get; set; }
+        public string? Email { get; set; }
     }
 }

@@ -108,4 +108,12 @@ public static class Extensions
 
         return app;
     }
+
+    // for Service discovery in BusinessLayer
+    public static WebApplicationBuilder CreateBuilder(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
+        builder.AddServiceDefaults();
+        return builder;
+    }
 }

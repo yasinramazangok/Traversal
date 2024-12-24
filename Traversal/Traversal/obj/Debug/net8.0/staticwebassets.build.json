@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C8x4oX3a4B/PFPiToanB1b9SW2BsUUVqkDszcGNqECY=",
+  "Hash": "HlmOVDo4ErTgEDP6Hpty+csiuX2rsMRc03Lj5lyDvNY=",
   "Source": "Traversal",
   "BasePath": "_content/Traversal",
   "Mode": "Default",
@@ -1317,6 +1317,1119 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\about.html",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/about#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rox81j5wje",
+      "Integrity": "i3mY2gCjgxZZVq9Qpan05tB7YunKGX1akkV52K57Pds=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\about.html"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\css\\style-starter.css",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/css/style-starter#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a2jzvl8fkk",
+      "Integrity": "Qn5V+/9aVHBCuctP2IRwvUrDVpMu49aWHRSNXqdxI/4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\css\\style-starter.css"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\FontAwesome.otf",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/fonts/FontAwesome#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sgabxu717i",
+      "Integrity": "RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.eot",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/fonts/fontawesome-webfont#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pz0qgnv39v",
+      "Integrity": "e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.svg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/fonts/fontawesome-webfont#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wxwxrej6pw",
+      "Integrity": "/DeCMvna1QCJCqngvdAwpT0vMX1Rc5OjuRQAtN3OTHw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.ttf",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/fonts/fontawesome-webfont#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yex6mt8az7",
+      "Integrity": "qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.woff",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/fonts/fontawesome-webfont#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyrbpue749",
+      "Integrity": "ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.woff2",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/fonts/fontawesome-webfont#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2hr3gl3r5x",
+      "Integrity": "Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner1.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/banner1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o91ovw7hnr",
+      "Integrity": "bMtuvO4fiYEmQ7UhUDd0Yhi45mz5VVhQ37TKjRSIA6g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\banner1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner2.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/banner2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b1sfuo9dpp",
+      "Integrity": "Uba2lOXPRqnkO/h+6QlE5XI5fXqxJV8SislWkNgP0/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\banner2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner3.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/banner3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8re6lrtebe",
+      "Integrity": "zJ6CU6p3PE/c6UB5GrCY2LPRXziZJFttg/12Z06oxnE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\banner3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner4.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/banner4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tm9zxh74ih",
+      "Integrity": "hTAUHRYQmdMnYk/o8VA529dwOfSIfIyzDI1DgRTbMGM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\banner4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c1.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/c1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tdbktky2ub",
+      "Integrity": "X9zOyKNf7DKuhMqelfYmvgvzZ/BEmd0J/RcomikcTGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\c1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c2.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/c2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ej2l8fewac",
+      "Integrity": "GoRwfzQhtE9E9OTAVni5k/9u3FUEPn3pKluUHc/mHUw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\c2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c3.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/c3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fykc6hlmzy",
+      "Integrity": "6ZC3rrAGvELH+2+6oeRYhhRhj31Vj58Lq2mKfCRgCyA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\c3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c4.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/c4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5645jglro2",
+      "Integrity": "oxg+pmlrtJHQdrnth5amGbrn5cDzeBZ5zNco0cxtoOo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\c4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\close.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/close#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xnkvg2909g",
+      "Integrity": "XWLmyQAFv7cfartED55HU2gcsju9XmBHerb0QtLw5pw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\close.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\date.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/date#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "canevjedge",
+      "Integrity": "ZDhDIAlmcYNc7sBMVe0FKShEidVbdEuQotwlVG+/Npc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\date.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\dots.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/dots#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6litjai5eb",
+      "Integrity": "Wr5mly9UADd8RMGj3sJyxQFeMTMOH2TExnG/PCoYJpM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\dots.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\down.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/down#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5epo1lrwcu",
+      "Integrity": "c6RiSceWt4ywkU9uDHW/OAzq1/FK3lWPkdD91aWRIQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\down.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g1.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ymcon88i8",
+      "Integrity": "KlMRyJWvlyphamk4R/MSe6gwgLQ+ZPXOspcb1I35BVQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g10.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g10#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h8zbrx5wnx",
+      "Integrity": "3wmmRvOfkm3yKOOzK/SdZeS6/wBr51HfSNSbo9GwGvk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g10.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g2.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9hoxtsoaxa",
+      "Integrity": "LSeKXho3YTF+p5NAZswzNXVVLZrbZbB6OxAik7xpRc0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g3.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j01k5one74",
+      "Integrity": "3UjZGfv5g3/MsQNmS/yRRUczeAlF8+xE1JEyuZ2JduM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g4.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "na4obp0zpl",
+      "Integrity": "v9pUKT7oQZ0LEK2d/+6r04wUdvf1T+dhQ1gpdah634M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g5.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iocz1eydj2",
+      "Integrity": "8iPcGQDwZMMaBJqkV86JMXmmHtrFWd6wExPwM9O3DXw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g6.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aoo3m6hycr",
+      "Integrity": "ViIdmGMVXh+c5OcS1RZ0Odmd+qwv5LSMeZeAaW7Bn9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g7.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xzuc4t6fm3",
+      "Integrity": "E6B5y7n0dj6e/E01NNjTYzUcxlSywclWZcSEwjfohsg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g8.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qe2qi53hs0",
+      "Integrity": "soSAfLepS84QXYuABUB7TGtEUeCLUp/I4yGB1zA8iR4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g9.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/g9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oja8h3pow2",
+      "Integrity": "nOvPUFALMrDdkwIVVBKEdkMS9XzKC4KiD8ef1fqik/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\g9.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\img-sprite.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/img-sprite#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "el7tvzahtu",
+      "Integrity": "Tmmef0oTrTjfoISS/TGApfN7fVn1k0Ts+S6cMJbzeSg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\img-sprite.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team1.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/team1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "augi3ovqlq",
+      "Integrity": "Pie0CBgdzNLe9DToRBYSuAGM3Fawyf/YITc9L8afukc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\team1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team2.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/team2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "erd0gv82uy",
+      "Integrity": "qjH/tRZyB1oRcoiZKWRb29a9ezry8ODP6ylsggC2ym0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\team2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team3.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/team3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ddp2urwaeb",
+      "Integrity": "8ZbMh8ZoSeFdMEHuAPYTisbKyTKtU7R+sVl8HCphwmg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\team3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team4.jpg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/images/team4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k2fwg41pre",
+      "Integrity": "tPtdtcgPU1/4cTXTPKU2tosW2iFPvvY6f7GJTyH2ZoE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\images\\team4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\all.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/all#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q2za5n39m4",
+      "Integrity": "7t6vJs32hne2m/zgB0+vmpNlr0IbU/YazIYsRgcauIs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\all.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\app.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3vvgiqdm9y",
+      "Integrity": "T08c62t0HjFFyglqxaLwJPIOeLOIXojeY5bFISKyTS0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\bootstrap.min.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zu238p5lxg",
+      "Integrity": "O82ALp93hJ58HpPIcnn7uwTUWUnSvnmwNWbOrN4psVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.countup.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/jquery.countup#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tfy3qo576q",
+      "Integrity": "GZvJLXjyYkB4rnedkr16DYee9BBUCb/mXOknsGkWSqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\jquery.countup.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.min.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u04o09imjk",
+      "Integrity": "onGj+ePK6JfO1mnWZSaZ6UeSjvCV5WOExPndBLu5Quw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.waypoints.min.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/jquery.waypoints.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r41hwlmela",
+      "Integrity": "+5OPiqYqWAM8+IEOnZ4eJZRNgOs7d/oC+xr/hOr39w8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.zoomslider.min.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/jquery.zoomslider.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ot5mhel9ys",
+      "Integrity": "/P829bsNUYwqFbnjKqi/ZOpL2KaCKYRcB+h9uysjjbg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\jquery.zoomslider.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery-3.3.1.min.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/jquery-3.3.1.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dcowqscbhr",
+      "Integrity": "w/K14c9es++XoHzIMaMmA0G6Ea9ndjvAXvPp5V26jB8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\lightbox-plus-jquery.min.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/lightbox-plus-jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d0tzs93cyf",
+      "Integrity": "nQ1dqxwG28Qw16OQh/Qacy5UtXb6kRyC8E7JPz4bGwo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\main.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lsb7k75ex6",
+      "Integrity": "dRc8tLUb/s5HCAKwU9lGipi6qECHxd1jccl9qeQwVNc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\modernizr-2.6.2.min.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/modernizr-2.6.2.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7rukwvdrpd",
+      "Integrity": "TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\modernizr-2.6.2.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\owl.carousel.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/owl.carousel#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qllauh7fk5",
+      "Integrity": "3n3ks3OcTcBnoi1YGwV5k+3tlvZx+hHESNO2Hk/ipJU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\owl.carousel.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\popper.min.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/popper.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tszm09l1ne",
+      "Integrity": "vbLp3u9orh8SYzY/enuuWKkTzBss7i480sRrzRgev3U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\popper.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\theme-change.js",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/assets/js/theme-change#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fxq6k8594s",
+      "Integrity": "Le7lvlV6fBGgWT3AufQIZAomigSBN1NspAQe7lP1K/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\assets\\js\\theme-change.js"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\contact.html",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/contact#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nukjt6awla",
+      "Integrity": "T6VAjKBxlSUWUxILt4gOUIi5Cp8YNrOxifk/k/h8DHg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\contact.html"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\index.html",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "983yu7n05r",
+      "Integrity": "2Q5PqTsSIeZdgc/B8GNpR3l9nhbrPl9GnveUPHzD2m0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\services.html",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/services#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xp7kvsfyl6",
+      "Integrity": "67zZheeK2fWYief9GhwDGxs/Nz525+ukdQRufN/wH+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\services.html"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\starter-license-W3Layouts.txt",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "TraversalStarter/starter-license-W3Layouts#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7wjvcjw0ap",
+      "Integrity": "dy7kztM1sHZoEbGEPzpoCiSBX+msWdhd8ULiYJ9MKQA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TraversalStarter\\starter-license-W3Layouts.txt"
     }
   ],
   "Endpoints": [
@@ -6263,7 +7376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 12:10:15 GMT"
+          "Value": "Tue, 24 Dec 2024 13:27:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +7413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 12:10:15 GMT"
+          "Value": "Tue, 24 Dec 2024 13:27:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6345,7 +7458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 12:10:15 GMT"
+          "Value": "Tue, 24 Dec 2024 13:27:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6390,7 +7503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 12:10:15 GMT"
+          "Value": "Tue, 24 Dec 2024 13:27:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6401,6 +7514,4352 @@
         {
           "Name": "integrity",
           "Value": "sha256-/ITcZV9isJqlTyGK9IWPguQhvbAjF1CxGJnojaN6VoQ="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/about.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\about.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i3mY2gCjgxZZVq9Qpan05tB7YunKGX1akkV52K57Pds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i3mY2gCjgxZZVq9Qpan05tB7YunKGX1akkV52K57Pds="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/about.rox81j5wje.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\about.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i3mY2gCjgxZZVq9Qpan05tB7YunKGX1akkV52K57Pds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rox81j5wje"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/about.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i3mY2gCjgxZZVq9Qpan05tB7YunKGX1akkV52K57Pds="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/css/style-starter.a2jzvl8fkk.css",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\css\\style-starter.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qn5V+/9aVHBCuctP2IRwvUrDVpMu49aWHRSNXqdxI/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a2jzvl8fkk"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/css/style-starter.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qn5V+/9aVHBCuctP2IRwvUrDVpMu49aWHRSNXqdxI/4="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/css/style-starter.css",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\css\\style-starter.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qn5V+/9aVHBCuctP2IRwvUrDVpMu49aWHRSNXqdxI/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qn5V+/9aVHBCuctP2IRwvUrDVpMu49aWHRSNXqdxI/4="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/FontAwesome.otf",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\FontAwesome.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/FontAwesome.sgabxu717i.otf",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\FontAwesome.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sgabxu717i"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/fonts/FontAwesome.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.2hr3gl3r5x.woff2",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hr3gl3r5x"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/fonts/fontawesome-webfont.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.eot",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.eyrbpue749.woff",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eyrbpue749"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/fonts/fontawesome-webfont.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.pz0qgnv39v.eot",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pz0qgnv39v"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/fonts/fontawesome-webfont.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.svg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "447050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/DeCMvna1QCJCqngvdAwpT0vMX1Rc5OjuRQAtN3OTHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/DeCMvna1QCJCqngvdAwpT0vMX1Rc5OjuRQAtN3OTHw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.ttf",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.woff",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.woff2",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.wxwxrej6pw.svg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "447050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/DeCMvna1QCJCqngvdAwpT0vMX1Rc5OjuRQAtN3OTHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wxwxrej6pw"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/fonts/fontawesome-webfont.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/DeCMvna1QCJCqngvdAwpT0vMX1Rc5OjuRQAtN3OTHw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/fonts/fontawesome-webfont.yex6mt8az7.ttf",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\fonts\\fontawesome-webfont.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yex6mt8az7"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/fonts/fontawesome-webfont.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/banner1.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bMtuvO4fiYEmQ7UhUDd0Yhi45mz5VVhQ37TKjRSIA6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bMtuvO4fiYEmQ7UhUDd0Yhi45mz5VVhQ37TKjRSIA6g="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/banner1.o91ovw7hnr.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bMtuvO4fiYEmQ7UhUDd0Yhi45mz5VVhQ37TKjRSIA6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o91ovw7hnr"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/banner1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bMtuvO4fiYEmQ7UhUDd0Yhi45mz5VVhQ37TKjRSIA6g="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/banner2.b1sfuo9dpp.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uba2lOXPRqnkO/h+6QlE5XI5fXqxJV8SislWkNgP0/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b1sfuo9dpp"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/banner2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uba2lOXPRqnkO/h+6QlE5XI5fXqxJV8SislWkNgP0/I="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/banner2.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uba2lOXPRqnkO/h+6QlE5XI5fXqxJV8SislWkNgP0/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uba2lOXPRqnkO/h+6QlE5XI5fXqxJV8SislWkNgP0/I="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/banner3.8re6lrtebe.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJ6CU6p3PE/c6UB5GrCY2LPRXziZJFttg/12Z06oxnE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8re6lrtebe"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/banner3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zJ6CU6p3PE/c6UB5GrCY2LPRXziZJFttg/12Z06oxnE="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/banner3.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zJ6CU6p3PE/c6UB5GrCY2LPRXziZJFttg/12Z06oxnE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zJ6CU6p3PE/c6UB5GrCY2LPRXziZJFttg/12Z06oxnE="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/banner4.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hTAUHRYQmdMnYk/o8VA529dwOfSIfIyzDI1DgRTbMGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hTAUHRYQmdMnYk/o8VA529dwOfSIfIyzDI1DgRTbMGM="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/banner4.tm9zxh74ih.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\banner4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hTAUHRYQmdMnYk/o8VA529dwOfSIfIyzDI1DgRTbMGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tm9zxh74ih"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/banner4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hTAUHRYQmdMnYk/o8VA529dwOfSIfIyzDI1DgRTbMGM="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/c1.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X9zOyKNf7DKuhMqelfYmvgvzZ/BEmd0J/RcomikcTGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9zOyKNf7DKuhMqelfYmvgvzZ/BEmd0J/RcomikcTGY="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/c1.tdbktky2ub.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X9zOyKNf7DKuhMqelfYmvgvzZ/BEmd0J/RcomikcTGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdbktky2ub"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/c1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9zOyKNf7DKuhMqelfYmvgvzZ/BEmd0J/RcomikcTGY="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/c2.ej2l8fewac.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GoRwfzQhtE9E9OTAVni5k/9u3FUEPn3pKluUHc/mHUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ej2l8fewac"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/c2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GoRwfzQhtE9E9OTAVni5k/9u3FUEPn3pKluUHc/mHUw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/c2.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GoRwfzQhtE9E9OTAVni5k/9u3FUEPn3pKluUHc/mHUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GoRwfzQhtE9E9OTAVni5k/9u3FUEPn3pKluUHc/mHUw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/c3.fykc6hlmzy.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ZC3rrAGvELH+2+6oeRYhhRhj31Vj58Lq2mKfCRgCyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fykc6hlmzy"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/c3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ZC3rrAGvELH+2+6oeRYhhRhj31Vj58Lq2mKfCRgCyA="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/c3.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6ZC3rrAGvELH+2+6oeRYhhRhj31Vj58Lq2mKfCRgCyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6ZC3rrAGvELH+2+6oeRYhhRhj31Vj58Lq2mKfCRgCyA="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/c4.5645jglro2.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oxg+pmlrtJHQdrnth5amGbrn5cDzeBZ5zNco0cxtoOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5645jglro2"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/c4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oxg+pmlrtJHQdrnth5amGbrn5cDzeBZ5zNco0cxtoOo="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/c4.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\c4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oxg+pmlrtJHQdrnth5amGbrn5cDzeBZ5zNco0cxtoOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oxg+pmlrtJHQdrnth5amGbrn5cDzeBZ5zNco0cxtoOo="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/close.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\close.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XWLmyQAFv7cfartED55HU2gcsju9XmBHerb0QtLw5pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XWLmyQAFv7cfartED55HU2gcsju9XmBHerb0QtLw5pw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/close.xnkvg2909g.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\close.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XWLmyQAFv7cfartED55HU2gcsju9XmBHerb0QtLw5pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xnkvg2909g"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/close.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XWLmyQAFv7cfartED55HU2gcsju9XmBHerb0QtLw5pw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/date.canevjedge.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\date.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZDhDIAlmcYNc7sBMVe0FKShEidVbdEuQotwlVG+/Npc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "canevjedge"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/date.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZDhDIAlmcYNc7sBMVe0FKShEidVbdEuQotwlVG+/Npc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/date.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\date.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZDhDIAlmcYNc7sBMVe0FKShEidVbdEuQotwlVG+/Npc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZDhDIAlmcYNc7sBMVe0FKShEidVbdEuQotwlVG+/Npc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/dots.6litjai5eb.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\dots.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wr5mly9UADd8RMGj3sJyxQFeMTMOH2TExnG/PCoYJpM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6litjai5eb"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/dots.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wr5mly9UADd8RMGj3sJyxQFeMTMOH2TExnG/PCoYJpM="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/dots.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\dots.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wr5mly9UADd8RMGj3sJyxQFeMTMOH2TExnG/PCoYJpM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wr5mly9UADd8RMGj3sJyxQFeMTMOH2TExnG/PCoYJpM="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/down.5epo1lrwcu.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\down.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "240"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c6RiSceWt4ywkU9uDHW/OAzq1/FK3lWPkdD91aWRIQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5epo1lrwcu"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/down.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6RiSceWt4ywkU9uDHW/OAzq1/FK3lWPkdD91aWRIQo="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/down.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\down.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "240"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c6RiSceWt4ywkU9uDHW/OAzq1/FK3lWPkdD91aWRIQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6RiSceWt4ywkU9uDHW/OAzq1/FK3lWPkdD91aWRIQo="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g1.2ymcon88i8.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlMRyJWvlyphamk4R/MSe6gwgLQ+ZPXOspcb1I35BVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ymcon88i8"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KlMRyJWvlyphamk4R/MSe6gwgLQ+ZPXOspcb1I35BVQ="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g1.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlMRyJWvlyphamk4R/MSe6gwgLQ+ZPXOspcb1I35BVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KlMRyJWvlyphamk4R/MSe6gwgLQ+ZPXOspcb1I35BVQ="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g10.h8zbrx5wnx.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wmmRvOfkm3yKOOzK/SdZeS6/wBr51HfSNSbo9GwGvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h8zbrx5wnx"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g10.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3wmmRvOfkm3yKOOzK/SdZeS6/wBr51HfSNSbo9GwGvk="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g10.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wmmRvOfkm3yKOOzK/SdZeS6/wBr51HfSNSbo9GwGvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3wmmRvOfkm3yKOOzK/SdZeS6/wBr51HfSNSbo9GwGvk="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g2.9hoxtsoaxa.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LSeKXho3YTF+p5NAZswzNXVVLZrbZbB6OxAik7xpRc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hoxtsoaxa"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSeKXho3YTF+p5NAZswzNXVVLZrbZbB6OxAik7xpRc0="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g2.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LSeKXho3YTF+p5NAZswzNXVVLZrbZbB6OxAik7xpRc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSeKXho3YTF+p5NAZswzNXVVLZrbZbB6OxAik7xpRc0="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g3.j01k5one74.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3UjZGfv5g3/MsQNmS/yRRUczeAlF8+xE1JEyuZ2JduM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j01k5one74"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3UjZGfv5g3/MsQNmS/yRRUczeAlF8+xE1JEyuZ2JduM="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g3.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3UjZGfv5g3/MsQNmS/yRRUczeAlF8+xE1JEyuZ2JduM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3UjZGfv5g3/MsQNmS/yRRUczeAlF8+xE1JEyuZ2JduM="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g4.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v9pUKT7oQZ0LEK2d/+6r04wUdvf1T+dhQ1gpdah634M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v9pUKT7oQZ0LEK2d/+6r04wUdvf1T+dhQ1gpdah634M="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g4.na4obp0zpl.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v9pUKT7oQZ0LEK2d/+6r04wUdvf1T+dhQ1gpdah634M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "na4obp0zpl"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v9pUKT7oQZ0LEK2d/+6r04wUdvf1T+dhQ1gpdah634M="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g5.iocz1eydj2.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8iPcGQDwZMMaBJqkV86JMXmmHtrFWd6wExPwM9O3DXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iocz1eydj2"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8iPcGQDwZMMaBJqkV86JMXmmHtrFWd6wExPwM9O3DXw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g5.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8iPcGQDwZMMaBJqkV86JMXmmHtrFWd6wExPwM9O3DXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8iPcGQDwZMMaBJqkV86JMXmmHtrFWd6wExPwM9O3DXw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g6.aoo3m6hycr.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ViIdmGMVXh+c5OcS1RZ0Odmd+qwv5LSMeZeAaW7Bn9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aoo3m6hycr"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ViIdmGMVXh+c5OcS1RZ0Odmd+qwv5LSMeZeAaW7Bn9c="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g6.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33253"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ViIdmGMVXh+c5OcS1RZ0Odmd+qwv5LSMeZeAaW7Bn9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ViIdmGMVXh+c5OcS1RZ0Odmd+qwv5LSMeZeAaW7Bn9c="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g7.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E6B5y7n0dj6e/E01NNjTYzUcxlSywclWZcSEwjfohsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E6B5y7n0dj6e/E01NNjTYzUcxlSywclWZcSEwjfohsg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g7.xzuc4t6fm3.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E6B5y7n0dj6e/E01NNjTYzUcxlSywclWZcSEwjfohsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xzuc4t6fm3"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E6B5y7n0dj6e/E01NNjTYzUcxlSywclWZcSEwjfohsg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g8.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"soSAfLepS84QXYuABUB7TGtEUeCLUp/I4yGB1zA8iR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-soSAfLepS84QXYuABUB7TGtEUeCLUp/I4yGB1zA8iR4="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g8.qe2qi53hs0.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"soSAfLepS84QXYuABUB7TGtEUeCLUp/I4yGB1zA8iR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qe2qi53hs0"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-soSAfLepS84QXYuABUB7TGtEUeCLUp/I4yGB1zA8iR4="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g9.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nOvPUFALMrDdkwIVVBKEdkMS9XzKC4KiD8ef1fqik/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nOvPUFALMrDdkwIVVBKEdkMS9XzKC4KiD8ef1fqik/s="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/g9.oja8h3pow2.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\g9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nOvPUFALMrDdkwIVVBKEdkMS9XzKC4KiD8ef1fqik/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oja8h3pow2"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/g9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nOvPUFALMrDdkwIVVBKEdkMS9XzKC4KiD8ef1fqik/s="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/img-sprite.el7tvzahtu.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\img-sprite.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tmmef0oTrTjfoISS/TGApfN7fVn1k0Ts+S6cMJbzeSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "el7tvzahtu"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/img-sprite.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tmmef0oTrTjfoISS/TGApfN7fVn1k0Ts+S6cMJbzeSg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/img-sprite.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\img-sprite.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tmmef0oTrTjfoISS/TGApfN7fVn1k0Ts+S6cMJbzeSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tmmef0oTrTjfoISS/TGApfN7fVn1k0Ts+S6cMJbzeSg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/team1.augi3ovqlq.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pie0CBgdzNLe9DToRBYSuAGM3Fawyf/YITc9L8afukc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "augi3ovqlq"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/team1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pie0CBgdzNLe9DToRBYSuAGM3Fawyf/YITc9L8afukc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/team1.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pie0CBgdzNLe9DToRBYSuAGM3Fawyf/YITc9L8afukc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pie0CBgdzNLe9DToRBYSuAGM3Fawyf/YITc9L8afukc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/team2.erd0gv82uy.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qjH/tRZyB1oRcoiZKWRb29a9ezry8ODP6ylsggC2ym0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "erd0gv82uy"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/team2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qjH/tRZyB1oRcoiZKWRb29a9ezry8ODP6ylsggC2ym0="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/team2.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qjH/tRZyB1oRcoiZKWRb29a9ezry8ODP6ylsggC2ym0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qjH/tRZyB1oRcoiZKWRb29a9ezry8ODP6ylsggC2ym0="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/team3.ddp2urwaeb.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZbMh8ZoSeFdMEHuAPYTisbKyTKtU7R+sVl8HCphwmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ddp2urwaeb"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/team3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZbMh8ZoSeFdMEHuAPYTisbKyTKtU7R+sVl8HCphwmg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/team3.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZbMh8ZoSeFdMEHuAPYTisbKyTKtU7R+sVl8HCphwmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZbMh8ZoSeFdMEHuAPYTisbKyTKtU7R+sVl8HCphwmg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/team4.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tPtdtcgPU1/4cTXTPKU2tosW2iFPvvY6f7GJTyH2ZoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tPtdtcgPU1/4cTXTPKU2tosW2iFPvvY6f7GJTyH2ZoE="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/images/team4.k2fwg41pre.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\images\\team4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tPtdtcgPU1/4cTXTPKU2tosW2iFPvvY6f7GJTyH2ZoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k2fwg41pre"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/images/team4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tPtdtcgPU1/4cTXTPKU2tosW2iFPvvY6f7GJTyH2ZoE="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/all.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\all.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7t6vJs32hne2m/zgB0+vmpNlr0IbU/YazIYsRgcauIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7t6vJs32hne2m/zgB0+vmpNlr0IbU/YazIYsRgcauIs="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/all.q2za5n39m4.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\all.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7t6vJs32hne2m/zgB0+vmpNlr0IbU/YazIYsRgcauIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q2za5n39m4"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/all.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7t6vJs32hne2m/zgB0+vmpNlr0IbU/YazIYsRgcauIs="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/app.3vvgiqdm9y.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T08c62t0HjFFyglqxaLwJPIOeLOIXojeY5bFISKyTS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3vvgiqdm9y"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T08c62t0HjFFyglqxaLwJPIOeLOIXojeY5bFISKyTS0="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/app.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T08c62t0HjFFyglqxaLwJPIOeLOIXojeY5bFISKyTS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T08c62t0HjFFyglqxaLwJPIOeLOIXojeY5bFISKyTS0="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O82ALp93hJ58HpPIcnn7uwTUWUnSvnmwNWbOrN4psVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O82ALp93hJ58HpPIcnn7uwTUWUnSvnmwNWbOrN4psVg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/bootstrap.min.zu238p5lxg.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O82ALp93hJ58HpPIcnn7uwTUWUnSvnmwNWbOrN4psVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zu238p5lxg"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O82ALp93hJ58HpPIcnn7uwTUWUnSvnmwNWbOrN4psVg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery.countup.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.countup.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GZvJLXjyYkB4rnedkr16DYee9BBUCb/mXOknsGkWSqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GZvJLXjyYkB4rnedkr16DYee9BBUCb/mXOknsGkWSqM="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery.countup.tfy3qo576q.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.countup.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GZvJLXjyYkB4rnedkr16DYee9BBUCb/mXOknsGkWSqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tfy3qo576q"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/jquery.countup.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GZvJLXjyYkB4rnedkr16DYee9BBUCb/mXOknsGkWSqM="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery.min.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onGj+ePK6JfO1mnWZSaZ6UeSjvCV5WOExPndBLu5Quw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-onGj+ePK6JfO1mnWZSaZ6UeSjvCV5WOExPndBLu5Quw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery.min.u04o09imjk.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onGj+ePK6JfO1mnWZSaZ6UeSjvCV5WOExPndBLu5Quw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u04o09imjk"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-onGj+ePK6JfO1mnWZSaZ6UeSjvCV5WOExPndBLu5Quw="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery.waypoints.min.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.waypoints.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+5OPiqYqWAM8+IEOnZ4eJZRNgOs7d/oC+xr/hOr39w8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+5OPiqYqWAM8+IEOnZ4eJZRNgOs7d/oC+xr/hOr39w8="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery.waypoints.min.r41hwlmela.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.waypoints.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+5OPiqYqWAM8+IEOnZ4eJZRNgOs7d/oC+xr/hOr39w8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r41hwlmela"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/jquery.waypoints.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+5OPiqYqWAM8+IEOnZ4eJZRNgOs7d/oC+xr/hOr39w8="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery.zoomslider.min.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.zoomslider.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P829bsNUYwqFbnjKqi/ZOpL2KaCKYRcB+h9uysjjbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P829bsNUYwqFbnjKqi/ZOpL2KaCKYRcB+h9uysjjbg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery.zoomslider.min.ot5mhel9ys.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery.zoomslider.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/P829bsNUYwqFbnjKqi/ZOpL2KaCKYRcB+h9uysjjbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ot5mhel9ys"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/jquery.zoomslider.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/P829bsNUYwqFbnjKqi/ZOpL2KaCKYRcB+h9uysjjbg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery-3.3.1.min.dcowqscbhr.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery-3.3.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/K14c9es++XoHzIMaMmA0G6Ea9ndjvAXvPp5V26jB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dcowqscbhr"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/jquery-3.3.1.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/K14c9es++XoHzIMaMmA0G6Ea9ndjvAXvPp5V26jB8="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/jquery-3.3.1.min.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\jquery-3.3.1.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/K14c9es++XoHzIMaMmA0G6Ea9ndjvAXvPp5V26jB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/K14c9es++XoHzIMaMmA0G6Ea9ndjvAXvPp5V26jB8="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/lightbox-plus-jquery.min.d0tzs93cyf.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\lightbox-plus-jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nQ1dqxwG28Qw16OQh/Qacy5UtXb6kRyC8E7JPz4bGwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d0tzs93cyf"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/lightbox-plus-jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nQ1dqxwG28Qw16OQh/Qacy5UtXb6kRyC8E7JPz4bGwo="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/lightbox-plus-jquery.min.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\lightbox-plus-jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nQ1dqxwG28Qw16OQh/Qacy5UtXb6kRyC8E7JPz4bGwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nQ1dqxwG28Qw16OQh/Qacy5UtXb6kRyC8E7JPz4bGwo="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/main.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dRc8tLUb/s5HCAKwU9lGipi6qECHxd1jccl9qeQwVNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dRc8tLUb/s5HCAKwU9lGipi6qECHxd1jccl9qeQwVNc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/main.lsb7k75ex6.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dRc8tLUb/s5HCAKwU9lGipi6qECHxd1jccl9qeQwVNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsb7k75ex6"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dRc8tLUb/s5HCAKwU9lGipi6qECHxd1jccl9qeQwVNc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/modernizr-2.6.2.min.7rukwvdrpd.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\modernizr-2.6.2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7rukwvdrpd"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/modernizr-2.6.2.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/modernizr-2.6.2.min.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\modernizr-2.6.2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/owl.carousel.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\owl.carousel.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3n3ks3OcTcBnoi1YGwV5k+3tlvZx+hHESNO2Hk/ipJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3n3ks3OcTcBnoi1YGwV5k+3tlvZx+hHESNO2Hk/ipJU="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/owl.carousel.qllauh7fk5.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\owl.carousel.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3n3ks3OcTcBnoi1YGwV5k+3tlvZx+hHESNO2Hk/ipJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qllauh7fk5"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/owl.carousel.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3n3ks3OcTcBnoi1YGwV5k+3tlvZx+hHESNO2Hk/ipJU="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/popper.min.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\popper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbLp3u9orh8SYzY/enuuWKkTzBss7i480sRrzRgev3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbLp3u9orh8SYzY/enuuWKkTzBss7i480sRrzRgev3U="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/popper.min.tszm09l1ne.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\popper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbLp3u9orh8SYzY/enuuWKkTzBss7i480sRrzRgev3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tszm09l1ne"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/popper.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbLp3u9orh8SYzY/enuuWKkTzBss7i480sRrzRgev3U="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/theme-change.fxq6k8594s.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\theme-change.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Le7lvlV6fBGgWT3AufQIZAomigSBN1NspAQe7lP1K/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fxq6k8594s"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/assets/js/theme-change.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Le7lvlV6fBGgWT3AufQIZAomigSBN1NspAQe7lP1K/k="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/assets/js/theme-change.js",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\assets\\js\\theme-change.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Le7lvlV6fBGgWT3AufQIZAomigSBN1NspAQe7lP1K/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Le7lvlV6fBGgWT3AufQIZAomigSBN1NspAQe7lP1K/k="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/contact.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\contact.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T6VAjKBxlSUWUxILt4gOUIi5Cp8YNrOxifk/k/h8DHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T6VAjKBxlSUWUxILt4gOUIi5Cp8YNrOxifk/k/h8DHg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/contact.nukjt6awla.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\contact.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T6VAjKBxlSUWUxILt4gOUIi5Cp8YNrOxifk/k/h8DHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nukjt6awla"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/contact.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T6VAjKBxlSUWUxILt4gOUIi5Cp8YNrOxifk/k/h8DHg="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/index.983yu7n05r.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Q5PqTsSIeZdgc/B8GNpR3l9nhbrPl9GnveUPHzD2m0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "983yu7n05r"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Q5PqTsSIeZdgc/B8GNpR3l9nhbrPl9GnveUPHzD2m0="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/index.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Q5PqTsSIeZdgc/B8GNpR3l9nhbrPl9GnveUPHzD2m0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Q5PqTsSIeZdgc/B8GNpR3l9nhbrPl9GnveUPHzD2m0="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/services.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\services.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67zZheeK2fWYief9GhwDGxs/Nz525+ukdQRufN/wH+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-67zZheeK2fWYief9GhwDGxs/Nz525+ukdQRufN/wH+U="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/services.xp7kvsfyl6.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\services.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67zZheeK2fWYief9GhwDGxs/Nz525+ukdQRufN/wH+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xp7kvsfyl6"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/services.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-67zZheeK2fWYief9GhwDGxs/Nz525+ukdQRufN/wH+U="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/starter-license-W3Layouts.7wjvcjw0ap.txt",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\starter-license-W3Layouts.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dy7kztM1sHZoEbGEPzpoCiSBX+msWdhd8ULiYJ9MKQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7wjvcjw0ap"
+        },
+        {
+          "Name": "label",
+          "Value": "TraversalStarter/starter-license-W3Layouts.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dy7kztM1sHZoEbGEPzpoCiSBX+msWdhd8ULiYJ9MKQA="
+        }
+      ]
+    },
+    {
+      "Route": "TraversalStarter/starter-license-W3Layouts.txt",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalStarter\\starter-license-W3Layouts.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dy7kztM1sHZoEbGEPzpoCiSBX+msWdhd8ULiYJ9MKQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dy7kztM1sHZoEbGEPzpoCiSBX+msWdhd8ULiYJ9MKQA="
         }
       ]
     }

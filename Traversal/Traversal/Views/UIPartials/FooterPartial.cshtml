@@ -1,0 +1,104 @@
+﻿<footer>
+    <section class="w3l-footer">
+        <div class="w3l-footer-16-main py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 column">
+                        <div class="row">
+                            <div class="col-md-4 column">
+                                <h3>Şirketimiz</h3>
+                                <ul class="footer-gd-16">
+                                    <li><a href="/Default/Home/">Anasayfa</a></li>
+                                    <li><a href="about.html">Hakkımızda</a></li>
+                                    <li><a href="/Destination/Home/">Turlar</a></li>
+                                    <li><a href="contact.html">İletişim</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 column mt-md-0 mt-4">
+                                <h3>Hızlı Bağlantılar</h3>
+                                <ul class="footer-gd-16">
+                                    <li><a href="#url">Havayolları</a></li>
+                                    <li><a href="#url">Deniz Seferleri</a></li>
+                                    <li><a href="#url">Döviz Ofisleri</a></li>
+                                    <li><a href="#url">Bize Yazın</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 column mt-md-0 mt-4">
+                                <h3>Hizmetlerimiz</h3>
+                                <ul class="footer-gd-16">
+                                    <li><a href="#url">Servisler</a></li>
+                                    <li><a href="#url">Rehberlerimiz</a></li>
+                                    <li><a href="services.html">Bilet Al</a></li>
+                                    <li><a href="#url">Türkiye Ofisi</a></li>
+                                    <li><a href="#url">Ukrayna Ofisi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 column pl-lg-5 column4 mt-lg-0 mt-5">
+                        <h3>Email Bülteni</h3>
+                        <div class="end-column">
+                            <h4>Son güncellemeler ve kampanyalardan haberdar olun!</h4>
+                            <form action="#" class="subscribe" method="post">
+                                <input type="email" name="email" placeholder="Email adresinizi giriniz" required="">
+                                <button type="submit">Abone Ol</button>
+                            </form>
+                            <p>Email ile bilgilendirilmek için abone olun.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex below-section justify-content-between align-items-center pt-4 mt-5">
+                    <div class="columns text-lg-left text-center">
+                        <p>
+                            &copy; @DateTime.Now.Year Traversal. Tüm hakları saklıdır.Designed by <a href="https://www.linkedin.com/in/yasinramazangok/" target="_blank">
+                                Yasin Ramazan GÖK
+                            </a>
+                        </p>
+                    </div>
+                    <div class="columns-2 mt-lg-0 mt-3">
+                        <ul class="social">
+                            <li>
+                                <a href="" target="_blank"><span class="fa fa-medium" aria-hidden="true"></span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/yasinramazangok/" target="_blank"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/yasinramazangok" target="_blank"><span class="fa fa-github" aria-hidden="true"></span></a>
+                            </li>
+                            <li>
+                                <a href="mailto:yasinrmzngok@gmail.com" target="_blank"><span class="fa fa-envelope" aria-hidden="true"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-angle-up"></span>
+        </button>
+        <script>
+            window.onscroll = function () {
+              scrollFunction()
+            };
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+              } else {
+                document.getElementById("movetop").style.display = "none";
+              }
+            }
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <script>
+            $(function () {
+              $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+              })
+            });
+        </script>
+    </section>
+</footer>

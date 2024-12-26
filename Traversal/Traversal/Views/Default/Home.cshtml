@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+@await Component.InvokeAsync("SliderPartial")
+
+@await Component.InvokeAsync("PopularDestinationsPartial")
+
+@await Component.InvokeAsync("StatisticsPartial")
+
+@await Component.InvokeAsync("FeaturedPartial")
+
+@await Component.InvokeAsync("SubAboutPartial")
+
+@await Component.InvokeAsync("TestimonialsPartial")
+

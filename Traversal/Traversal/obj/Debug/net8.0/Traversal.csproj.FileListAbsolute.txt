@@ -241,8 +241,8 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\DataAccessLayer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\EntityLayer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\BusinessLayer.pdb
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\EntityLayer.pdb
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\EntityLayer.pdb
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.csproj.AssemblyReference.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.AssemblyInfoInputs.cache

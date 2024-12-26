@@ -11,36 +11,36 @@ namespace BusinessLayer.Concrete
 {
     public class TestimonialManager : ITestimonialService
     {
-        ITestimonialDal _testimonialDal;
+        private readonly ITestimonialDal _testimonialDal;
 
         public TestimonialManager(ITestimonialDal testimonialDal)
         {
             _testimonialDal = testimonialDal;
         }
 
-        public void TAdd(Testimonial t)
+        public void Delete(Testimonial entity)
         {
-            throw new NotImplementedException();
+            _testimonialDal.Delete(entity);
         }
 
-        public void TDelete(Testimonial t)
+        public Testimonial GetById(int id)
         {
-            throw new NotImplementedException();
+            return _testimonialDal.GetById(id);
         }
 
-        public Testimonial TGetById(int id)
+        public List<Testimonial> GetList()
         {
-            throw new NotImplementedException();
+            return _testimonialDal.GetList();
         }
 
-        public List<Testimonial> TGetList()
+        public void Insert(Testimonial entity)
         {
-            throw new NotImplementedException();
+            _testimonialDal.Delete(entity);
         }
 
-        public void TUpdate(Testimonial t)
+        public void Update(Testimonial entity)
         {
-            throw new NotImplementedException();
+            _testimonialDal.Delete(entity);
         }
     }
 }

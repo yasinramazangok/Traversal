@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repository
 {
-    public class GenericRepository<T> : IGenericDal<T> where T : class
+    public class GenericRepository<T> : IGenericDal<T> where T : class, new()
     {
-        public void Delete(T t)
+        public void Delete(T entity)
         {
             using var traversalContext = new Context();
-            traversalContext.Remove(t);
+            traversalContext.Remove(entity);
             traversalContext.SaveChanges();
         }
 
@@ -30,17 +30,17 @@ namespace DataAccessLayer.Repository
             return traversalContext.Set<T>().ToList();
         }
 
-        public void Insert(T t)
+        public void Insert(T entity)
         {
             using var traversalContext = new Context();
-            traversalContext.Add(t);
+            traversalContext.Add(entity);
             traversalContext.SaveChanges();
         }
 
-        public void Update(T t)
+        public void Update(T entity)
         {
             using var traversalContext = new Context();
-            traversalContext.Update(t);
+            traversalContext.Update(entity);
             traversalContext.SaveChanges();
         }
     }

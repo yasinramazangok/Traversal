@@ -9,6 +9,7 @@
       "Traversal/1.0.0": {
         "dependencies": {
           "BusinessLayer": "1.0.0",
+          "DataAccessLayer": "1.0.0",
           "EntityLayer": "1.0.0",
           "FluentValidation": "11.11.0",
           "FluentValidation.AspNetCore": "11.3.0",

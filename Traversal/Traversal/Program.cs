@@ -1,3 +1,5 @@
+using BusinessLayer.Container;
+
 namespace Traversal;
 
 public class Program
@@ -6,11 +8,12 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        builder.Services.ContainerDependencies();
+
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 
         var app = builder.Build();
-
 
         // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())

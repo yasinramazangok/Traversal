@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -18,29 +19,29 @@ namespace BusinessLayer.Concrete
             _aboutDal = aboutDal;
         }
 
-        public void TAdd(About about)
+        public void Delete(About entity)
         {
-            _aboutDal.Insert(about);
+            _aboutDal.Delete(entity);
         }
 
-        public void TDelete(About about)
+        public About GetById(int id)
         {
-            throw new NotImplementedException();
+            return _aboutDal.GetById(id);
         }
 
-        public About TGetById(int id)
+        public List<About> GetList()
         {
-            throw new NotImplementedException();
+            return _aboutDal.GetList();
         }
 
-        public List<About> TGetList()
+        public void Insert(About entity)
         {
-            throw new NotImplementedException();
+            _aboutDal.Insert(entity);
         }
 
-        public void TUpdate(About about)
+        public void Update(About entity)
         {
-            throw new NotImplementedException();
+            _aboutDal.Update(entity);
         }
     }
 }

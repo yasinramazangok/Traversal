@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -11,36 +12,36 @@ namespace BusinessLayer.Concrete
 {
     public class SubAboutManager : ISubAboutService
     {
-        ISubAboutDal _subAboutDal;
+        private readonly ISubAboutDal _subAboutDal;
 
         public SubAboutManager(ISubAboutDal subAboutDal)
         {
             _subAboutDal = subAboutDal;
         }
 
-        public void TAdd(SubAbout t)
+        public void Delete(SubAbout entity)
         {
-            throw new NotImplementedException();
+            _subAboutDal.Delete(entity);
         }
 
-        public void TDelete(SubAbout t)
+        public SubAbout GetById(int id)
         {
-            throw new NotImplementedException();
+            return _subAboutDal.GetById(id);
         }
 
-        public SubAbout TGetById(int id)
+        public List<SubAbout> GetList()
         {
-            throw new NotImplementedException();
+            return _subAboutDal.GetList();
         }
 
-        public List<SubAbout> TGetList()
+        public void Insert(SubAbout entity)
         {
-            throw new NotImplementedException();
+            _subAboutDal.Insert(entity);
         }
 
-        public void TUpdate(SubAbout t)
+        public void Update(SubAbout entity)
         {
-            throw new NotImplementedException();
+            _subAboutDal.Update(entity);
         }
     }
 }

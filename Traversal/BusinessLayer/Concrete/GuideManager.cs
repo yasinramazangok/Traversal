@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -11,36 +12,36 @@ namespace BusinessLayer.Concrete
 {
     public class GuideManager : IGuideService
     {
-        IGuideDal _guideDal;
+        private readonly IGuideDal _guideDal;
 
         public GuideManager(IGuideDal guideDal)
         {
             _guideDal = guideDal;
         }
 
-        public void TAdd(Guide t)
+        public void Delete(Guide entity)
         {
-            throw new NotImplementedException();
+            _guideDal.Delete(entity);
         }
 
-        public void TDelete(Guide t)
+        public Guide GetById(int id)
         {
-            throw new NotImplementedException();
+            return _guideDal.GetById(id);
         }
 
-        public Guide TGetById(int id)
+        public List<Guide> GetList()
         {
-            throw new NotImplementedException();
+            return _guideDal.GetList();
         }
 
-        public List<Guide> TGetList()
+        public void Insert(Guide entity)
         {
-            throw new NotImplementedException();
+            _guideDal.Insert(entity);
         }
 
-        public void TUpdate(Guide t)
+        public void Update(Guide entity)
         {
-            throw new NotImplementedException();
+            _guideDal.Update(entity);
         }
     }
 }

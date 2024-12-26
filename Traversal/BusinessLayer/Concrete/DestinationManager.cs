@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -11,36 +12,36 @@ namespace BusinessLayer.Concrete
 {
     public class DestinationManager : IDestinationService
     {
-        IDestinationDal _destinationDal;
+        private readonly IDestinationDal _destinationDal;
 
         public DestinationManager(IDestinationDal destinationDal)
         {
             _destinationDal = destinationDal;
         }
 
-        public void TAdd(Destination t)
+        public void Delete(Destination entity)
         {
-            throw new NotImplementedException();
+            _destinationDal.Delete(entity);
         }
 
-        public void TDelete(Destination t)
+        public Destination GetById(int id)
         {
-            throw new NotImplementedException();
+            return _destinationDal.GetById(id);
         }
 
-        public Destination TGetById(int id)
+        public List<Destination> GetList()
         {
-            throw new NotImplementedException();
+            return _destinationDal.GetList();
         }
 
-        public List<Destination> TGetList()
+        public void Insert(Destination entity)
         {
-            throw new NotImplementedException();
+            _destinationDal.Insert(entity);
         }
 
-        public void TUpdate(Destination t)
+        public void Update(Destination entity)
         {
-            throw new NotImplementedException();
+            _destinationDal.Update(entity);
         }
     }
 }

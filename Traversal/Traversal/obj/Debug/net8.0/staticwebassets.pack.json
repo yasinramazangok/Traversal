@@ -5,6 +5,446 @@
       "PackagePath": "staticwebassets\\Traversal.ca1e1v43jr.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\css\\main.css",
+      "PackagePath": "staticwebassets\\Login\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\css\\util.css",
+      "PackagePath": "staticwebassets\\Login\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\Login\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\Login\\fonts\\montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Login\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\Login\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\images\\img-01.png",
+      "PackagePath": "staticwebassets\\Login\\images\\img-01.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\index.html",
+      "PackagePath": "staticwebassets\\Login\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\js\\main.js",
+      "PackagePath": "staticwebassets\\Login\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\Login\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\vendor\\tilt\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\Login\\vendor\\tilt\\tilt.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Register\\css\\style.css",
+      "PackagePath": "staticwebassets\\Register\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Register\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\Register\\images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Register\\index.html",
+      "PackagePath": "staticwebassets\\Register\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Register\\w3layouts-license.txt",
+      "PackagePath": "staticwebassets\\Register\\w3layouts-license.txt"
+    },
+    {
       "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\TraversalLiberty\\about.html",
       "PackagePath": "staticwebassets\\TraversalLiberty\\about.html"
     },

@@ -1,4 +1,9 @@
 using BusinessLayer.Container;
+using DataAccessLayer.Concrete;
+using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using TraversalCoreProje.Models;
 
 namespace Traversal;
 
@@ -8,9 +13,22 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // Add services to the container.
         builder.Services.ContainerDependencies();
 
-        // Add services to the container.
+        builder.Services.AddDbContext<Context>();
+        builder.Services.AddIdentity<TraversalUser, TraversalRole>().AddEntityFrameworkStores<Context>()
+            .AddErrorDescriber<CustomIdentityValidatorViewModel>();
+        builder.Services.AddMvc(config =>
+        {
+            var policy = new AuthorizationPolicyBuilder()
+            .RequireAuthenticatedUser()
+            .Build();
+            config.Filters.Add(new AuthorizeFilter(policy));
+        });
+
+        builder.Services.AddMvc();
+
         builder.Services.AddControllersWithViews();
 
         var app = builder.Build();
@@ -25,6 +43,8 @@ public class Program
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
+
+        app.UseAuthentication();
 
         app.UseRouting();
 

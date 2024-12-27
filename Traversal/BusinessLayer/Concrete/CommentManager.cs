@@ -40,7 +40,7 @@ namespace BusinessLayer.Concrete
 
         public void Insert(Comment entity)
         {
-            throw new NotImplementedException();
+            _commentDal.Insert(entity);
         }
 
         public void Update(Comment entity)

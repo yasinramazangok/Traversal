@@ -24,15 +24,27 @@
                     </li>
                     <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Destination" ? "active" : "")">
                         <a class="nav-link" href="/Destination/Home/">Turlar</a>
+                    </li>                  
+                    <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Guide" ? "active" : "")">
+                        <a class="nav-link" href="/Guide/Home/">Rehberlerimiz</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            Blog<span class="fa fa-angle-down"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="/Destination/DestinationDetails/">Blog Posts</a>
+                            <a class="dropdown-item" href="blog-single.html">Blog single</a>
+                            <a class="dropdown-item" href="landing-single.html">Landing Page</a>
+                        </div>
                     </li>
                     <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "About" ? "active" : "")">
                         <a class="nav-link" href="services.html">Hakkımızda</a>
                     </li>
-
                     <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Contact" ? "active" : "")">
                         <a class="nav-link" href="contact.html">İletişim</a>
                     </li>
-
                 </ul>
             </div>
             <div class="d-lg-block d-none">

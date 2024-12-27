@@ -30,6 +30,12 @@ namespace DataAccessLayer.Repository
             return traversalContext.Set<T>().ToList();
         }
 
+        public List<T> GetListByFilter(Expression<Func<T, bool>> filter)
+        {
+            using var traversalContext = new Context();
+            return traversalContext.Set<T>().Where(filter).ToList();
+        }
+
         public void Insert(T entity)
         {
             using var traversalContext = new Context();

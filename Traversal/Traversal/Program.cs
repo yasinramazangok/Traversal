@@ -54,6 +54,14 @@ public class Program
             name: "default",
             pattern: "{controller=Default}/{action=Home}/{id?}");
 
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllerRoute(
+              name: "areas",
+              pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+            );
+        });
+
         app.Run();
     }
 }

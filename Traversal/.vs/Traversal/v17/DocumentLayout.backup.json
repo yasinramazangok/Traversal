@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD73C1BE-D91C-445F-88B4-E48FF62694D5}|Traversal\\Traversal.csproj|c:\\users\\yasinramazangok\\desktop\\traversal\\traversal\\traversal\\views\\shared\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD73C1BE-D91C-445F-88B4-E48FF62694D5}|Traversal\\Traversal.csproj|solutionrelative:traversal\\views\\shared\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -40,6 +45,40 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e9332c9a-15cc-400c-bbdd-74c58966ceb1",
+        "Display": 0,
+        "X": 1489,
+        "Y": 272,
+        "Width": 1107,
+        "Height": 1082,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_UILayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\Views\\Shared\\_UILayout.cshtml",
+              "RelativeDocumentMoniker": "Traversal\\Views\\Shared\\_UILayout.cshtml",
+              "ToolTip": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\Views\\Shared\\_UILayout.cshtml",
+              "RelativeToolTip": "Traversal\\Views\\Shared\\_UILayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T09:30:13.912Z",
+              "EditorCaption": ""
             }
           ]
         }

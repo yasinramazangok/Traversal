@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gVsMtXvinz8UuOAQNGaPzZr4lefQGeXEH9CflkcMMQQ=",
+  "Hash": "ZZVA4dAYSlX+iRURTPz5Dfs3IBO9PrvvJAks+sZp5ho=",
   "Source": "Traversal",
   "BasePath": "_content/Traversal",
   "Mode": "Default",
@@ -11859,6 +11859,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\TraversalStarter\\starter-license-W3Layouts.txt"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "UserImages/d6f58e9d-2a24-4797-9635-3aad1268ddb5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vt799wqczo",
+      "Integrity": "Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UserImages\\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png"
     }
   ],
   "Endpoints": [
@@ -48949,7 +48970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:59:11 GMT"
+          "Value": "Sat, 28 Dec 2024 13:40:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -48986,7 +49007,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:59:11 GMT"
+          "Value": "Sat, 28 Dec 2024 13:40:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -49031,7 +49052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:59:11 GMT"
+          "Value": "Sat, 28 Dec 2024 13:40:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -49076,7 +49097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:59:11 GMT"
+          "Value": "Sat, 28 Dec 2024 13:40:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -58107,6 +58128,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-dy7kztM1sHZoEbGEPzpoCiSBX+msWdhd8ULiYJ9MKQA="
+        }
+      ]
+    },
+    {
+      "Route": "UserImages/d6f58e9d-2a24-4797-9635-3aad1268ddb5.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU="
+        }
+      ]
+    },
+    {
+      "Route": "UserImages/d6f58e9d-2a24-4797-9635-3aad1268ddb5.vt799wqczo.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vt799wqczo"
+        },
+        {
+          "Name": "label",
+          "Value": "UserImages/d6f58e9d-2a24-4797-9635-3aad1268ddb5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU="
         }
       ]
     }

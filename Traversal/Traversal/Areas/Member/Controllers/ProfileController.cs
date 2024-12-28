@@ -6,55 +6,75 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using TraversalCoreProje.Areas.Member.Models;
 
 namespace TraversalCoreProje.Areas.Member.Controllers
 {
-    //[Area("Member")]
-    //[Route("Member/[controller]/[action]")]
-    //public class ProfileController : Controller
-    //{
-    //    private readonly UserManager<AppUser> _userManager;
+    [Area("Member")]
+    [Route("Member/[controller]/[action]")]
+    public class ProfileController : Controller
+    {
+        private readonly UserManager<TraversalUser> _userManager;
 
-    //    public ProfileController(UserManager<AppUser> userManager)
-    //    {
-    //        _userManager = userManager;
-    //    }
+        public ProfileController(UserManager<TraversalUser> userManager)
+        {
+            _userManager = userManager;
+        }
 
-    //    [HttpGet]
-    //    public async Task <IActionResult> Index()
-    //    {
-    //        var values = await _userManager.FindByNameAsync(User.Identity.Name);
-    //        UserEditViewModel userEditViewModel = new UserEditViewModel();
-    //        userEditViewModel.name = values.Name;
-    //        userEditViewModel.surname = values.Surname;
-    //        userEditViewModel.phonenumber = values.PhoneNumber;
-    //        userEditViewModel.mail = values.Email;
-    //        return View(userEditViewModel);
-    //    }
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
 
-    //    [HttpPost]
-    //    public async Task<IActionResult> Index(UserEditViewModel p)
-    //    {
-    //        var user = await _userManager.FindByNameAsync(User.Identity.Name);
-    //        if (p.Image != null)
-    //        {
-    //            var resource = Directory.GetCurrentDirectory();
-    //            var extension = Path.GetExtension(p.Image.FileName);
-    //            var imagename = Guid.NewGuid() + extension;
-    //            var savelocation = resource + "/wwwroot/userimages/" + imagename;
-    //            var stream = new FileStream(savelocation, FileMode.Create);
-    //            await p.Image.CopyToAsync(stream);
-    //            user.ImageUrl = imagename;
-    //        }
-    //        user.Name = p.name;
-    //        user.Surname = p.surname;
-    //        user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, p.password);
-    //        var result = await _userManager.UpdateAsync(user);
-    //        if (result.Succeeded)
-    //        {
-    //            return RedirectToAction("SignIn", "Login");
-    //        }
-    //        return View();
-    //    }
-    //}
+            UserEditViewModel userEditViewModel = new UserEditViewModel();
+
+            userEditViewModel.Name = values.Name;
+            userEditViewModel.Username = values.UserName;
+            userEditViewModel.Email = values.Email;
+            userEditViewModel.Email = values.Email;
+            userEditViewModel.PhoneNumber = values.PhoneNumber;
+
+
+            return View(userEditViewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Index(UserEditViewModel userEditViewModel)
+        {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            if (user == null)
+            {
+                return NotFound("Kullanıcı bulunamadı.");
+            }
+
+            if (userEditViewModel.Image != null && userEditViewModel.Image.Length > 0)
+            {
+                var extension = Path.GetExtension(userEditViewModel.Image.FileName);
+                if (string.IsNullOrEmpty(extension) || !new[] { ".jpg", ".jpeg", ".png", ".gif" }.Contains(extension.ToLower()))
+                {
+                    ModelState.AddModelError("", "Geçersiz dosya türü. Lütfen bir resim yükleyin.");
+                    return View();
+                }
+                var resource = Directory.GetCurrentDirectory();
+                var imageName = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/UserImages/" + imageName;
+                await using (var stream = new FileStream(savelocation, FileMode.Create))
+                {
+                    userEditViewModel.Image.CopyToAsync(stream);
+                }
+                user.ImageUrl = imageName;
+            }
+            user.Name = userEditViewModel.Name;
+            user.UserName = userEditViewModel.Username;
+            user.Email = userEditViewModel.Email;
+            user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, userEditViewModel.Password);
+            user.PhoneNumber = userEditViewModel.PhoneNumber;
+            var result = await _userManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("SignIn", "Login");
+            }
+            return View();
+        }
+    }
 }

@@ -31,6 +31,11 @@ public class Program
 
         builder.Services.AddControllersWithViews();
 
+        builder.Services.ConfigureApplicationCookie(options =>
+        {
+            options.LoginPath = "/Login/SignIn/";
+        });
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.

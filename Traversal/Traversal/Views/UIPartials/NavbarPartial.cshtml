@@ -24,7 +24,7 @@
                     </li>
                     <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Destination" ? "active" : "")">
                         <a class="nav-link" href="/Destination/Home/">Turlar</a>
-                    </li>                  
+                    </li>
                     <li class="nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Guide" ? "active" : "")">
                         <a class="nav-link" href="/Guide/Home/">Rehberlerimiz</a>
                     </li>
@@ -48,7 +48,7 @@
                 </ul>
             </div>
             <div class="d-lg-block d-none">
-                <a href="contact.html" class="btn btn-style btn-secondary">Rezervasyon Yap</a>
+                <a href="/Member/Reservation/NewReservation/" class="btn btn-style btn-secondary">Rezervasyon Yap</a>
             </div>
             <div class="mobile-position">
                 <nav class="navigation">

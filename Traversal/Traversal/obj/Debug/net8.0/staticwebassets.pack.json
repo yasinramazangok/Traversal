@@ -2013,6 +2013,10 @@
       "PackagePath": "staticwebassets\\TraversalStarter\\starter-license-W3Layouts.txt"
     },
     {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg",
+      "PackagePath": "staticwebassets\\UserImages\\b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg"
+    },
+    {
       "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

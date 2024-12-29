@@ -24,7 +24,7 @@ namespace DataAccessLayer.Repository
             return traversalContext.Set<T>().Find(id);
         }
 
-        public List<T> GetList()
+        public virtual List<T> GetList()
         {
             using var traversalContext = new Context();
             return traversalContext.Set<T>().ToList();

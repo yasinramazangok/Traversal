@@ -560,4 +560,4 @@ wwwroot\TraversalStarter\contact.html
 wwwroot\TraversalStarter\index.html
 wwwroot\TraversalStarter\services.html
 wwwroot\TraversalStarter\starter-license-W3Layouts.txt
-wwwroot\UserImages\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png
+wwwroot\UserImages\b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg

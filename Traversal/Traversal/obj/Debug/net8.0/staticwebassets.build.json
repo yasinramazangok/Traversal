@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xLj2SIBekqOAN0lkveJywudnHnfxnlFe7snlzA1+MKg=",
+  "Hash": "+3qLOP/ObWCkuqMyPt28KO8OZinSYx+V9hUnHsvQev0=",
   "Source": "Traversal",
   "BasePath": "_content/Traversal",
   "Mode": "Default",
@@ -11861,12 +11861,12 @@
       "OriginalItemSpec": "wwwroot\\TraversalStarter\\starter-license-W3Layouts.txt"
     },
     {
-      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png",
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg",
       "SourceId": "Traversal",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
       "BasePath": "_content/Traversal",
-      "RelativePath": "UserImages/d6f58e9d-2a24-4797-9635-3aad1268ddb5#[.{fingerprint}]?.png",
+      "RelativePath": "UserImages/b8cdb1b8-6524-465b-b5ab-da14e34ac58a#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -11875,11 +11875,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vt799wqczo",
-      "Integrity": "Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU=",
+      "Fingerprint": "mb4uoz4n63",
+      "Integrity": "ngoJGi+ciu6yyMzjtdq9WdXpskPrsFZntMnMQQ9BSoI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UserImages\\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png"
+      "OriginalItemSpec": "wwwroot\\UserImages\\b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg"
     }
   ],
   "Endpoints": [
@@ -48232,7 +48232,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:03:34 GMT"
+          "Value": "Sun, 29 Dec 2024 02:02:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -48277,7 +48277,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:03:34 GMT"
+          "Value": "Sun, 29 Dec 2024 02:02:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -48970,7 +48970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 00:17:08 GMT"
+          "Value": "Sun, 29 Dec 2024 02:50:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -49007,7 +49007,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 00:17:08 GMT"
+          "Value": "Sun, 29 Dec 2024 02:50:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -49052,7 +49052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 00:17:08 GMT"
+          "Value": "Sun, 29 Dec 2024 02:50:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -49097,7 +49097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 00:17:08 GMT"
+          "Value": "Sun, 29 Dec 2024 02:50:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -58132,8 +58132,8 @@
       ]
     },
     {
-      "Route": "UserImages/d6f58e9d-2a24-4797-9635-3aad1268ddb5.png",
-      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png",
+      "Route": "UserImages/b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -58142,19 +58142,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4326"
+          "Value": "242354"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU=\""
+          "Value": "\"ngoJGi+ciu6yyMzjtdq9WdXpskPrsFZntMnMQQ9BSoI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 13:48:21 GMT"
+          "Value": "Sun, 29 Dec 2024 01:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -58164,13 +58164,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU="
+          "Value": "sha256-ngoJGi+ciu6yyMzjtdq9WdXpskPrsFZntMnMQQ9BSoI="
         }
       ]
     },
     {
-      "Route": "UserImages/d6f58e9d-2a24-4797-9635-3aad1268ddb5.vt799wqczo.png",
-      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\d6f58e9d-2a24-4797-9635-3aad1268ddb5.png",
+      "Route": "UserImages/b8cdb1b8-6524-465b-b5ab-da14e34ac58a.mb4uoz4n63.jpg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\UserImages\\b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -58179,19 +58179,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4326"
+          "Value": "242354"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU=\""
+          "Value": "\"ngoJGi+ciu6yyMzjtdq9WdXpskPrsFZntMnMQQ9BSoI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 13:48:21 GMT"
+          "Value": "Sun, 29 Dec 2024 01:35:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -58201,15 +58201,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vt799wqczo"
+          "Value": "mb4uoz4n63"
         },
         {
           "Name": "label",
-          "Value": "UserImages/d6f58e9d-2a24-4797-9635-3aad1268ddb5.png"
+          "Value": "UserImages/b8cdb1b8-6524-465b-b5ab-da14e34ac58a.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Haf4NxI67xKSyJ3/Ro2R1vuqSj3SDIEyV3VIw/zdwtU="
+          "Value": "sha256-ngoJGi+ciu6yyMzjtdq9WdXpskPrsFZntMnMQQ9BSoI="
         }
       ]
     }

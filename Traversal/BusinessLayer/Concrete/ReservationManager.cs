@@ -33,19 +33,19 @@ namespace BusinessLayer.Concrete
             return _reservationDal.GetList();
         }
 
-        public List<Reservation> GetListWithReservationByAccepted(int id)
+        public List<Reservation> GetListOfAcceptedReservations(int id)
         {
-            return _reservationDal.GetListWithReservationByAccepted(id);
+            return _reservationDal.GetListOfAcceptedReservations(id);
         }
 
-        public List<Reservation> GetListWithReservationByPrevious(int id)
+        public List<Reservation> GetListOfPastReservations(int id)
         {
-            return _reservationDal.GetListWithReservationByPrevious(id);
+            return _reservationDal.GetListOfPastReservations(id);
         }
 
-        public List<Reservation> GetListWithReservationByWaitAprroval(int id)
+        public List<Reservation> GetListOfPendingApprovalReservations(int id)
         {
-            return _reservationDal.GetListWithReservationByWaitAprroval(id);
+            return _reservationDal.GetListOfPendingApprovalReservations(id);
         }
 
         public void Insert(Reservation entity)

@@ -70,7 +70,7 @@ namespace TraversalCoreProje.Controllers
                 var result = await _signInManager.PasswordSignInAsync(userSignInViewModel.Username, userSignInViewModel.Password, false, true);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Destination", new { area = "Member" });
+                    return RedirectToAction("Index", "Profile", new { area = "Member" });
                 }
                 else
                 {
@@ -78,6 +78,12 @@ namespace TraversalCoreProje.Controllers
                 }
             }
             return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Profile", new { area = "Member" });
         }
     }
 }

@@ -24,7 +24,7 @@ namespace DataAccessLayer.EntityFramework
                 .ToList();
         }
 
-        public List<Reservation> GetListWithReservationByAccepted(int id)
+        public List<Reservation> GetListOfAcceptedReservations(int id)
         {
             using (var context = new Context())
             {
@@ -32,7 +32,7 @@ namespace DataAccessLayer.EntityFramework
             }
         }
 
-        public List<Reservation> GetListWithReservationByPrevious(int id)
+        public List<Reservation> GetListOfPastReservations(int id)
         {
             using (var context = new Context())
             {
@@ -40,7 +40,7 @@ namespace DataAccessLayer.EntityFramework
             }
         }
 
-        public List<Reservation> GetListWithReservationByWaitAprroval(int id)
+        public List<Reservation> GetListOfPendingApprovalReservations(int id)
         {
             using (var context = new Context())
             {

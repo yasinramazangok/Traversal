@@ -3,7 +3,7 @@ using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
-using TraversalCoreProje.Models;
+using Traversal.Models;
 
 namespace Traversal;
 

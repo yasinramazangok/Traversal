@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TraversalCoreProje.Areas.Member.Controllers
+namespace Traversal.Areas.Member.Controllers
 {
     public class MessageController : Controller
     {

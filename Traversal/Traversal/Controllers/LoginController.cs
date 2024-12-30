@@ -6,9 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TraversalCoreProje.Models;
+using Traversal.Models;
 
-namespace TraversalCoreProje.Controllers
+namespace Traversal.Controllers
 {
     [AllowAnonymous]
     public class LoginController : Controller

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TraversalCoreProje.Models
+namespace Traversal.Models
 {
     public class CustomIdentityValidatorViewModel : IdentityErrorDescriber
     {

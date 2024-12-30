@@ -8,9 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TraversalCoreProje.Areas.Admin.Controllers
+namespace Traversal.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("Admin/[controller]/[action]")]
     public class DestinationController : Controller
     {
         private readonly IDestinationService _destinationService;

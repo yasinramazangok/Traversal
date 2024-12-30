@@ -5,6 +5,970 @@
       "PackagePath": "staticwebassets\\Traversal.ca1e1v43jr.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\.browserslistrc",
+      "PackagePath": "staticwebassets\\AdminPanel\\.browserslistrc"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\.eslintignore",
+      "PackagePath": "staticwebassets\\AdminPanel\\.eslintignore"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\AdminPanel\\.eslintrc.json"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\.gitignore",
+      "PackagePath": "staticwebassets\\AdminPanel\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\.prettierignore",
+      "PackagePath": "staticwebassets\\AdminPanel\\.prettierignore"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\.prettierrc.json",
+      "PackagePath": "staticwebassets\\AdminPanel\\.prettierrc.json"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\AdminPanel\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\LICENSE.md",
+      "PackagePath": "staticwebassets\\AdminPanel\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\README.md",
+      "PackagePath": "staticwebassets\\AdminPanel\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\build-config.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\build-config.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\documentation.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\documentation.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\fonts\\boxicons.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\boxicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\gulpfile.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\auth-forgot-password-basic.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\auth-forgot-password-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\auth-login-basic.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\auth-login-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\auth-register-basic.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\auth-register-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\cards-basic.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\cards-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\extended-ui-perfect-scrollbar.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\extended-ui-perfect-scrollbar.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\extended-ui-text-divider.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\extended-ui-text-divider.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\form-layouts-horizontal.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\form-layouts-horizontal.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\form-layouts-vertical.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\form-layouts-vertical.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\forms-basic-inputs.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\forms-basic-inputs.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\forms-input-groups.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\forms-input-groups.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\icons-boxicons.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\icons-boxicons.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\index.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\layouts-blank.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\layouts-blank.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\layouts-container.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\layouts-container.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\layouts-fluid.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\layouts-fluid.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\layouts-without-menu.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\layouts-without-menu.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\layouts-without-navbar.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\layouts-without-navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\pages-account-settings-account.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\pages-account-settings-account.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\pages-account-settings-connections.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\pages-account-settings-connections.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\pages-account-settings-notifications.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\pages-account-settings-notifications.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\pages-misc-error.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\pages-misc-error.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\pages-misc-under-maintenance.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\pages-misc-under-maintenance.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\tables-basic.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\tables-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-accordion.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-accordion.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-alerts.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-alerts.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-badges.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-badges.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-buttons.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-carousel.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-carousel.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-collapse.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-collapse.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-dropdowns.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-dropdowns.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-footer.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-footer.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-list-groups.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-list-groups.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-modals.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-modals.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-navbar.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-offcanvas.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-offcanvas.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-pagination-breadcrumbs.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-pagination-breadcrumbs.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-progress.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-progress.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-spinners.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-spinners.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-tabs-pills.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-tabs-pills.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-toasts.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-toasts.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-tooltips-popovers.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-tooltips-popovers.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\html\\ui-typography.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\html\\ui-typography.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\index.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\js\\menu.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\package-lock.json",
+      "PackagePath": "staticwebassets\\AdminPanel\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\package.json",
+      "PackagePath": "staticwebassets\\AdminPanel\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\core.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\tasks\\build.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\tasks\\prod.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\webpack.config.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\webpack.config.js"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\AdminPanel\\yarn.lock",
+      "PackagePath": "staticwebassets\\AdminPanel\\yarn.lock"
+    },
+    {
       "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\css\\main.css",
       "PackagePath": "staticwebassets\\Login\\css\\main.css"
     },

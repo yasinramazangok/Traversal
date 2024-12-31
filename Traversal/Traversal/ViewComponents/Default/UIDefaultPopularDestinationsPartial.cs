@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Traversal.ViewComponents.Default
 {
-    public class PopularDestinationsPartial : ViewComponent
+    public class UIDefaultPopularDestinationsPartial : ViewComponent
     {
         private readonly IDestinationService _destinationService;
 
-        public PopularDestinationsPartial(IDestinationService destinationService)
+        public UIDefaultPopularDestinationsPartial(IDestinationService destinationService)
         {
             _destinationService = destinationService;
         }

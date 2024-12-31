@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace TraversalCoreProje.ViewComponents.MemberDashboard
 {
-    public class GuideListPartial : ViewComponent
+    public class MemberDashboardGuideListPartial : ViewComponent
     {
         private readonly IGuideService _guideService;
 
-        public GuideListPartial(IGuideService guideService)
+        public MemberDashboardGuideListPartial(IGuideService guideService)
         {
             _guideService = guideService;
         }

@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace TraversalCoreProje.ViewComponents.MemberDashboard
 {
-    public class ProfileInformationPartial : ViewComponent
+    public class MemberDashboardProfileInformationPartial : ViewComponent
     {
         private readonly UserManager<TraversalUser> _userManager;
 
-        public ProfileInformationPartial(UserManager<TraversalUser> userManager)
+        public MemberDashboardProfileInformationPartial(UserManager<TraversalUser> userManager)
         {
             _userManager = userManager;
         }

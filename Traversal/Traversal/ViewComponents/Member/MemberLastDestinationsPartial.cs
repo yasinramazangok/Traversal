@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace TraversalCoreProje.ViewComponents.MemberDashboard
 {
-    public class LastDestinationsPartial : ViewComponent
+    public class MemberLastDestinationsPartial : ViewComponent
     {
         private readonly IDestinationService _destinationService;
 
-        public LastDestinationsPartial(IDestinationService destinationService)
+        public MemberLastDestinationsPartial(IDestinationService destinationService)
         {
             _destinationService = destinationService;
         }

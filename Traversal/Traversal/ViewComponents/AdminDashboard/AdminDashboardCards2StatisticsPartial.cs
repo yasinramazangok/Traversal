@@ -2,7 +2,7 @@
 
 namespace Traversal.ViewComponents.AdminDashboard
 {
-    public class AdminDashboardCards2Statistics : ViewComponent
+    public class AdminDashboardCards2StatisticsPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

@@ -156,7 +156,7 @@
                         </div>
                     </div> *@
                     <!--//author-card-->
-                    @await Component.InvokeAsync("CommentListInDestinationDetailsPartial", new { id = ViewBag.id })
+                    @await Component.InvokeAsync("UIDestinationCommentListInDestinationDetailsPartial", new { id = ViewBag.id })
 
                     @await Html.PartialAsync("~/Views/Comment/AddComment.cshtml")
                     <br /><br />

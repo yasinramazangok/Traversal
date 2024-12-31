@@ -12,26 +12,26 @@
       data-assets-path="../assets/"
       data-template="vertical-menu-template-free">
 
-@await Component.InvokeAsync("AdminDashboardHeader")
+@await Component.InvokeAsync("AdminDashboardHeaderPartial")
 
 <body>
     <div class="row">
 
-        @await Component.InvokeAsync("AdminDashboardBanner")
+        @await Component.InvokeAsync("AdminDashboardBannerPartial")
 
-        @await Component.InvokeAsync("AdminDashboardCards1Statistics")
+        @await Component.InvokeAsync("AdminDashboardCards1StatisticsPartial")
 
-        @await Component.InvokeAsync("AdminDashboardTotalRevenue")
+        @await Component.InvokeAsync("AdminDashboardTotalRevenuePartial")
 
-        @await Component.InvokeAsync("AdminDashboardCards2Statistics")
+        @await Component.InvokeAsync("AdminDashboardCards2StatisticsPartial")
     </div>
     <div class="row">
 
-        @await Component.InvokeAsync("AdminDashboardDestinationStatistics")
+        @await Component.InvokeAsync("AdminDashboardDestinationStatisticsPartial")
 
-        @await Component.InvokeAsync("AdminDashboardDestinationStatistics2")
+        @await Component.InvokeAsync("AdminDashboardDestinationStatistics2Partial")
 
-        @await Component.InvokeAsync("AdminDashboardGuideList")
+        @await Component.InvokeAsync("AdminDashboardGuideListPartial")
 
     </div>
     <div class="content-backdrop fade"></div>

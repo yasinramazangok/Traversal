@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TraversalCoreProje.ViewComponents.MemberDashboard
 {
-    public class PlatformSettingsPartial : ViewComponent
+    public class MemberDashboardPlatformSettingsPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

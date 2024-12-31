@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace TraversalCoreProje.ViewComponents.Comment
 {
-    public class CommentListInDestinationDetailsPartial:ViewComponent
+    public class UIDestinationCommentListInDestinationDetailsPartial : ViewComponent
     {
         private readonly ICommentService _commentService;
 
-        public CommentListInDestinationDetailsPartial(ICommentService commentService)
+        public UIDestinationCommentListInDestinationDetailsPartial(ICommentService commentService)
         {
             _commentService = commentService;
         }

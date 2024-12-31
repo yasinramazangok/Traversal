@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Traversal.ViewComponents.AdminDashboard
 {
-    public class AdminDashboardCards1Statistics : ViewComponent
+    public class AdminDashboardCards1StatisticsPartial : ViewComponent
     {
         Context context = new Context();
 

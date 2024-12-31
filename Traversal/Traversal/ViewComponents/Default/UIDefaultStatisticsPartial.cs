@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Traversal.ViewComponents.Default
 {
-    public class StatisticsPartial : ViewComponent
+    public class UIDefaultStatisticsPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

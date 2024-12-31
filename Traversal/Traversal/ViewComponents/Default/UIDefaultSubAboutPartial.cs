@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Traversal.ViewComponents.Default
 {
-    public class SubAboutPartial : ViewComponent
+    public class UIDefaultSubAboutPartial : ViewComponent
     {
         private readonly ISubAboutService _subAboutService;
 
-        public SubAboutPartial(ISubAboutService subAboutService)
+        public UIDefaultSubAboutPartial(ISubAboutService subAboutService)
         {
             _subAboutService = subAboutService;
         }

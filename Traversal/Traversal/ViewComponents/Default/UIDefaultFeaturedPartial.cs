@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Traversal.ViewComponents.Default
 {
-    public class FeaturedPartial : ViewComponent
+    public class UIDefaultFeaturedPartial : ViewComponent
     {
         //private readonly IFeatureService _featureService;
 

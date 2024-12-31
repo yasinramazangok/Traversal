@@ -1,8 +1,0 @@
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.AppHost\obj\Debug\net8.0\Traversal.AppHost.csproj.AssemblyReference.cache
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.AppHost\obj\Debug\net8.0\Traversal.AppHost.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.AppHost\obj\Debug\net8.0\Traversal.AppHost.AssemblyInfoInputs.cache
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.AppHost\obj\Debug\net8.0\Traversal.AppHost.AssemblyInfo.cs
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.AppHost\obj\Debug\net8.0\Traversal.AppHost.csproj.CoreCompileInputs.cache
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.AppHost\obj\Debug\net8.0\Aspire\references\Traversal.ProjectMetadata.g.cs
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.AppHost\obj\Debug\net8.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal.AppHost\obj\Debug\net8.0\Traversal.AppHost.sourcelink.json

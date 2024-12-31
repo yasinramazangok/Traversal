@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en"
+      class="light-style layout-menu-fixed"
+      dir="ltr"
+      data-theme="theme-default"
+      data-assets-path="../assets/"
+      data-template="vertical-menu-template-free">
+
+@await Component.InvokeAsync("AdminDashboardHeaderPartial")
+
+<body>
+    <div class="row">
+
+        @await Component.InvokeAsync("AdminDashboardBannerPartial")
+
+        @await Component.InvokeAsync("AdminDashboardCards1StatisticsPartial")
+
+        @await Component.InvokeAsync("AdminDashboardTotalRevenuePartial")
+
+        @await Component.InvokeAsync("AdminDashboardCards2StatisticsPartial")
+    </div>
+    <div class="row">
+
+        @await Component.InvokeAsync("AdminDashboardDestinationStatisticsPartial")
+
+        @await Component.InvokeAsync("AdminDashboardDestinationStatistics2Partial")
+
+        @await Component.InvokeAsync("AdminDashboardGuideListPartial")
+
+    </div>
+    <div class="content-backdrop fade"></div>
+    <div class="layout-overlay layout-menu-toggle"></div>
+    <script src="~/AdminPanel/assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="~/AdminPanel/assets/vendor/libs/popper/popper.js"></script>
+    <script src="~/AdminPanel/assets/vendor/js/bootstrap.js"></script>
+    <script src="~/AdminPanel/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="~/AdminPanel/assets/vendor/js/menu.js"></script>
+    <script src="~/AdminPanel/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="~/AdminPanel/assets/js/main.js"></script>
+    <script src="~/AdminPanel/assets/js/dashboards-analytics.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>

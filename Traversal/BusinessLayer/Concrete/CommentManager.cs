@@ -18,34 +18,39 @@ namespace BusinessLayer.Concrete
             _commentDal = commentDal;
         }
 
-        public void Delete(Comment entity)
+        public void Delete(Comment comment)
         {
-            throw new NotImplementedException();
+            _commentDal.Delete(comment);
         }
 
         public Comment GetById(int id)
         {
-            throw new NotImplementedException();
+            return _commentDal.GetById(id);
         }
 
         public List<Comment> GetCommentByDestinationId(int id)
         {
-            return _commentDal.GetListByFilter(c => c.DestinationId == id);
+            return _commentDal.GetListByFilter(comment => comment.DestinationId == id);
         }
 
         public List<Comment> GetList()
         {
-            throw new NotImplementedException();
+            return _commentDal.GetList();
         }
 
-        public void Insert(Comment entity)
+        public List<Comment> GetListCommentByDestination()
         {
-            _commentDal.Insert(entity);
+            return _commentDal.GetListCommentByDestination();
         }
 
-        public void Update(Comment entity)
+        public void Insert(Comment comment)
         {
-            throw new NotImplementedException();
+            _commentDal.Insert(comment);
+        }
+
+        public void Update(Comment comment)
+        {
+            _commentDal.Update(comment);
         }
     }
 }

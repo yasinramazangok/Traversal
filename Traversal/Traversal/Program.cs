@@ -3,7 +3,7 @@ using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
-using TraversalCoreProje.Models;
+using Traversal.Models;
 
 namespace Traversal;
 
@@ -58,6 +58,14 @@ public class Program
         app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Default}/{action=Home}/{id?}");
+
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllerRoute(
+              name: "areas",
+              pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+            );
+        });
 
         app.UseEndpoints(endpoints =>
         {

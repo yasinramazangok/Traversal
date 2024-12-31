@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using TraversalCoreProje.Areas.Member.Models;
+using Traversal.Areas.Member.Models;
 
-namespace TraversalCoreProje.Areas.Member.Controllers
+namespace Traversal.Areas.Member.Controllers
 {
     [Area("Member")]
     [Route("Member/[controller]/[action]")]

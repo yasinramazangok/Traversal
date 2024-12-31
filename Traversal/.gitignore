@@ -1,3 +1,13 @@
-.vs/
-.bin/
-.obj/
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Traversal/.vs
+/Traversal/BusinessLayer/bin
+/Traversal/BusinessLayer/obj
+/Traversal/DataAccessLayer/bin
+/Traversal/DataAccessLayer/obj
+/Traversal/EntityLayer/bin
+/Traversal/EntityLayer/obj
+/Traversal/Traversal/bin
+/Traversal/Traversal/obj

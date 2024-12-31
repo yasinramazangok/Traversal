@@ -2,4 +2,12 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Traversal/.vs/Traversal/CopilotIndices/17.12.38.29086
+/Traversal/.vs
+/Traversal/BusinessLayer/bin
+/Traversal/BusinessLayer/obj
+/Traversal/DataAccessLayer/bin
+/Traversal/DataAccessLayer/obj
+/Traversal/EntityLayer/bin
+/Traversal/EntityLayer/obj
+/Traversal/Traversal/bin
+/Traversal/Traversal/obj

@@ -38,6 +38,14 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Member\Data\" />
     <Folder Include="Areas\Member\Models\" />
+    <Folder Include="Views\Shared\Components\AdminDashboardDestinationStatistics2\" />
+    <Folder Include="Views\Shared\Components\AdminDashboardDestinationStatistics\" />
+    <Folder Include="Views\Shared\Components\AdminDashboardTotalRevenue\" />
+    <Folder Include="Views\Shared\Components\AdminDashboardCards2Statistics\" />
+    <Folder Include="Views\Shared\Components\AdminDashboardCards1Statistics\" />
+    <Folder Include="Views\Shared\Components\AdminDashboardBanner\" />
+    <Folder Include="Views\Shared\Components\AdminDashboardHeader\" />
+    <Folder Include="Views\Shared\Components\AdminDashboardGuideList\" />
     <Folder Include="wwwroot\UserImages\" />
   </ItemGroup>
 

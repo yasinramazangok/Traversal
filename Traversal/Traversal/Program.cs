@@ -46,6 +46,8 @@ public class Program
             app.UseHsts();
         }
 
+        app.UseStatusCodePagesWithReExecute("/Error/Error404", "?code={0}"); // for Custom Error Page
+
         app.UseHttpsRedirection();
         app.UseStaticFiles();
 

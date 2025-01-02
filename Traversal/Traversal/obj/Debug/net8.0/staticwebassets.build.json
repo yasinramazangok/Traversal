@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KCjfuk+VABOf4nK21JYDiHSCGyZEdXVxjRwJBqNeO9U=",
+  "Hash": "2nuGLna061dfpP8Tj/SKb2tEYwhq4oZlm8KqcFU53Gc=",
   "Source": "Traversal",
   "BasePath": "_content/Traversal",
   "Mode": "Default",
@@ -5139,6 +5139,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\404.html",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "ErrorTemplate/404#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ql2xdy6lj",
+      "Integrity": "fo/wYYEe+BpfS6N5dW49kQykaQS6y/qURyQYg2Qk2SE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ErrorTemplate\\404.html"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\assets\\css\\style.css",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "ErrorTemplate/assets/css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g4qe5oev9k",
+      "Integrity": "QF+Qf0gtbhKfqFpx4HFtTJ5EEfmpbSucHML6oTwVwdY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ErrorTemplate\\assets\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\assets\\images\\404.svg",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "ErrorTemplate/assets/images/404#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vfr9s6k6ef",
+      "Integrity": "1dieNpwFMIf+j92XWqi/lI/5wKGlne6x/UAQ1Ko+5wM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ErrorTemplate\\assets\\images\\404.svg"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\favicon.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "ErrorTemplate/favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3ns1b2lk9",
+      "Integrity": "5nCUTcWMZs0Ig/HeZ4TEhoKdUfbkKUt9lTGHZy9hXAE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ErrorTemplate\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\LICENSE",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "ErrorTemplate/LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "96e6bhm8ci",
+      "Integrity": "v0OrRaWTpmSeuiaX1LvVIbViUAbd77gAGNrjh+V7bOU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ErrorTemplate\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\README.md",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "ErrorTemplate/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0r0ggpou9a",
+      "Integrity": "NIQablSGx4fjM7k4DP0qMAQtAieubWsgjMeo3anKf0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ErrorTemplate\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\screenshot\\dekstop-ss.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "ErrorTemplate/screenshot/dekstop-ss#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b5n4dvm9ez",
+      "Integrity": "0QiQd1BZDKXx/0fwXz+vKVvVe58BkRaldo/d8peZ6ws=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ErrorTemplate\\screenshot\\dekstop-ss.png"
+    },
+    {
+      "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\screenshot\\mobile-browser.png",
+      "SourceId": "Traversal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\",
+      "BasePath": "_content/Traversal",
+      "RelativePath": "ErrorTemplate/screenshot/mobile-browser#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ee42wayjvq",
+      "Integrity": "OhVaqbyzq23ZXPSp5ly1TkWfp11JspFrZfQGVQd1atY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ErrorTemplate\\screenshot\\mobile-browser.png"
     },
     {
       "Identity": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\favicon.ico",
@@ -36785,6 +36953,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/404.6ql2xdy6lj.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\404.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fo/wYYEe+BpfS6N5dW49kQykaQS6y/qURyQYg2Qk2SE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ql2xdy6lj"
+        },
+        {
+          "Name": "label",
+          "Value": "ErrorTemplate/404.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fo/wYYEe+BpfS6N5dW49kQykaQS6y/qURyQYg2Qk2SE="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/404.html",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\404.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fo/wYYEe+BpfS6N5dW49kQykaQS6y/qURyQYg2Qk2SE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fo/wYYEe+BpfS6N5dW49kQykaQS6y/qURyQYg2Qk2SE="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/assets/css/style.css",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\assets\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QF+Qf0gtbhKfqFpx4HFtTJ5EEfmpbSucHML6oTwVwdY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QF+Qf0gtbhKfqFpx4HFtTJ5EEfmpbSucHML6oTwVwdY="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/assets/css/style.g4qe5oev9k.css",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\assets\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QF+Qf0gtbhKfqFpx4HFtTJ5EEfmpbSucHML6oTwVwdY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4qe5oev9k"
+        },
+        {
+          "Name": "label",
+          "Value": "ErrorTemplate/assets/css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QF+Qf0gtbhKfqFpx4HFtTJ5EEfmpbSucHML6oTwVwdY="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/assets/images/404.svg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\assets\\images\\404.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1dieNpwFMIf+j92XWqi/lI/5wKGlne6x/UAQ1Ko+5wM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1dieNpwFMIf+j92XWqi/lI/5wKGlne6x/UAQ1Ko+5wM="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/assets/images/404.vfr9s6k6ef.svg",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\assets\\images\\404.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1dieNpwFMIf+j92XWqi/lI/5wKGlne6x/UAQ1Ko+5wM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfr9s6k6ef"
+        },
+        {
+          "Name": "label",
+          "Value": "ErrorTemplate/assets/images/404.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1dieNpwFMIf+j92XWqi/lI/5wKGlne6x/UAQ1Ko+5wM="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/favicon.a3ns1b2lk9.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5nCUTcWMZs0Ig/HeZ4TEhoKdUfbkKUt9lTGHZy9hXAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3ns1b2lk9"
+        },
+        {
+          "Name": "label",
+          "Value": "ErrorTemplate/favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5nCUTcWMZs0Ig/HeZ4TEhoKdUfbkKUt9lTGHZy9hXAE="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/favicon.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5nCUTcWMZs0Ig/HeZ4TEhoKdUfbkKUt9lTGHZy9hXAE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5nCUTcWMZs0Ig/HeZ4TEhoKdUfbkKUt9lTGHZy9hXAE="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/LICENSE",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v0OrRaWTpmSeuiaX1LvVIbViUAbd77gAGNrjh+V7bOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v0OrRaWTpmSeuiaX1LvVIbViUAbd77gAGNrjh+V7bOU="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/LICENSE.96e6bhm8ci",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v0OrRaWTpmSeuiaX1LvVIbViUAbd77gAGNrjh+V7bOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "96e6bhm8ci"
+        },
+        {
+          "Name": "label",
+          "Value": "ErrorTemplate/LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v0OrRaWTpmSeuiaX1LvVIbViUAbd77gAGNrjh+V7bOU="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/README.0r0ggpou9a.md",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NIQablSGx4fjM7k4DP0qMAQtAieubWsgjMeo3anKf0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0r0ggpou9a"
+        },
+        {
+          "Name": "label",
+          "Value": "ErrorTemplate/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NIQablSGx4fjM7k4DP0qMAQtAieubWsgjMeo3anKf0k="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/README.md",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NIQablSGx4fjM7k4DP0qMAQtAieubWsgjMeo3anKf0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NIQablSGx4fjM7k4DP0qMAQtAieubWsgjMeo3anKf0k="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/screenshot/dekstop-ss.b5n4dvm9ez.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\screenshot\\dekstop-ss.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0QiQd1BZDKXx/0fwXz+vKVvVe58BkRaldo/d8peZ6ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5n4dvm9ez"
+        },
+        {
+          "Name": "label",
+          "Value": "ErrorTemplate/screenshot/dekstop-ss.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0QiQd1BZDKXx/0fwXz+vKVvVe58BkRaldo/d8peZ6ws="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/screenshot/dekstop-ss.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\screenshot\\dekstop-ss.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0QiQd1BZDKXx/0fwXz+vKVvVe58BkRaldo/d8peZ6ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0QiQd1BZDKXx/0fwXz+vKVvVe58BkRaldo/d8peZ6ws="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/screenshot/mobile-browser.ee42wayjvq.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\screenshot\\mobile-browser.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OhVaqbyzq23ZXPSp5ly1TkWfp11JspFrZfQGVQd1atY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ee42wayjvq"
+        },
+        {
+          "Name": "label",
+          "Value": "ErrorTemplate/screenshot/mobile-browser.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OhVaqbyzq23ZXPSp5ly1TkWfp11JspFrZfQGVQd1atY="
+        }
+      ]
+    },
+    {
+      "Route": "ErrorTemplate/screenshot/mobile-browser.png",
+      "AssetFile": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\screenshot\\mobile-browser.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OhVaqbyzq23ZXPSp5ly1TkWfp11JspFrZfQGVQd1atY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 17:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OhVaqbyzq23ZXPSp5ly1TkWfp11JspFrZfQGVQd1atY="
         }
       ]
     },
@@ -73793,7 +74617,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 13:28:32 GMT"
+          "Value": "Thu, 02 Jan 2025 14:00:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73830,7 +74654,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 13:28:32 GMT"
+          "Value": "Thu, 02 Jan 2025 14:00:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73875,7 +74699,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 13:28:32 GMT"
+          "Value": "Thu, 02 Jan 2025 14:00:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73920,7 +74744,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 13:28:32 GMT"
+          "Value": "Thu, 02 Jan 2025 14:00:34 GMT"
         },
         {
           "Name": "Cache-Control",

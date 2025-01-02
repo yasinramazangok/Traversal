@@ -240,6 +240,14 @@ wwwroot\AdminPanel\tasks\prod.js
 wwwroot\AdminPanel\webpack.config.js
 wwwroot\AdminPanel\yarn.lock
 wwwroot\css\site.css
+wwwroot\ErrorTemplate\404.html
+wwwroot\ErrorTemplate\assets\css\style.css
+wwwroot\ErrorTemplate\assets\images\404.svg
+wwwroot\ErrorTemplate\favicon.png
+wwwroot\ErrorTemplate\LICENSE
+wwwroot\ErrorTemplate\README.md
+wwwroot\ErrorTemplate\screenshot\dekstop-ss.png
+wwwroot\ErrorTemplate\screenshot\mobile-browser.png
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

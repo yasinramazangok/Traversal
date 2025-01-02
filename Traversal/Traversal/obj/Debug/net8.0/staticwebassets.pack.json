@@ -969,6 +969,38 @@
       "PackagePath": "staticwebassets\\AdminPanel\\yarn.lock"
     },
     {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\404.html",
+      "PackagePath": "staticwebassets\\ErrorTemplate\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\LICENSE",
+      "PackagePath": "staticwebassets\\ErrorTemplate"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\README.md",
+      "PackagePath": "staticwebassets\\ErrorTemplate\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\ErrorTemplate\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\assets\\images\\404.svg",
+      "PackagePath": "staticwebassets\\ErrorTemplate\\assets\\images\\404.svg"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\favicon.png",
+      "PackagePath": "staticwebassets\\ErrorTemplate\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\screenshot\\dekstop-ss.png",
+      "PackagePath": "staticwebassets\\ErrorTemplate\\screenshot\\dekstop-ss.png"
+    },
+    {
+      "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\ErrorTemplate\\screenshot\\mobile-browser.png",
+      "PackagePath": "staticwebassets\\ErrorTemplate\\screenshot\\mobile-browser.png"
+    },
+    {
       "Id": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\Traversal\\wwwroot\\Login\\css\\main.css",
       "PackagePath": "staticwebassets\\Login\\css\\main.css"
     },

@@ -76,6 +76,13 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Extensions.Logging.File.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Sinks.Async.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Sinks.RollingFile.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Composition.AttributedModel.dll

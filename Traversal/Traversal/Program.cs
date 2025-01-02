@@ -1,4 +1,4 @@
-using BusinessLayer.Container;
+﻿using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
@@ -13,12 +13,17 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // Add logging to the application with Serilog
+        builder.Logging.AddFile("Logs/Log1.txt", LogLevel.Information);
+
         // Add services to the container.
         builder.Services.ContainerDependencies();
 
         builder.Services.AddDbContext<Context>();
+
         builder.Services.AddIdentity<TraversalUser, TraversalRole>().AddEntityFrameworkStores<Context>()
             .AddErrorDescriber<CustomIdentityValidatorViewModel>();
+
         builder.Services.AddMvc(config =>
         {
             var policy = new AuthorizationPolicyBuilder()
@@ -36,10 +41,14 @@ public class Program
             options.LoginPath = "/Login/SignIn/";
         });
 
+
         var app = builder.Build();
 
-        // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
+        else
         {
             app.UseExceptionHandler("/Home/Error");
             // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
@@ -49,6 +58,7 @@ public class Program
         app.UseStatusCodePagesWithReExecute("/Error/Error404", "?code={0}"); // for Custom Error Page
 
         app.UseHttpsRedirection();
+
         app.UseStaticFiles();
 
         app.UseAuthentication();

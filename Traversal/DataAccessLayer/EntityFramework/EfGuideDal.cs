@@ -12,5 +12,28 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfGuideDal : GenericRepository<Guide>, IGuideDal
     {
+        public void ChangeGuideStatusToFalse(int id)
+        {
+            using var traversalContext = new Context();
+
+            var guide = traversalContext.Guides.FirstOrDefault(c => c.GuideId == id);
+            if (guide != null)
+            {
+                guide.Status = false;
+                traversalContext.SaveChanges();
+            }
+        }
+
+        public void ChangeGuideStatusToTrue(int id)
+        {
+            using var traversalContext = new Context();
+
+            var guide = traversalContext.Guides.FirstOrDefault(c => c.GuideId == id);
+            if (guide != null)
+            {
+                guide.Status = true;
+                traversalContext.SaveChanges();
+            }
+        }
     }
 }

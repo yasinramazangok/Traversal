@@ -35,6 +35,9 @@ namespace BusinessLayer.Container
 
             services.AddScoped<IGuideService, GuideManager>();
             services.AddScoped<IGuideDal, EfGuideDal>();
+
+            services.AddScoped<ITraversalUserService, TraversalUserManager>();
+            services.AddScoped<ITraversalUserDal, EfTraversalUserDal>();
         }
     }
 }

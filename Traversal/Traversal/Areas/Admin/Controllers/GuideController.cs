@@ -3,10 +3,7 @@ using BusinessLayer.ValidationRules;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace Traversal.Areas.Admin.Controllers
 {
@@ -36,8 +33,21 @@ namespace Traversal.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult AddGuide(Guide guide)
         {
-            _guideService.Insert(guide);
-            return RedirectToAction("Index");
+            GuideValidator validationRules = new GuideValidator();
+            ValidationResult result = validationRules.Validate(guide);
+            if (result.IsValid)
+            {
+                _guideService.Insert(guide);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                }
+                return View();
+            }
         }
 
         public IActionResult DeleteGuide(int id)

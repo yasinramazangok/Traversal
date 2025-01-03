@@ -9,6 +9,14 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Traversal.pdb
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\EPPlus.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\ExcelNumberFormat.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -39,6 +47,8 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
@@ -55,6 +65,7 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
@@ -76,6 +87,7 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\RBush.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Extensions.Logging.File.dll
@@ -83,6 +95,7 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Sinks.Async.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Serilog.Sinks.RollingFile.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -93,9 +106,11 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.IO.Packaging.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\System.Windows.Extensions.dll
@@ -244,9 +259,9 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\BusinessLayer.dll

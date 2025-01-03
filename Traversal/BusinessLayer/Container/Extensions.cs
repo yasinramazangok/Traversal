@@ -38,6 +38,9 @@ namespace BusinessLayer.Container
 
             services.AddScoped<ITraversalUserService, TraversalUserManager>();
             services.AddScoped<ITraversalUserDal, EfTraversalUserDal>();
+
+            services.AddScoped<IExcelService, ExcelManager>();
+
         }
     }
 }

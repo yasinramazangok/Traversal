@@ -58,6 +58,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.11.0, )"
@@ -360,6 +364,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.2, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.11.0, )"

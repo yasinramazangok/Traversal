@@ -1,0 +1,41 @@
+﻿@using EntityLayer.Concrete
+@model List<TraversalUser>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayac = 0;
+}
+
+<h1>Kullanıcı Listesi</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Ad Soyad</th>
+        <th>Kullanıcı Adı</th>
+        <th>EMAİL</th>
+        <th>SİL</th>
+        <th>Düzenle</th>
+        <th>Yorumlar</th>
+        <th>TUR GEÇMİŞİ</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            @{
+                sayac = sayac + 1;
+            }
+            <td>@sayac</td>
+            <td>@item.Name</td>
+            <td>@item.UserName</td>
+            <td>@item.Email</td>
+            <td><a href="@Url.Action("DeleteUser", "User", new { area = "Admin", id = item.Id })" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="@Url.Action("UpdateUser", "User", new { area = "Admin", id = item.Id })" class="btn btn-outline-warning">Güncelle</a></td>
+            <td><a href="/Admin/User/CommentUser/" class="btn btn-outline-info">Yorumlar</a></td>
+            <td><a href="@Url.Action("UserReservationList", "User", new { area = "Admin", id = item.Id })" class="btn btn-outline-primary">Tur Geçmişi</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Login/SignUp/" class="btn btn-outline-primary">Yeni Kullanıcı Kaydı</a>

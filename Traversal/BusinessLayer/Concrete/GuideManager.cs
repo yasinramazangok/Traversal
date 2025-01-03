@@ -19,6 +19,16 @@ namespace BusinessLayer.Concrete
             _guideDal = guideDal;
         }
 
+        public void ChangeGuideStatusToFalse(int id)
+        {
+            _guideDal.ChangeGuideStatusToFalse(id);
+        }
+
+        public void ChangeGuideStatusToTrue(int id)
+        {
+            _guideDal.ChangeGuideStatusToTrue(id);
+        }
+
         public void Delete(Guide entity)
         {
             _guideDal.Delete(entity);

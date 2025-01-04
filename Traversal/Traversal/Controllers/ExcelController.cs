@@ -45,7 +45,6 @@ namespace Traversal.Controllers
         public IActionResult StaticExcelReport()
         {
             return File(_excelService.ExcelList(DestinationList()), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "YeniExcel.xlsx");
-            //application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
         }
 
         public IActionResult DestinationExcelReport()

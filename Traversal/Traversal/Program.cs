@@ -37,6 +37,8 @@ public class Program
             config.Filters.Add(new AuthorizeFilter(policy));
         });
 
+        builder.Services.AddHttpClient();
+
         builder.Services.AddAutoMapper(typeof(Program));
 
         builder.Services.AddMvc();

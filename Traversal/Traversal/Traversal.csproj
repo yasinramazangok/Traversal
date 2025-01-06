@@ -43,6 +43,10 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Member\Data\" />
     <Folder Include="Areas\Member\Models\" />
+    <Folder Include="CQRS\Results\" />
+    <Folder Include="CQRS\Handlers\" />
+    <Folder Include="CQRS\Queries\" />
+    <Folder Include="CQRS\Commands\" />
     <Folder Include="wwwroot\UserImages\" />
   </ItemGroup>
 

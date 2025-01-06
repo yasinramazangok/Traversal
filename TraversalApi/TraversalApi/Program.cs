@@ -14,6 +14,12 @@ namespace TraversalApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("TraversalApiCors",
+                    builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -23,8 +29,9 @@ namespace TraversalApi
                 app.UseSwaggerUI();
             }
 
-            app.UseAuthorization();
+            app.UseCors("TraversalApiCors");
 
+            app.UseAuthorization();
 
             app.MapControllers();
 

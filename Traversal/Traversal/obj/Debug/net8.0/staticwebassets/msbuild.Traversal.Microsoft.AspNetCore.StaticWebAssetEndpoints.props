@@ -8416,13 +8416,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Traversal.ca1e1v43jr.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/ITcZV9isJqlTyGK9IWPguQhvbAjF1CxGJnojaN6VoQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/ITcZV9isJqlTyGK9IWPguQhvbAjF1CxGJnojaN6VoQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 03 Jan 2025 00:27:59 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/ITcZV9isJqlTyGK9IWPguQhvbAjF1CxGJnojaN6VoQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 06 Jan 2025 05:50:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Traversal/Traversal.ca1e1v43jr.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Traversal.ca1e1v43jr.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ca1e1v43jr"},{"Name":"integrity","Value":"sha256-/ITcZV9isJqlTyGK9IWPguQhvbAjF1CxGJnojaN6VoQ="},{"Name":"label","Value":"_content/Traversal/Traversal.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/ITcZV9isJqlTyGK9IWPguQhvbAjF1CxGJnojaN6VoQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 03 Jan 2025 00:27:59 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/ITcZV9isJqlTyGK9IWPguQhvbAjF1CxGJnojaN6VoQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 06 Jan 2025 05:50:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Traversal/TraversalLiberty/about.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TraversalLiberty\about.html'))</AssetFile>

@@ -2213,6 +2213,16 @@
           "bin/placeholder/DataAccessLayer.dll": {}
         }
       },
+      "DTOLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DTOLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTOLayer.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -5618,6 +5628,11 @@
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
     },
+    "DTOLayer/1.0.0": {
+      "type": "project",
+      "path": "../DTOLayer/DTOLayer.csproj",
+      "msbuildProject": "../DTOLayer/DTOLayer.csproj"
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
@@ -5626,6 +5641,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DTOLayer >= 1.0.0",
       "DataAccessLayer >= 1.0.0",
       "EPPlus >= 7.5.2",
       "EntityLayer >= 1.0.0",
@@ -5672,6 +5688,9 @@
           "projectReferences": {
             "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj": {
               "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
+            "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj": {
+              "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj"
             },
             "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj": {
               "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj"

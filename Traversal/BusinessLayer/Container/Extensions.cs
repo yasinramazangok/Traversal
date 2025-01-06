@@ -40,6 +40,10 @@ namespace BusinessLayer.Container
             services.AddScoped<ITraversalUserDal, EfTraversalUserDal>();
 
             services.AddScoped<IExcelService, ExcelManager>();
+            services.AddScoped<IPdfService, PdfManager>();
+
+            services.AddScoped<IContactUsService, ContactUsManager>();
+            services.AddScoped<IContactUsService, ContactUsManager>();
 
         }
     }

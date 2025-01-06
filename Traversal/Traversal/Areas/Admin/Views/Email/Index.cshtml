@@ -1,0 +1,32 @@
+﻿@model Traversal.Models.EmailRequest
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Email Gönder</h1>
+<form method="post">
+
+    <div class="form-group">
+        @Html.Label("Alıcı")
+        <input type="text" asp-for="EmailReceiver" class="form-control" />
+    </div>
+    <br />
+
+    <div class="form-group">
+        @Html.Label("Konu")
+        <input type="text" asp-for="Subject" class="form-control" />
+    </div>
+    <br />
+
+    <div class="form-group">
+        @Html.Label("Mesaj")
+        <textarea cols="30" rows="5" class="form-control" asp-for="Content"></textarea>
+    </div>
+    <br />
+
+    <button class="btn btn-outline-primary">Gönder</button>
+</form>
+
+

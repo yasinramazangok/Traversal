@@ -1,7 +1,10 @@
 ﻿using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using EntityLayer.Concrete;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Traversal.Models;
 
@@ -32,9 +35,11 @@ public class Program
             config.Filters.Add(new AuthorizeFilter(policy));
         });
 
+        builder.Services.AddAutoMapper(typeof(Program));
+
         builder.Services.AddMvc();
 
-        builder.Services.AddControllersWithViews();
+        builder.Services.AddControllersWithViews().AddFluentValidation();
 
         builder.Services.ConfigureApplicationCookie(options =>
         {

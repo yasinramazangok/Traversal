@@ -11,7 +11,6 @@
     <Folder Include="DTO\ContactDTO\" />
     <Folder Include="DTO\DestinationDTO\" />
     <Folder Include="DTO\EmailDTO\" />
-    <Folder Include="DTO\AnnouncementDTO\" />
   </ItemGroup>
 
 </Project>

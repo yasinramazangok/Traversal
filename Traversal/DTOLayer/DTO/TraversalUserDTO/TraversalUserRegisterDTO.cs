@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DTOLayer.DTO.TraversalUserDTO
+namespace DTOLayer.DTO.TraversalUserDto
 {
     public class TraversalUserRegisterDTO
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTOLayer.DTO.TraversalUserDto
 {
-    public class TraversalUserRegisterDTO
+    public class TraversalUserRegisterDto
     {
         public string? Name { get; set; }
 

@@ -13,11 +13,11 @@ namespace TraversalCoreProje.Mapping.AutoMapperProfile
     {
         public MapProfile()
         {
+            CreateMap<TraversalUserRegisterDto, TraversalUser>();
+            CreateMap<TraversalUser, TraversalUserRegisterDto>();
+
             CreateMap<AnnouncementAddDto, Announcement>();
             CreateMap<Announcement, AnnouncementAddDto>();
-
-            CreateMap<TraversalUserRegisterDTO, TraversalUser>();
-            CreateMap<TraversalUser, TraversalUserRegisterDTO>();
 
             CreateMap<AnnouncementListDto, Announcement>();
             CreateMap<Announcement, AnnouncementListDto>();

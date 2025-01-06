@@ -22,6 +22,8 @@ public class Program
         // Add services to the container.
         builder.Services.ContainerDependencies();
 
+        builder.Services.CustomValidator();
+
         builder.Services.AddDbContext<Context>();
 
         builder.Services.AddIdentity<TraversalUser, TraversalRole>().AddEntityFrameworkStores<Context>()

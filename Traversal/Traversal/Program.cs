@@ -6,6 +6,7 @@ using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Traversal.CQRS.Handlers.DestinationHandlers;
 using Traversal.Models;
 
 namespace Traversal;
@@ -15,6 +16,12 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+
+        builder.Services.AddScoped<GetAllDestinationQueryHandler>();
+        builder.Services.AddScoped<GetDestinationByIdQueryHandler>();
+        builder.Services.AddScoped<CreateDestinationCommandHandler>();
+        builder.Services.AddScoped<RemoveDestinationCommandHandler>();
+        builder.Services.AddScoped<UpdateDestinationCommandHandler>();
 
         // Add logging to the application with Serilog
         builder.Logging.AddFile("Logs/Log1.txt", LogLevel.Information);

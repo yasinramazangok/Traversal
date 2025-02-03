@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Traversal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ea36a40f4915dc0fb0e7667095998180655dcb4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c6f08afc17998c99df25f6f0140c80941b2bfe9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Traversal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Traversal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

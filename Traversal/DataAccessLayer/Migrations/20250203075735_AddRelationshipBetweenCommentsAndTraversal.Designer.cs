@@ -4,6 +4,7 @@ using DataAccessLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20250203075735_AddRelationshipBetweenCommentsAndTraversal")]
+    partial class AddRelationshipBetweenCommentsAndTraversal
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -142,7 +145,7 @@ namespace DataAccessLayer.Migrations
                     b.Property<bool?>("Status")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("TraversalUserId")
+                    b.Property<int>("TraversalUserId")
                         .HasColumnType("int");
 
                     b.HasKey("CommentId");
@@ -631,7 +634,9 @@ namespace DataAccessLayer.Migrations
 
                     b.HasOne("EntityLayer.Concrete.TraversalUser", "TraversalUser")
                         .WithMany("Comments")
-                        .HasForeignKey("TraversalUserId");
+                        .HasForeignKey("TraversalUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Destination");
 

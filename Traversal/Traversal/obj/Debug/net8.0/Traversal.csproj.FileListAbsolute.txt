@@ -7,6 +7,8 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Traversal.runtimeconfig.json
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Traversal.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Traversal.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
@@ -24,6 +26,9 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Humanizer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\iTextSharp.LGPLv2.Core.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\MailKit.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\MediatR.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

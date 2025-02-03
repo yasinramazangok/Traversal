@@ -1,8 +1,13 @@
 ﻿using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using EntityLayer.Concrete;
+using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Traversal.CQRS.Handlers.DestinationHandlers;
 using Traversal.Models;
 
 namespace Traversal;
@@ -13,11 +18,21 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        builder.Services.AddScoped<GetAllDestinationQueryHandler>();
+        builder.Services.AddScoped<GetDestinationByIdQueryHandler>();
+        builder.Services.AddScoped<CreateDestinationCommandHandler>();
+        builder.Services.AddScoped<RemoveDestinationCommandHandler>();
+        builder.Services.AddScoped<UpdateDestinationCommandHandler>();
+
+        builder.Services.AddMediatR(typeof(Program));
+
         // Add logging to the application with Serilog
         builder.Logging.AddFile("Logs/Log1.txt", LogLevel.Information);
 
         // Add services to the container.
         builder.Services.ContainerDependencies();
+
+        builder.Services.CustomValidator();
 
         builder.Services.AddDbContext<Context>();
 
@@ -32,9 +47,13 @@ public class Program
             config.Filters.Add(new AuthorizeFilter(policy));
         });
 
+        builder.Services.AddHttpClient();
+
+        builder.Services.AddAutoMapper(typeof(Program));
+
         builder.Services.AddMvc();
 
-        builder.Services.AddControllersWithViews();
+        builder.Services.AddControllersWithViews().AddFluentValidation();
 
         builder.Services.ConfigureApplicationCookie(options =>
         {

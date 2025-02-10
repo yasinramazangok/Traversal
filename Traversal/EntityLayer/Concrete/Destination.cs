@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,9 +34,16 @@ namespace EntityLayer.Concrete
 
         public string? Image2 { get; set; }
 
+        public DateTime Date { get; set; }
+
         public List<Comment>? Comments { get; set; }
 
         public List<Reservation>? Reservations { get; set; }
+
+        [ForeignKey("Guide")]
+        public int? GuideId { get; set; }
+
+        public Guide? Guide { get; set; }
 
     }
 }

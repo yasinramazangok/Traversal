@@ -32,7 +32,7 @@ namespace Traversal.Controllers
             ViewBag.destinationId = id;
             var user = await _traversalUserManager.FindByNameAsync(User.Identity.Name);
             ViewBag.userId = user.Id;
-            var value = _destinationService.GetById(id);
+            var value = _destinationService.GetDestinationWithGuide(id);
             return View(value);
         }
 

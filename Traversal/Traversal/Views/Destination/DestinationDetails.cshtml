@@ -19,33 +19,31 @@
             </div>
         </div>
     </section>
-    @* <!--/blog-->
-    <div class="py-5 w3l-homeblock1 text-center">
-        <div class="container mt-md-3">
-            <h3 class="blog-desc-big text-center mb-4">
-                Alanında en yetkin rehberlerimizle
-                en güncel seyahat hikayelerimizi okumalısınız!
-            </h3>
-            <div class="blog-post-align">
-                <div class="blog-post-img">
-                    <a href="#"><img src="@Model.Guide.Image" alt="" class="rounded-circle img-fluid" /></a>
+    <div class="container mt-md-3">
+        <h3 class="blog-desc-big text-center mb-4">
+            Alanında en yetkin rehberlerimizle
+            en güncel seyahat hikayelerimizi okumalısınız!
+        </h3>
+        <div class="blog-post-align">
+            <div class="blog-post-img">
+                <a href="#"><img src="@Model.Guide.Image" alt="" class="rounded-circle img-fluid" /></a>
+            </div>
+            <div class="blog-post-info">
+                <div class="author align-items-center mb-1">
+                    <a href="#">@Model.Guide.Name</a> Tur Rotaları: <a href="#url">@Model.Guide.Description</a>
                 </div>
-                <div class="blog-post-info">
-                    <div class="author align-items-center mb-1">
-                        <a href="#">@Model.Guide.Name</a> Tur Rotaları: <a href="#url">@Model.Guide.Description</a>
-                    </div>
-                    <ul class="blog-meta">
-                        <li class="meta-item blog-lesson">
-                            <span class="meta-value"> @(((DateTime)Model.Date).ToString("dd-MMM-yyyy")) </span>
-                        </li>
-                        <li class="meta-item blog-students">
-                            <span class="meta-value"> 6min read</span>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="blog-meta">
+                    <li class="meta-item blog-lesson">
+                        <span class="meta-value"> @(((DateTime)Model.Date).ToString("dd-MMM-yyyy")) </span>
+                    </li>
+                    <li class="meta-item blog-students">
+                        <span class="meta-value"> 6min read</span>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div> *@
+    </div>
+
     <section class="blog-post-main w3l-homeblock1">
         <div class="blog-content-inf pb-5">
             <div class="container pb-lg-4">

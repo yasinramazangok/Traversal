@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "W8X3KQp6FMD0EGzYjqsgLAew98jUPxcxPrfGbX3DT4g=",
+  "Source": "TraversalSignalRApi",
+  "BasePath": "_content/TraversalSignalRApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,22 @@
+﻿@model List<TraversalUser>
+
+@{
+    ViewData["Title"] = "GetUserList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Kullanıcı Listesi</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kullanıcı Adı</th>
+        <th>Rol Ata</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserName</td>
+            <td><a href="@Url.Action("AssignRole", "Role", new { area = "Admin", id = item.Id })" class="btn btn-warning">Rol Ata</a></td>
+        </tr>
+    }
+</table>

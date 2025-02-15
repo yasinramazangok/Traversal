@@ -39,6 +39,11 @@ namespace BusinessLayer.Concrete
             return _destinationDal.GetList();
         }
 
+        public List<Destination> GetRecentDestinations()
+        {
+            return _destinationDal.GetRecentDestinations(4);
+        }
+
         public void Insert(Destination entity)
         {
             _destinationDal.Insert(entity);

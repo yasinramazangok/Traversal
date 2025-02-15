@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 
 namespace TraversalCoreProje.ViewComponents.MemberDashboard
 {
-    public class MemberLastDestinationsPartial : ViewComponent
+    public class MemberDashboardLastDestinationsPartial : ViewComponent
     {
         private readonly IDestinationService _destinationService;
 
-        public MemberLastDestinationsPartial(IDestinationService destinationService)
+        public MemberDashboardLastDestinationsPartial(IDestinationService destinationService)
         {
             _destinationService = destinationService;
         }
 
         public IViewComponentResult Invoke()
         {
-            //var values = _destinationService.TGetLast4Destinations();
-            return View();
+            var values = _destinationService.GetRecentDestinations();
+            return View(values);
         }
     }
 }

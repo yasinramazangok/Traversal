@@ -30,22 +30,22 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>#</th>
-                                        <th>Lokasyon</th>
-                                        <th>Kişi Sayısı</th>
-                                        <th>Rezervasyon Tarihi</th>
-                                        <th>Durum</th>
+                                        <th class="text-center">#</th>
+                                        <th class="text-center">Lokasyon</th>
+                                        <th class="text-center">Kişi Sayısı</th>
+                                        <th class="text-center">Rezervasyon Tarihi</th>
+                                        <th class="text-center">Durum</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @foreach (var item in Model)
                                     {
                                         <tr>
-                                            <td>@item.ReservationId</td>
-                                            <td>@item.Destination?.City</td>
-                                            <td>@item.PersonCount</td>
-                                            <td>@(((DateTime)item.Date).ToString("dd-MMM-yyyy"))</td>
-                                            <td>@item.Status</td>
+                                            <td class="text-center">@item.ReservationId</td>
+                                            <td class="text-center">@item.Destination?.City</td>
+                                            <td class="text-center">@item.PersonCount</td>
+                                            <td class="text-center">@(((DateTime)item.Date).ToString("dd-MMM-yyyy"))</td>
+                                            <td class="text-center">@item.Status</td>
                                         </tr>
                                     }
                                 </tbody>

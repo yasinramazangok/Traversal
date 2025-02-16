@@ -1,49 +1,45 @@
 {
-  "name": "soft-ui-dashboard",
-  "version": "1.0.3",
-  "description": "Freebie Dashboard for Bootstrap 5",
-  "main": "pages/dashboard.html",
-  "directories": {
-    "example": "root"
-  },
-  "scripts": {
-    "open-app": "gulp open-app",
-    "start": "npm run open-app",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "gulp-watch"
-  },
+  "name": "chameleon-admin-modern-bootstrap-webapp-dashboard-html-template-ui-kit",
+  "version": "1.0.0",
+  "description": "Chameleon Admin is a Modern Bootstrap 4 WebApp & admin dashboard html template with a large number of components, elegant design, clean and organised code.",
+  "author": "ThemeSelection",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/soft-ui-dashboard.git"
+    "url": "git@bitbucket.org:geekslabs/chameleon-admin.git"
   },
-  "keywords": [
-    "soft ui dashboard",
-    "bootstrap 5",
-    "dashboard",
-    "creative tim",
-    "html dashboard",
-    "html css dashboard",
-    "web dashboard",
-    "freebie",
-    "free bootstrap dashboard",
-    "css3 dashboard",
-    "bootstrap dashboard",
-    "frontend",
-    "responsive bootstrap dashboard"
-  ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/soft-ui-dashboard/issues"
+  "license": "Themeforest Standard Licenses",
+  "private": true,
+  "homepage": "https://themeselection.com/",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "gulp-cli": "^1.4.0"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean": "^0.4.0",
-    "gulp-install": "^1.1.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-open": "^3.0.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-copy": "^1.0.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-multistream": "^0.1.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-require-tasks": "^1.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^3.0.0",
+    "gulp-w3cjs": "^1.3.0",
+    "gulp-watch": "^4.3.11",
+    "minimist": "^1.2.0",
+    "pug": "^2.0.0-rc.4"
   },
-  "homepage": "http://creative-tim.com/product/soft-ui-dashboard"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

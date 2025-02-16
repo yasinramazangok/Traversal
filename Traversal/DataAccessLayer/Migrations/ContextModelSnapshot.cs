@@ -142,9 +142,14 @@ namespace DataAccessLayer.Migrations
                     b.Property<bool?>("Status")
                         .HasColumnType("bit");
 
+                    b.Property<int?>("TraversalUserId")
+                        .HasColumnType("int");
+
                     b.HasKey("CommentId");
 
                     b.HasIndex("DestinationId");
+
+                    b.HasIndex("TraversalUserId");
 
                     b.ToTable("Comments");
                 });
@@ -228,6 +233,9 @@ namespace DataAccessLayer.Migrations
                     b.Property<string>("CoverImage")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("DayNight")
                         .HasColumnType("nvarchar(max)");
 
@@ -239,6 +247,9 @@ namespace DataAccessLayer.Migrations
 
                     b.Property<string>("Details2")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("GuideId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
@@ -253,6 +264,8 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("bit");
 
                     b.HasKey("DestinationId");
+
+                    b.HasIndex("GuideId");
 
                     b.ToTable("Destinations");
                 });
@@ -307,6 +320,9 @@ namespace DataAccessLayer.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GuideId"));
 
                     b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description2")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
@@ -624,7 +640,22 @@ namespace DataAccessLayer.Migrations
                         .WithMany("Comments")
                         .HasForeignKey("DestinationId");
 
+                    b.HasOne("EntityLayer.Concrete.TraversalUser", "TraversalUser")
+                        .WithMany("Comments")
+                        .HasForeignKey("TraversalUserId");
+
                     b.Navigation("Destination");
+
+                    b.Navigation("TraversalUser");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Destination", b =>
+                {
+                    b.HasOne("EntityLayer.Concrete.Guide", "Guide")
+                        .WithMany("Destinations")
+                        .HasForeignKey("GuideId");
+
+                    b.Navigation("Guide");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Reservation", b =>
@@ -700,8 +731,15 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("Reservations");
                 });
 
+            modelBuilder.Entity("EntityLayer.Concrete.Guide", b =>
+                {
+                    b.Navigation("Destinations");
+                });
+
             modelBuilder.Entity("EntityLayer.Concrete.TraversalUser", b =>
                 {
+                    b.Navigation("Comments");
+
                     b.Navigation("Reservations");
                 });
 #pragma warning restore 612, 618

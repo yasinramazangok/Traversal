@@ -13,7 +13,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server = YASINRAMAZANGOK; database = TraversalDatabase; user id = traversaluser; password = traversal1234; integrated security = false; trustservercertificate = true;");
+            optionsBuilder.UseSqlServer("server = YASINRAMAZANGOK; database = TraversalDatabase; user id = traversal; password = yasin12345; integrated security = false; trustservercertificate = true;");
         }
 
         public DbSet<About> Abouts { get; set; }

@@ -1,0 +1,6 @@
+@TraversalSignalRApi_HostAddress = http://localhost:5019
+
+GET {{TraversalSignalRApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

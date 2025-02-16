@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Ty4cSIkrMLUamVA3mUd1C+c7dpTCX+rtFcSKDaEKKig=",
+  "Source": "TraversalSignalRApiForMSSQL",
+  "BasePath": "_content/TraversalSignalRApiForMSSQL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

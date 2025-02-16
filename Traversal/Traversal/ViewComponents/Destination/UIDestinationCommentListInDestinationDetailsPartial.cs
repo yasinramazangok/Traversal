@@ -13,14 +13,17 @@ namespace TraversalCoreProje.ViewComponents.Comment
     public class UIDestinationCommentListInDestinationDetailsPartial : ViewComponent
     {
         private readonly ICommentService _commentService;
+        Context context = new Context();
 
         public UIDestinationCommentListInDestinationDetailsPartial(ICommentService commentService)
         {
             _commentService = commentService;
         }
+
         public IViewComponentResult Invoke(int id)
         {
-            var values = _commentService.GetCommentByDestinationId(id);
+            ViewBag.commentCount = context.Comments.Where(x => x.DestinationId == id).Count();
+            var values = _commentService.GetListCommentWithDestinationAndUser(id);
             return View(values);
         }
     }

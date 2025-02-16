@@ -7,10 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\CityDTO\" />
-    <Folder Include="DTO\ContactDTO\" />
-    <Folder Include="DTO\DestinationDTO\" />
-    <Folder Include="DTO\EmailDTO\" />
+    <Folder Include="DTOs\CityDTO\" />
+    <Folder Include="DTOs\DestinationDTO\" />
+    <Folder Include="DTOs\EmailDTO\" />
   </ItemGroup>
 
 </Project>

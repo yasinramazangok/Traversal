@@ -48,6 +48,11 @@ namespace BusinessLayer.Concrete
             _commentDal.Insert(comment);
         }
 
+        public List<Comment> GetListCommentWithDestinationAndUser(int id)
+        {
+            return _commentDal.GetListCommentWithDestinationAndUser(id);
+        }
+
         public void Update(Comment comment)
         {
             _commentDal.Update(comment);

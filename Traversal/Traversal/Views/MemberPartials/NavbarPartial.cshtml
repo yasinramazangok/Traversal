@@ -1,116 +1,53 @@
-﻿<!-- Navbar -->
-<nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
-    <div class="container-fluid py-1 px-3">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-                <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
-                <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Tables</li>
-            </ol>
-            <h6 class="font-weight-bolder mb-0">Tables</h6>
-        </nav>
-        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
-            <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                <div class="input-group">
-                    <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-                    <input type="text" class="form-control" placeholder="Type here...">
-                </div>
-            </div>
-            <ul class="navbar-nav  justify-content-end">
-                <li class="nav-item d-flex align-items-center">
-                    <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                        <i class="fa fa-user me-sm-1"></i>
-                        <span class="d-sm-inline d-none">Sign In</span>
-                    </a>
-                </li>
-                <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
-                    <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
-                        <div class="sidenav-toggler-inner">
-                            <i class="sidenav-toggler-line"></i>
-                            <i class="sidenav-toggler-line"></i>
-                            <i class="sidenav-toggler-line"></i>
+﻿<nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
+    <div class="navbar-wrapper">
+        <div class="navbar-container content">
+            <div class="collapse navbar-collapse show" id="navbar-mobile">
+                <ul class="nav navbar-nav mr-auto float-left">
+                    <li class="nav-item d-block d-md-none"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i></a></li>
+                    <li class="nav-item d-none d-md-block"><a class="nav-link nav-link-expand" href="#"><i class="ficon ft-maximize"></i></a></li>
+                    <li class="nav-item dropdown navbar-search">
+                        <a class="nav-link dropdown-toggle hide" data-toggle="dropdown" href="#"><i class="ficon ft-search"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="arrow_box">
+                                <form>
+                                    <div class="input-group search-box">
+                                        <div class="position-relative has-icon-right full-width">
+                                            <input class="form-control" id="search" type="text" placeholder="arama yapın...">
+                                            <div class="form-control-position navbar-search-close"><i class="ft-x">   </i></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav float-right">
+                    <li class="dropdown dropdown-language nav-item">
+                        <a class="dropdown-toggle nav-link" id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flag-icon flag-icon-us"></i><span class="selected-language"></span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-flag">
+                            <div class="arrow_box"><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-us"></i> English</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-cn"></i> Chinese</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-ru"></i> Russian</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i> French</a><a class="dropdown-item" href="#"><i class="flag-icon flag-icon-es"></i> Spanish</a></div>
                         </div>
-                    </a>
-                </li>
-                <li class="nav-item px-3 d-flex align-items-center">
-                    <a href="javascript:;" class="nav-link text-body p-0">
-                        <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
-                    </a>
-                </li>
-                <li class="nav-item dropdown pe-2 d-flex align-items-center">
-                    <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-bell cursor-pointer"></i>
-                    </a>
-                    <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
-                        <li class="mb-2">
-                            <a class="dropdown-item border-radius-md" href="javascript:;">
-                                <div class="d-flex py-1">
-                                    <div class="my-auto">
-                                        <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
-                                    </div>
-                                    <div class="d-flex flex-column justify-content-center">
-                                        <h6 class="text-sm font-weight-normal mb-1">
-                                            <span class="font-weight-bold">New message</span> from Laur
-                                        </h6>
-                                        <p class="text-xs text-secondary mb-0">
-                                            <i class="fa fa-clock me-1"></i>
-                                            13 minutes ago
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a class="dropdown-item border-radius-md" href="javascript:;">
-                                <div class="d-flex py-1">
-                                    <div class="my-auto">
-                                        <img src="../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm bg-gradient-dark  me-3 ">
-                                    </div>
-                                    <div class="d-flex flex-column justify-content-center">
-                                        <h6 class="text-sm font-weight-normal mb-1">
-                                            <span class="font-weight-bold">New album</span> by Travis Scott
-                                        </h6>
-                                        <p class="text-xs text-secondary mb-0">
-                                            <i class="fa fa-clock me-1"></i>
-                                            1 day
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item border-radius-md" href="javascript:;">
-                                <div class="d-flex py-1">
-                                    <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
-                                        <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <title>credit-card</title>
-                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                                                    <g transform="translate(1716.000000, 291.000000)">
-                                                        <g transform="translate(453.000000, 454.000000)">
-                                                            <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
-                                                            <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div class="d-flex flex-column justify-content-center">
-                                        <h6 class="text-sm font-weight-normal mb-1">
-                                            Payment successfully completed
-                                        </h6>
-                                        <p class="text-xs text-secondary mb-0">
-                                            <i class="fa fa-clock me-1"></i>
-                                            2 days
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav float-right">
+                    <li class="dropdown dropdown-notification nav-item">
+                        <a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="ficon ft-mail">             </i></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="arrow_box_right"><a class="dropdown-item" href="#"><i class="ft-book"></i> Read Mail</a><a class="dropdown-item" href="#"><i class="ft-bookmark"></i> Read Later</a><a class="dropdown-item" href="#"><i class="ft-check-square"></i> Mark all Read       </a></div>
+                        </div>
+                    </li>
+                    <li class="dropdown dropdown-user nav-item">
+                        <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">             <span class="avatar avatar-online"><img src="~/MemberPanel/theme-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i></span></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="arrow_box_right">
+                                <a class="dropdown-item" href="#"><span class="avatar avatar-online"><img src="~/MemberPanel/theme-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><span class="user-name text-bold-700 ml-1">John Doe</span></span></a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="ft-user"></i> Edit Profile</a><a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a><a class="dropdown-item" href="#"><i class="ft-check-square"></i> Task</a><a class="dropdown-item" href="#"><i class="ft-message-square"></i> Chats</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item" href="/Login/Logout/"><i class="ft-power"></i>Çıkış Yap</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
-<!-- End Navbar -->

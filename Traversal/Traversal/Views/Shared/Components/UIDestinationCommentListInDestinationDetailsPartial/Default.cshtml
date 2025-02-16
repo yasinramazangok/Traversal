@@ -1,7 +1,8 @@
-﻿@model List<Comment>
+﻿@using EntityLayer.Concrete
+@model List<Comment>
 
 <div class="comments mt-5">
-    <h4 class="side-title ">Yorumlar 2</h4>
+    <h4 class="side-title ">Yorumlar (@ViewBag.commentCount)</h4>
     @foreach (var item in Model)
     {
         <div class="media mt-4">
@@ -12,7 +13,7 @@
 
                 <ul class="time-rply mb-2">
                     <li>
-                        <a href="#URL" class="name mt-0 mb-2 d-block">@item.Name</a>
+                        <a href="#URL" class="name mt-0 mb-2 d-block">@item.TraversalUser?.Name</a>
                         @(((DateTime)item.Date).ToString("dd-MMM-yyyy"))
 
                     </li>

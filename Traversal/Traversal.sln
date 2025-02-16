@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLayer", "DTOLayer\DTOLayer.csproj", "{F7DAD837-F28B-448E-B797-3BE288CB2461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalSignalRApi", "TraversalSignalRApi\TraversalSignalRApi.csproj", "{859B67FE-3B69-4126-A118-B9CB54663A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalSignalRApiConsume", "TraversalSignalRApiConsume\TraversalSignalRApiConsume.csproj", "{008D9DF8-0D01-4686-A805-DEF9A7197EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalSignalRApiForMSSQL", "TraversalSignalRApiForMSSQL\TraversalSignalRApiForMSSQL.csproj", "{745A1866-3472-4CA8-BA90-3CC4C70EAD08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{F7DAD837-F28B-448E-B797-3BE288CB2461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7DAD837-F28B-448E-B797-3BE288CB2461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7DAD837-F28B-448E-B797-3BE288CB2461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859B67FE-3B69-4126-A118-B9CB54663A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859B67FE-3B69-4126-A118-B9CB54663A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859B67FE-3B69-4126-A118-B9CB54663A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859B67FE-3B69-4126-A118-B9CB54663A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008D9DF8-0D01-4686-A805-DEF9A7197EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008D9DF8-0D01-4686-A805-DEF9A7197EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008D9DF8-0D01-4686-A805-DEF9A7197EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008D9DF8-0D01-4686-A805-DEF9A7197EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745A1866-3472-4CA8-BA90-3CC4C70EAD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745A1866-3472-4CA8-BA90-3CC4C70EAD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745A1866-3472-4CA8-BA90-3CC4C70EAD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745A1866-3472-4CA8-BA90-3CC4C70EAD08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

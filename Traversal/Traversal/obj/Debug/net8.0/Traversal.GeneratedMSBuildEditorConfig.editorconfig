@@ -112,6 +112,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Areas/Admin/Views/Role/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxBc3NpZ25Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Areas/Admin/Views/Role/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Areas/Admin/Views/Role/GetUserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxHZXRVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Areas/Admin/Views/Role/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxVcGRhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Areas/Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -200,6 +220,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxBZGRDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Views/Contact/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Views/Default/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -218,6 +242,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Views/Excel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Views/Guide/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpZGVcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Views/Home/Index.cshtml]
@@ -342,6 +370,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Views/Shared/Components/UIDestinationCommentListInDestinationDetailsPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVUlEZXN0aW5hdGlvbkNvbW1lbnRMaXN0SW5EZXN0aW5hdGlvbkRldGFpbHNQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Views/Shared/Components/UIDestinationDetailsGuideInformationsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVUlEZXN0aW5hdGlvbkRldGFpbHNHdWlkZUluZm9ybWF0aW9uc1BhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/yasinramazangok/Desktop/Traversal/Traversal/Traversal/Views/Shared/Error.cshtml]

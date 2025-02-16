@@ -22,5 +22,9 @@ namespace EntityLayer.Concrete
         public int? DestinationId { get; set; }
 
         public Destination? Destination { get; set; }
+
+        public int? TraversalUserId { get; set; }
+
+        public TraversalUser? TraversalUser { get; set; }
     }
 }

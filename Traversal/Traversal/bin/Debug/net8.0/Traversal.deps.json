@@ -31,6 +31,17 @@
         },
         "runtime": {
           "Traversal.dll": {}
+        },
+        "resources": {
+          "de/Traversal.resources.dll": {
+            "locale": "de"
+          },
+          "en/Traversal.resources.dll": {
+            "locale": "en"
+          },
+          "tr/Traversal.resources.dll": {
+            "locale": "tr"
+          }
         }
       },
       "AutoMapper/12.0.0": {

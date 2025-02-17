@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TraversalSignalRApiConsume")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec03b8e82278b9e62f8e6cf87408424db5103a00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a49d9c08daafafef10dba542de706553564481c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraversalSignalRApiConsume")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraversalSignalRApiConsume")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

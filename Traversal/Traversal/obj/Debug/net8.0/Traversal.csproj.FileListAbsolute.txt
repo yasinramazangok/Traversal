@@ -7,6 +7,9 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Traversal.runtimeconfig.json
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Traversal.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Traversal.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\de\Traversal.resources.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\en\Traversal.resources.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\tr\Traversal.resources.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\Azure.Core.dll
@@ -287,6 +290,11 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\EntityLayer.pdb
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\bin\Debug\net8.0\DTOLayer.pdb
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.csproj.AssemblyReference.cache
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.Resources.Views.MemberPartials.SidebarPartial.resources
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.Resources.Views.MemberPartials.SidebarPartial.de.resources
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.Resources.Views.MemberPartials.SidebarPartial.en.resources
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.Resources.Views.MemberPartials.SidebarPartial.tr.resources
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.csproj.GenerateResource.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.AssemblyInfoInputs.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.AssemblyInfo.cs
@@ -296,6 +304,9 @@ C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.RazorAssemblyInfo.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.RazorAssemblyInfo.cs
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\Traversal.sourcelink.json
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\de\Traversal.resources.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\en\Traversal.resources.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\tr\Traversal.resources.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\scopedcss\bundle\Traversal.styles.css
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\Traversal\obj\Debug\net8.0\scopedcss\projectbundle\Traversal.bundle.scp.css

@@ -1,4 +1,5 @@
-﻿<div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true" data-img="~/MemberPanel/theme-assets/images/backgrounds/02.jpg">
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+<div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true" data-img="~/MemberPanel/theme-assets/images/backgrounds/02.jpg">
     <div class="navbar-header">
         <ul class="nav navbar-nav flex-row">
             <li class="nav-item mr-auto">
@@ -13,31 +14,31 @@
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
             <li class=" nav-item @(ViewContext.RouteData.Values["area"]?.ToString() == "Member" && ViewContext.RouteData.Values["controller"].ToString() == "Dashboard" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
-                <a href="/Member/Dashboard/Index/"><i class="ft-home"></i><span class="menu-title" data-i18n="">Dashboard</span></a>
+                <a href="/Member/Dashboard/Index/"><i class="ft-home"></i><span class="menu-title" data-i18n="">@localizer["Dashboard"]</span></a>
             </li>
             <li class=" nav-item @(ViewContext.RouteData.Values["area"]?.ToString() == "Member" && ViewContext.RouteData.Values["controller"].ToString() == "Destination" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
-                <a href="/Member/Destination/Index/"><i class="ft-map"></i><span class="menu-title" data-i18n="">Turlar</span></a>
+                <a href="/Member/Destination/Index/"><i class="ft-map"></i><span class="menu-title" data-i18n="">@localizer["Turlar"]</span></a>
             </li>
             <li class=" nav-item @(ViewContext.RouteData.Values["area"]?.ToString() == "Member" && ViewContext.RouteData.Values["controller"].ToString() == "Profile" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")">
-                <a href="/Member/Profile/Index/"><i class="ft-user"></i><span class="menu-title" data-i18n="">Profilim</span></a>
+                <a href="/Member/Profile/Index/"><i class="ft-user"></i><span class="menu-title" data-i18n="">@localizer["Profilim"]</span></a>
             </li>
             <li class=" nav-item @(ViewContext.RouteData.Values["area"]?.ToString() == "Member" && ViewContext.RouteData.Values["controller"].ToString() == "Reservation" && ViewContext.RouteData.Values["action"].ToString() == "MyCurrentReservation" ? "active" : "")">
-                <a href="/Member/Reservation/MyCurrentReservation/"><i class="ft-calendar"></i><span class="menu-title" data-i18n="">Aktif Rezerv.</span></a>
+                <a href="/Member/Reservation/MyCurrentReservation/"><i class="ft-calendar"></i><span class="menu-title" data-i18n="">@localizer["Aktif Rezerv."]</span></a>
             </li>
             <li class="nav-item @(ViewContext.RouteData.Values["area"]?.ToString() == "Member" && ViewContext.RouteData.Values["controller"].ToString() == "Reservation" && ViewContext.RouteData.Values["action"].ToString() == "MyOldReservation" ? "active" : "")">
-                <a href="/Member/Reservation/MyOldReservation/"><i class="ft-clock"></i><span class="menu-title" data-i18n="">Geçmiş Rezerv.</span></a>
+                <a href="/Member/Reservation/MyOldReservation/"><i class="ft-clock"></i><span class="menu-title" data-i18n="">@localizer["Geçmiş Rezerv."]</span></a>
             </li>
             <li class=" nav-item @(ViewContext.RouteData.Values["area"]?.ToString() == "Member" && ViewContext.RouteData.Values["controller"].ToString() == "Reservation" && ViewContext.RouteData.Values["action"].ToString() == "MyApprovalReservation" ? "active" : "")">
-                <a href="/Member/Reservation/MyApprovalReservation/"><i class="ft-check-circle"></i><span class="menu-title" data-i18n="">Onay Bek. Rezerv.</span></a>
+                <a href="/Member/Reservation/MyApprovalReservation/"><i class="ft-check-circle"></i><span class="menu-title" data-i18n="">@localizer["Onay Bek. Rezerv."]</span></a>
             </li>
             <li class=" nav-item @(ViewContext.RouteData.Values["area"]?.ToString() == "Member" && ViewContext.RouteData.Values["controller"].ToString() == "Reservation" && ViewContext.RouteData.Values["action"].ToString() == "NewReservation" ? "active" : "")">
-                <a href="/Member/Reservation/NewReservation/"><i class="ft-plus-circle"></i><span class="menu-title" data-i18n="">Rezervasyon Yap</span></a>
+                <a href="/Member/Reservation/NewReservation/"><i class="ft-plus-circle"></i><span class="menu-title" data-i18n="">@localizer["Rezervasyon Yap"]</span></a>
             </li>
             <li class=" nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Default" && ViewContext.RouteData.Values["action"].ToString() == "Home" ? "active" : "")">
-                <a href="/Default/Home/"><i class="ft-globe"></i><span class="menu-title" data-i18n="">Siteye Git</span></a>
+                <a href="/Default/Home/"><i class="ft-globe"></i><span class="menu-title" data-i18n="">@localizer["Siteye Git"]</span></a>
             </li>
             <li class=" nav-item @(ViewContext.RouteData.Values["controller"].ToString() == "Login" && ViewContext.RouteData.Values["action"].ToString() == "Logout" ? "active" : "")">
-                <a href="/Login/Logout/"><i class="ft-log-out"></i><span class="menu-title" data-i18n="">Çıkış Yap</span></a>
+                <a href="/Login/Logout/"><i class="ft-log-out"></i><span class="menu-title" data-i18n="">@localizer["Çıkış Yap"]</span></a>
             </li>
         </ul>
     </div>

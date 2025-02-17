@@ -7,6 +7,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Traversal.CQRS.Handlers.DestinationHandlers;
 using Traversal.Models;
 
@@ -47,11 +48,16 @@ public class Program
             config.Filters.Add(new AuthorizeFilter(policy));
         });
 
+        builder.Services.AddLocalization(opt =>
+        {
+            opt.ResourcesPath = "Resources";
+        });
+
         builder.Services.AddHttpClient();
 
         builder.Services.AddAutoMapper(typeof(Program));
 
-        builder.Services.AddMvc();
+        builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
 
         builder.Services.AddControllersWithViews().AddFluentValidation();
 
@@ -85,6 +91,10 @@ public class Program
         app.UseRouting();
 
         app.UseAuthorization();
+
+        var suppertedCultures = new[] { "en", "de", "tr" };
+        var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(suppertedCultures[2]).AddSupportedCultures(suppertedCultures).AddSupportedUICultures(suppertedCultures);
+        app.UseRequestLocalization(localizationOptions);
 
         app.MapControllerRoute(
             name: "default",

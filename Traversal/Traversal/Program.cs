@@ -6,6 +6,7 @@ using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Traversal.CQRS.Handlers.DestinationHandlers;
@@ -37,7 +38,7 @@ public class Program
 
         builder.Services.AddDbContext<Context>();
 
-        builder.Services.AddIdentity<TraversalUser, TraversalRole>().AddEntityFrameworkStores<Context>()
+        builder.Services.AddIdentity<TraversalUser, TraversalRole>().AddTokenProvider<DataProtectorTokenProvider<TraversalUser>>(TokenOptions.DefaultProvider).AddEntityFrameworkStores<Context>()
             .AddErrorDescriber<CustomIdentityValidatorViewModel>();
 
         builder.Services.AddMvc(config =>

@@ -20,4 +20,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\TraversalApi.BusinessLayer.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\TraversalApi.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EntityLayer\TraversalApi.EntityLayer.csproj" />
+    <ProjectReference Include="..\TraversalApi.DTOLayer\TraversalApi.DTOLayer.csproj" />
+  </ItemGroup>
+
 </Project>

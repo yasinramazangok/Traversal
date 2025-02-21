@@ -24,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Visitor"
+                "$ref": "#/components/schemas/AddVisitorDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Visitor"
+                "$ref": "#/components/schemas/AddVisitorDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Visitor"
+                "$ref": "#/components/schemas/AddVisitorDto"
               }
             }
           }
@@ -53,17 +53,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Visitor"
+                "$ref": "#/components/schemas/UpdateVisitorDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Visitor"
+                "$ref": "#/components/schemas/UpdateVisitorDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Visitor"
+                "$ref": "#/components/schemas/UpdateVisitorDto"
               }
             }
           }
@@ -118,56 +118,13 @@
           }
         }
       }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
     "schemas": {
-      "Visitor": {
+      "AddVisitorDto": {
         "type": "object",
         "properties": {
-          "visitorId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "name": {
             "type": "string",
             "nullable": true
@@ -191,23 +148,30 @@
         },
         "additionalProperties": false
       },
-      "WeatherForecast": {
+      "UpdateVisitorDto": {
         "type": "object",
         "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
+          "visitorId": {
             "type": "integer",
             "format": "int32"
           },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
+          "name": {
+            "type": "string",
+            "nullable": true
           },
-          "summary": {
+          "surname": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
             "type": "string",
             "nullable": true
           }

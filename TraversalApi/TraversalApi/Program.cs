@@ -1,3 +1,6 @@
+using TraversalApi.BusinessLayer.Containers;
+using TraversalApi.BusinessLayer.Mapping.AutoMapperProfile;
+using TraversalApi.DataAccessLayer.Context;
 
 namespace TraversalApi
 {
@@ -8,8 +11,12 @@ namespace TraversalApi
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddDataAccessAndBusinessLayerServices();
+
+            builder.Services.AddDbContext<TraversalApiContext>();
 
             builder.Services.AddControllers();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -19,6 +26,10 @@ namespace TraversalApi
                 options.AddPolicy("TraversalApiCors",
                     builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
+
+            builder.Services.AddAutoMapper(typeof(VisitorMapProfile));
+
+            builder.Services.AddMvc();
 
             var app = builder.Build();
 

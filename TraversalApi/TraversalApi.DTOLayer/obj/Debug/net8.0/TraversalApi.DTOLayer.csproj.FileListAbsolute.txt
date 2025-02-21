@@ -1,0 +1,12 @@
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\bin\Debug\net8.0\TraversalApi.DTOLayer.deps.json
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\bin\Debug\net8.0\TraversalApi.DTOLayer.dll
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\bin\Debug\net8.0\TraversalApi.DTOLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\TraversalApi.DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\TraversalApi.DTOLayer.AssemblyInfoInputs.cache
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\TraversalApi.DTOLayer.AssemblyInfo.cs
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\TraversalApi.DTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\TraversalApi.DTOLayer.sourcelink.json
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\TraversalApi.DTOLayer.dll
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\refint\TraversalApi.DTOLayer.dll
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\TraversalApi.DTOLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\TraversalApi\TraversalApi.DTOLayer\obj\Debug\net8.0\ref\TraversalApi.DTOLayer.dll

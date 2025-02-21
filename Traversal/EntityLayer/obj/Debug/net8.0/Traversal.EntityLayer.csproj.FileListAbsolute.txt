@@ -1,0 +1,15 @@
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\bin\Debug\net8.0\Traversal.EntityLayer.deps.json
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\bin\Debug\net8.0\Traversal.EntityLayer.runtimeconfig.json
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\bin\Debug\net8.0\Traversal.EntityLayer.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\bin\Debug\net8.0\Traversal.EntityLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.AssemblyInfo.cs
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.sourcelink.json
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\refint\Traversal.EntityLayer.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\Traversal.EntityLayer.genruntimeconfig.cache
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\EntityLayer\obj\Debug\net8.0\ref\Traversal.EntityLayer.dll

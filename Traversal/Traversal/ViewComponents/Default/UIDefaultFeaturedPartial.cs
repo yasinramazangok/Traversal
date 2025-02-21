@@ -1,5 +1,4 @@
-﻿using BusinessLayer.Abstract;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Traversal.ViewComponents.Default
 {

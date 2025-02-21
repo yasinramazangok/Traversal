@@ -1,18 +1,14 @@
-﻿using DataAccessLayer.Concrete;
-using EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Traversal.CQRS.Commands.DestinationCommands;
+﻿using Traversal.CQRS.Commands.DestinationCommands;
+using Traversal.DataAccessLayer.Contexts;
+using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.CQRS.Handlers.DestinationHandlers
 {
     public class CreateDestinationCommandHandler
     {
-        private readonly Context _context;
+        private readonly TraversalContext _context;
 
-        public CreateDestinationCommandHandler(Context context)
+        public CreateDestinationCommandHandler(TraversalContext context)
         {
             _context = context;
         }

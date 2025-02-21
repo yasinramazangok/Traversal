@@ -1,19 +1,14 @@
-﻿using DataAccessLayer.Concrete;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Traversal.CQRS.Queries.DestinationQueries;
+﻿using Microsoft.EntityFrameworkCore;
 using Traversal.CQRS.Results.DestinationResults;
+using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.CQRS.Handlers.DestinationHandlers
 {
     public class GetAllDestinationQueryHandler
     {
-        private readonly Context _context;
+        private readonly TraversalContext _context;
 
-        public GetAllDestinationQueryHandler(Context context)
+        public GetAllDestinationQueryHandler(TraversalContext context)
         {
             _context = context;
         }

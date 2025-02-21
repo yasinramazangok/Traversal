@@ -2,13 +2,9 @@
 using DTOLayer.DTO.AnnouncementDto;
 using DTOLayer.DTO.ContactDTO;
 using DTOLayer.DTO.TraversalUserDto;
-using EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Traversal.EntityLayer.Concretes;
 
-namespace TraversalCoreProje.Mapping.AutoMapperProfile
+namespace Traversal.Mapping.AutoMapperProfile
 {
     public class MapProfile : Profile
     {

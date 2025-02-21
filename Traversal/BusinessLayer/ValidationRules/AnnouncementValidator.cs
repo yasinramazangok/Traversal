@@ -1,13 +1,7 @@
 ﻿using DTOLayer.DTO.AnnouncementDto;
-using EntityLayer.Concrete;
 using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace BusinessLayer.ValidationRules
+namespace Traversal.BusinessLayer.ValidationRules
 {
     public class AnnouncementValidator : AbstractValidator<AnnouncementAddDto>
     {

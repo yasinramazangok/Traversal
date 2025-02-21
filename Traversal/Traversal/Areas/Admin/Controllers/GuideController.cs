@@ -1,8 +1,8 @@
-﻿using BusinessLayer.Abstract;
-using BusinessLayer.ValidationRules;
-using EntityLayer.Concrete;
-using FluentValidation.Results;
+﻿using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
+using Traversal.BusinessLayer.Abstracts;
+using Traversal.BusinessLayer.ValidationRules;
+using Traversal.EntityLayer.Concretes;
 
 
 namespace Traversal.Areas.Admin.Controllers

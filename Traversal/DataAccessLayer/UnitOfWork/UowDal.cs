@@ -1,23 +1,18 @@
-﻿using DataAccessLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Traversal.DataAccessLayer.Contexts;
+namespace Traversal.DataAccessLayer.UnitOfWork
 
-namespace DataAccessLayer.UnitOfWork
 {
     public class UowDal : IUowDal
     {
-        private readonly Context _context;
+        private readonly TraversalContext _traversalcontext;
 
-        public UowDal(Context context)
+        public UowDal(TraversalContext traversalcontext)
         {
-            _context = context;
+            _traversalcontext = traversalcontext;
         }
         public void Save()
         {
-            _context.SaveChanges();
+            _traversalcontext.SaveChanges();
         }
     }
 }

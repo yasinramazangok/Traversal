@@ -1,17 +1,13 @@
-﻿using DataAccessLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Traversal.CQRS.Commands.DestinationCommands;
+﻿using Traversal.CQRS.Commands.DestinationCommands;
+using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.CQRS.Handlers.DestinationHandlers
 {
     public class UpdateDestinationCommandHandler
     {
-        private readonly Context _context;
+        private readonly TraversalContext _context;
 
-        public UpdateDestinationCommandHandler(Context context)
+        public UpdateDestinationCommandHandler(TraversalContext context)
         {
             _context = context;
         }

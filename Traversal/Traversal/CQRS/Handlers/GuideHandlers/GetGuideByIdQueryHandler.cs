@@ -1,20 +1,15 @@
-﻿using DataAccessLayer.Concrete;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using MediatR;
 using Traversal.CQRS.Queries.GuideQueries;
 using Traversal.CQRS.Results.GuideResults;
+using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.CQRS.Handlers.GuideHandlers
 {
     public class GetGuideByIdQueryHandler : IRequestHandler<GetGuideByIdQuery, GetGuideByIdQueryResult>
     {
-        private readonly Context _context;
+        private readonly TraversalContext _context;
 
-        public GetGuideByIdQueryHandler(Context context)
+        public GetGuideByIdQueryHandler(TraversalContext context)
         {
             _context = context;
         }

@@ -1,9 +1,7 @@
-﻿using BusinessLayer.Abstract;
-using BusinessLayer.Concrete;
-using EntityLayer.Concrete;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Traversal.BusinessLayer.Abstracts;
+using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.Controllers
 {

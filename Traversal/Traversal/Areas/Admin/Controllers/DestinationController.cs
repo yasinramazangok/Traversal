@@ -1,12 +1,6 @@
-﻿using BusinessLayer.Abstract;
-using BusinessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
-using EntityLayer.Concrete;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
+using Traversal.BusinessLayer.Abstracts;
+using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.Areas.Admin.Controllers
 {

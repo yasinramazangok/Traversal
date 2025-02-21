@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj",
-      "projectName": "DTOLayer",
-      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj",
+      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\Traversal.DTOLayer.csproj",
+      "projectName": "Traversal.DTOLayer",
+      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\Traversal.DTOLayer.csproj",
       "packagesPath": "C:\\Users\\yasinramazangok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\obj\\",
       "projectStyle": "PackageReference",

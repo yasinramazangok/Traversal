@@ -4964,9 +4964,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj",
-      "projectName": "EntityLayer",
-      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj",
+      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj",
+      "projectName": "Traversal.EntityLayer",
+      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj",
       "packagesPath": "C:\\Users\\yasinramazangok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\obj\\",
       "projectStyle": "PackageReference",

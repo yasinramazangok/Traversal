@@ -1,5 +1,5 @@
-﻿using DataAccessLayer.Concrete;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.ViewComponents.Default
 {
@@ -7,7 +7,7 @@ namespace Traversal.ViewComponents.Default
     {
         public IViewComponentResult Invoke()
         {
-            using var c = new Context();
+            using var c = new TraversalContext();
 
             ViewBag.v1 = c.Destinations.Count();
             ViewBag.v2 = c.Guides.Count();

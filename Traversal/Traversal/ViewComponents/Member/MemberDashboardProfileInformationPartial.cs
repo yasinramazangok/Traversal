@@ -1,14 +1,8 @@
-﻿using BusinessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
-using EntityLayer.Concrete;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Traversal.EntityLayer.Concretes;
 
-namespace TraversalCoreProje.ViewComponents.MemberDashboard
+namespace Traversal.ViewComponents.MemberDashboard
 {
     public class MemberDashboardProfileInformationPartial : ViewComponent
     {

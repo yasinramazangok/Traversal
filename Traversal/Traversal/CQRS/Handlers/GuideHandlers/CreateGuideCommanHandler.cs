@@ -1,20 +1,15 @@
-﻿using DataAccessLayer.Concrete;
-using EntityLayer.Concrete;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using MediatR;
 using Traversal.CQRS.Commands.GuideCommands;
+using Traversal.DataAccessLayer.Contexts;
+using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.CQRS.Handlers.GuideHandlers
 {
     public class CreateGuideCommanHandler : IRequestHandler<CreateGuideCommand>
     {
-        private readonly Context _context;
+        private readonly TraversalContext _context;
 
-        public CreateGuideCommanHandler(Context context)
+        public CreateGuideCommanHandler(TraversalContext context)
         {
             _context = context;
         }

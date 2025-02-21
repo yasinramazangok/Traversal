@@ -1,21 +1,16 @@
-﻿using DataAccessLayer.Concrete;
-using MediatR;
+﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using Traversal.CQRS.Queries.GuideQueries;
 using Traversal.CQRS.Results.GuideResults;
+using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.CQRS.Handlers.GuideHandlers
 {
-    public class GetAllGuideQueryHandler:IRequestHandler<GetAllGuideQuery,List<GetAllGuideQueryResult>>
+    public class GetAllGuideQueryHandler : IRequestHandler<GetAllGuideQuery, List<GetAllGuideQueryResult>>
     {
-        private readonly Context _context;
+        private readonly TraversalContext _context;
 
-        public GetAllGuideQueryHandler(Context context)
+        public GetAllGuideQueryHandler(TraversalContext context)
         {
             _context = context;
         }

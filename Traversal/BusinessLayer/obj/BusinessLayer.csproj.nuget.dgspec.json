@@ -33,14 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\Traversal.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\Traversal.DataAccessLayer.csproj"
               },
-              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj": {
-                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj"
+              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\Traversal.DTOLayer.csproj": {
+                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\Traversal.DTOLayer.csproj"
               },
-              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj"
               }
             }
           }
@@ -114,12 +114,12 @@
         }
       }
     },
-    "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\Traversal.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj",
-        "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\Traversal.DataAccessLayer.csproj",
+        "projectName": "Traversal.DataAccessLayer",
+        "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\Traversal.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\yasinramazangok\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
@@ -143,8 +143,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj"
               }
             }
           }
@@ -214,12 +214,12 @@
         }
       }
     },
-    "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj": {
+    "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\Traversal.DTOLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj",
-        "projectName": "DTOLayer",
-        "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\DTOLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\Traversal.DTOLayer.csproj",
+        "projectName": "Traversal.DTOLayer",
+        "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\Traversal.DTOLayer.csproj",
         "packagesPath": "C:\\Users\\yasinramazangok\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DTOLayer\\obj\\",
         "projectStyle": "PackageReference",
@@ -280,12 +280,12 @@
         }
       }
     },
-    "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj",
-        "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj",
+        "projectName": "Traversal.EntityLayer",
+        "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\yasinramazangok\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",

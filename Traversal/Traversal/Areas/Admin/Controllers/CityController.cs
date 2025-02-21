@@ -1,12 +1,7 @@
-﻿using BusinessLayer.Abstract;
-using EntityLayer.Concrete;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Traversal.Models;
+using Traversal.BusinessLayer.Abstracts;
+using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.Areas.Admin.Controllers
 {

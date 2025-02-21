@@ -9,11 +9,8 @@
       "Traversal/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
-          "BusinessLayer": "1.0.0",
           "ClosedXML": "0.104.2",
-          "DataAccessLayer": "1.0.0",
           "EPPlus": "7.5.2",
-          "EntityLayer": "1.0.0",
           "FluentValidation": "11.11.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "MailKit": "4.9.0",
@@ -27,6 +24,9 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
           "Serilog.Extensions.Logging.File": "3.0.0",
+          "Traversal.BusinessLayer": "1.0.0",
+          "Traversal.DataAccessLayer": "1.0.0",
+          "Traversal.EntityLayer": "1.0.0",
           "iTextSharp.LGPLv2.Core": "3.5.1"
         },
         "runtime": {
@@ -2651,57 +2651,57 @@
           }
         }
       },
-      "BusinessLayer/1.0.0": {
+      "Traversal.BusinessLayer/1.0.0": {
         "dependencies": {
-          "DTOLayer": "1.0.0",
-          "DataAccessLayer": "1.0.0",
           "EPPlus": "7.5.2",
-          "EntityLayer": "1.0.0",
           "FluentValidation": "11.11.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.EntityFrameworkCore": "8.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
+          "Traversal.DTOLayer": "1.0.0",
+          "Traversal.DataAccessLayer": "1.0.0",
+          "Traversal.EntityLayer": "1.0.0"
         },
         "runtime": {
-          "BusinessLayer.dll": {
-            "assemblyVersion": "1.0.0",
+          "Traversal.BusinessLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "DataAccessLayer/1.0.0": {
+      "Traversal.DataAccessLayer/1.0.0": {
         "dependencies": {
-          "EntityLayer": "1.0.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
+          "Microsoft.EntityFrameworkCore": "8.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
+          "Traversal.EntityLayer": "1.0.0"
+        },
+        "runtime": {
+          "Traversal.DataAccessLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Traversal.DTOLayer/1.0.0": {
+        "runtime": {
+          "Traversal.DTOLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Traversal.EntityLayer/1.0.0": {
+        "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
         },
         "runtime": {
-          "DataAccessLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "DTOLayer/1.0.0": {
-        "runtime": {
-          "DTOLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "EntityLayer/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity": "2.2.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.11",
-          "Microsoft.EntityFrameworkCore": "8.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
-        },
-        "runtime": {
-          "EntityLayer.dll": {
-            "assemblyVersion": "1.0.0",
+          "Traversal.EntityLayer.dll": {
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -4387,22 +4387,22 @@
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
     },
-    "BusinessLayer/1.0.0": {
+    "Traversal.BusinessLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataAccessLayer/1.0.0": {
+    "Traversal.DataAccessLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DTOLayer/1.0.0": {
+    "Traversal.DTOLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "EntityLayer/1.0.0": {
+    "Traversal.EntityLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

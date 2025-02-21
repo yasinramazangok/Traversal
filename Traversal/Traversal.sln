@@ -5,13 +5,13 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal", "Traversal\Traversal.csproj", "{AD73C1BE-D91C-445F-88B4-E48FF62694D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{B3E4D3BC-53EC-45E7-A34E-DB378A40B7FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal.BusinessLayer", "BusinessLayer\Traversal.BusinessLayer.csproj", "{B3E4D3BC-53EC-45E7-A34E-DB378A40B7FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{D10CE852-6AD9-4CCB-ADE6-5DB53B108093}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal.DataAccessLayer", "DataAccessLayer\Traversal.DataAccessLayer.csproj", "{D10CE852-6AD9-4CCB-ADE6-5DB53B108093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{1338C0EC-9955-47F5-81B8-5FDB4A8931B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal.EntityLayer", "EntityLayer\Traversal.EntityLayer.csproj", "{1338C0EC-9955-47F5-81B8-5FDB4A8931B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLayer", "DTOLayer\DTOLayer.csproj", "{F7DAD837-F28B-448E-B797-3BE288CB2461}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal.DTOLayer", "DTOLayer\Traversal.DTOLayer.csproj", "{F7DAD837-F28B-448E-B797-3BE288CB2461}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalSignalRApi", "TraversalSignalRApi\TraversalSignalRApi.csproj", "{859B67FE-3B69-4126-A118-B9CB54663A47}"
 EndProject
@@ -60,5 +60,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B700CF7D-BEC6-4EDF-82C1-9A4D50EAFCB7}
 	EndGlobalSection
 EndGlobal

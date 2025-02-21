@@ -35,9 +35,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
-    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
-    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+    <ProjectReference Include="..\BusinessLayer\Traversal.BusinessLayer.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\Traversal.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EntityLayer\Traversal.EntityLayer.csproj" />
   </ItemGroup>
 
   <ItemGroup>

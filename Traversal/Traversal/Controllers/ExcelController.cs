@@ -1,13 +1,7 @@
-﻿using BusinessLayer.Abstract;
-using ClosedXML.Excel;
-using DataAccessLayer.Concrete;
+﻿using ClosedXML.Excel;
 using Microsoft.AspNetCore.Mvc;
-using OfficeOpenXml;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+using Traversal.BusinessLayer.Abstracts;
+using Traversal.DataAccessLayer.Contexts;
 using Traversal.Models;
 
 namespace Traversal.Controllers
@@ -29,7 +23,7 @@ namespace Traversal.Controllers
         public List<DestinationModel> DestinationList()
         {
             List<DestinationModel> destinationModels = new List<DestinationModel>();
-            using (var c = new Context())
+            using (var c = new TraversalContext())
             {
                 destinationModels = c.Destinations.Select(x => new DestinationModel
                 {

@@ -1,18 +1,14 @@
-﻿using DataAccessLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Traversal.CQRS.Queries.DestinationQueries;
+﻿using Traversal.CQRS.Queries.DestinationQueries;
 using Traversal.CQRS.Results.DestinationResults;
+using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.CQRS.Handlers.DestinationHandlers
 {
     public class GetDestinationByIdQueryHandler
     {
-        private readonly Context _context;
+        private readonly TraversalContext _context;
 
-        public GetDestinationByIdQueryHandler(Context context)
+        public GetDestinationByIdQueryHandler(TraversalContext context)
         {
             _context = context;
         }

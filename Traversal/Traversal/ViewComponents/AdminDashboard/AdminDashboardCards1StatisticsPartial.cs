@@ -1,11 +1,11 @@
-﻿using DataAccessLayer.Concrete;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.ViewComponents.AdminDashboard
 {
     public class AdminDashboardCards1StatisticsPartial : ViewComponent
     {
-        Context context = new Context();
+        TraversalContext context = new TraversalContext();
 
         public IViewComponentResult Invoke()
         {

@@ -1,0 +1,63 @@
+﻿using DTOLayer.DTO.AnnouncementDto;
+using FluentValidation;
+using Microsoft.Extensions.DependencyInjection;
+using Traversal.BusinessLayer.Abstract.AbstractUow;
+using Traversal.BusinessLayer.Abstracts;
+using Traversal.BusinessLayer.Concretes;
+using Traversal.BusinessLayer.Concretes.ConcreteUow;
+using Traversal.BusinessLayer.ValidationRules;
+using Traversal.DataAccessLayer.Abstracts;
+using Traversal.DataAccessLayer.Concretes;
+using Traversal.DataAccessLayer.UnitOfWork;
+
+namespace Traversal.BusinessLayer.Containers
+{
+    public static class Extensions
+    {
+        public static void ContainerDependencies(this IServiceCollection services)
+        {
+            services.AddScoped<IDestinationService, DestinationManager>();
+            services.AddScoped<IDestinationDal, EfDestinationDal>();
+
+            services.AddScoped<IFeatureService, FeatureManager>();
+            services.AddScoped<IFeatureDal, EfFeatureDal>();
+
+            services.AddScoped<ISubAboutService, SubAboutManager>();
+            services.AddScoped<ISubAboutDal, EfSubAboutDal>();
+
+            services.AddScoped<ITestimonialService, TestimonialManager>();
+            services.AddScoped<ITestimonialDal, EfTestimonialDal>();
+
+            services.AddScoped<ICommentService, CommentManager>();
+            services.AddScoped<ICommentDal, EfCommentDal>();
+
+            services.AddScoped<IReservationService, ReservationManager>();
+            services.AddScoped<IReservationDal, EfReservationDal>();
+
+            services.AddScoped<IGuideService, GuideManager>();
+            services.AddScoped<IGuideDal, EfGuideDal>();
+
+            services.AddScoped<ITraversalUserService, TraversalUserManager>();
+            services.AddScoped<ITraversalUserDal, EfTraversalUserDal>();
+
+            services.AddScoped<IExcelService, ExcelManager>();
+            services.AddScoped<IPdfService, PdfManager>();
+
+            services.AddScoped<IContactUsService, ContactUsManager>();
+            services.AddScoped<IContactUsDal, EfContactUsDal>();
+
+            services.AddScoped<IAnnouncementService, AnnouncementManager>();
+            services.AddScoped<IAnnouncementDal, EfAnnouncementDal>();
+
+            services.AddScoped<IAccountService, AccountManager>();
+            services.AddScoped<IAccountDal, EfAccountDal>();
+
+            services.AddScoped<IUowDal, UowDal>();
+        }
+
+        public static void CustomValidator(this IServiceCollection services)
+        {
+            services.AddTransient<IValidator<AnnouncementAddDto>, AnnouncementValidator>();
+        }
+    }
+}

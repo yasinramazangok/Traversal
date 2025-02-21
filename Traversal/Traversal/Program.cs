@@ -1,15 +1,13 @@
-﻿using BusinessLayer.Container;
-using DataAccessLayer.Concrete;
-using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
-using EntityLayer.Concrete;
-using FluentValidation.AspNetCore;
+﻿using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc.Razor;
+using Traversal.BusinessLayer.Containers;
 using Traversal.CQRS.Handlers.DestinationHandlers;
+using Traversal.DataAccessLayer.Contexts;
+using Traversal.EntityLayer.Concretes;
 using Traversal.Models;
 
 namespace Traversal;
@@ -36,9 +34,9 @@ public class Program
 
         builder.Services.CustomValidator();
 
-        builder.Services.AddDbContext<Context>();
+        builder.Services.AddDbContext<TraversalContext>();
 
-        builder.Services.AddIdentity<TraversalUser, TraversalRole>().AddTokenProvider<DataProtectorTokenProvider<TraversalUser>>(TokenOptions.DefaultProvider).AddEntityFrameworkStores<Context>()
+        builder.Services.AddIdentity<TraversalUser, TraversalRole>().AddTokenProvider<DataProtectorTokenProvider<TraversalUser>>(TokenOptions.DefaultProvider).AddEntityFrameworkStores<TraversalContext>()
             .AddErrorDescriber<CustomIdentityValidatorViewModel>();
 
         builder.Services.AddMvc(config =>

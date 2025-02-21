@@ -1983,7 +1983,7 @@
           }
         }
       },
-      "EntityLayer/1.0.0": {
+      "Traversal.EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1993,10 +1993,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
         },
         "compile": {
-          "bin/placeholder/EntityLayer.dll": {}
+          "bin/placeholder/Traversal.EntityLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EntityLayer.dll": {}
+          "bin/placeholder/Traversal.EntityLayer.dll": {}
         }
       }
     }
@@ -4962,21 +4962,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "EntityLayer/1.0.0": {
+    "Traversal.EntityLayer/1.0.0": {
       "type": "project",
-      "path": "../EntityLayer/EntityLayer.csproj",
-      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
+      "path": "../EntityLayer/Traversal.EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/Traversal.EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "EntityLayer >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.11"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
+      "Traversal.EntityLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4986,9 +4986,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj",
-      "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\Traversal.DataAccessLayer.csproj",
+      "projectName": "Traversal.DataAccessLayer",
+      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\Traversal.DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\yasinramazangok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
@@ -5012,8 +5012,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj"
             }
           }
         }

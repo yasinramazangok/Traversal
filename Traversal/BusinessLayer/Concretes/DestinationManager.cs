@@ -1,0 +1,51 @@
+﻿using Traversal.BusinessLayer.Abstracts;
+using Traversal.DataAccessLayer.Abstracts;
+using Traversal.EntityLayer.Concretes;
+
+namespace Traversal.BusinessLayer.Concretes
+{
+    public class DestinationManager : IDestinationService
+    {
+        private readonly IDestinationDal _destinationDal;
+
+        public DestinationManager(IDestinationDal destinationDal)
+        {
+            _destinationDal = destinationDal;
+        }
+
+        public void Delete(Destination entity)
+        {
+            _destinationDal.Delete(entity);
+        }
+
+        public Destination GetById(int id)
+        {
+            return _destinationDal.GetById(id);
+        }
+
+        public Destination GetDestinationWithGuide(int id)
+        {
+            return _destinationDal.GetDestinationWithGuide(id);
+        }
+
+        public List<Destination> GetList()
+        {
+            return _destinationDal.GetList();
+        }
+
+        public List<Destination> GetRecentDestinations()
+        {
+            return _destinationDal.GetRecentDestinations(4);
+        }
+
+        public void Insert(Destination entity)
+        {
+            _destinationDal.Insert(entity);
+        }
+
+        public void Update(Destination entity)
+        {
+            _destinationDal.Update(entity);
+        }
+    }
+}

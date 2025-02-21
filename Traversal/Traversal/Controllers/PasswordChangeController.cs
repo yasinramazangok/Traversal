@@ -1,12 +1,12 @@
-﻿using EntityLayer.Concrete;
-using MailKit.Net.Smtp;
+﻿using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MimeKit;
+using Traversal.EntityLayer.Concretes;
 using Traversal.Models;
 
-namespace TraversalCoreProje.Controllers
+namespace Traversal.Controllers
 {
     [AllowAnonymous]
     public class PasswordChangeController : Controller

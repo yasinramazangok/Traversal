@@ -1,19 +1,13 @@
-﻿using BusinessLayer.Abstract;
-using BusinessLayer.Concrete;
-using DataAccessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
+using Traversal.BusinessLayer.Abstracts;
+using Traversal.DataAccessLayer.Contexts;
 
-namespace TraversalCoreProje.ViewComponents.Comment
+namespace Traversal.ViewComponents.Comment
 {
     public class UIDestinationCommentListInDestinationDetailsPartial : ViewComponent
     {
         private readonly ICommentService _commentService;
-        Context context = new Context();
+        TraversalContext context = new TraversalContext();
 
         public UIDestinationCommentListInDestinationDetailsPartial(ICommentService commentService)
         {

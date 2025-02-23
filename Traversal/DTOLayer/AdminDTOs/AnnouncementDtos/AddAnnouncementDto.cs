@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DTOLayer.DTO.AnnouncementDto
+namespace Traversal.DTOLayer.AdminDTOs.AnnouncementDtos
 {
-    public class AnnouncementAddDto
+    public class AddAnnouncementDto
     {
         public string? Title { get; set; }
-
         public string? Content { get; set; }
     }
 }

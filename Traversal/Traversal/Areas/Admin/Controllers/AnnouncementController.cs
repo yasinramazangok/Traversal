@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using DTOLayer.DTO.AnnouncementDto;
 using Microsoft.AspNetCore.Mvc;
 using Traversal.BusinessLayer.Abstracts;
+using Traversal.DTOLayer.AdminDTOs.AnnouncementDtos;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.Areas.Admin.Controllers
@@ -21,7 +21,7 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var values = _mapper.Map<List<AnnouncementListDto>>(_announcementService.GetList());
+            var values = _mapper.Map<List<ListAnnouncementDto>>(_announcementService.GetList());
             return View(values);
         }
 
@@ -32,7 +32,7 @@ namespace Traversal.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddAnnouncement(AnnouncementAddDto model)
+        public IActionResult AddAnnouncement(AddAnnouncementDto model)
         {
             if (ModelState.IsValid)
             {
@@ -58,12 +58,12 @@ namespace Traversal.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult UpdateAnnouncement(int id)
         {
-            var values = _mapper.Map<AnnouncementUpdateDto>(_announcementService.GetById(id));
+            var values = _mapper.Map<UpdateAnnouncementDto>(_announcementService.GetById(id));
             return View(values);
         }
 
         [HttpPost]
-        public IActionResult UpdateAnnouncement(AnnouncementUpdateDto model)
+        public IActionResult UpdateAnnouncement(UpdateAnnouncementDto model)
         {
             if (ModelState.IsValid)
             {

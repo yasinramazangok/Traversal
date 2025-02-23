@@ -2592,9 +2592,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\TraversalSignalRApi\\TraversalSignalRApi.csproj",
-      "projectName": "TraversalSignalRApi",
-      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\TraversalSignalRApi\\TraversalSignalRApi.csproj",
+      "projectUniqueName": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\TraversalSignalRApi\\TraversalSignalRApiForPostgreSQL.csproj",
+      "projectName": "TraversalSignalRApiForPostgreSQL",
+      "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\TraversalSignalRApi\\TraversalSignalRApiForPostgreSQL.csproj",
       "packagesPath": "C:\\Users\\yasinramazangok\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\TraversalSignalRApi\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,5 +1,4 @@
-﻿using DTOLayer.DTO.AnnouncementDto;
-using FluentValidation;
+﻿using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using Traversal.BusinessLayer.Abstract.AbstractUow;
 using Traversal.BusinessLayer.Abstracts;
@@ -9,6 +8,7 @@ using Traversal.BusinessLayer.ValidationRules;
 using Traversal.DataAccessLayer.Abstracts;
 using Traversal.DataAccessLayer.Concretes;
 using Traversal.DataAccessLayer.UnitOfWork;
+using Traversal.DTOLayer.AdminDTOs.AnnouncementDtos;
 
 namespace Traversal.BusinessLayer.Containers
 {
@@ -57,7 +57,7 @@ namespace Traversal.BusinessLayer.Containers
 
         public static void CustomValidator(this IServiceCollection services)
         {
-            services.AddTransient<IValidator<AnnouncementAddDto>, AnnouncementValidator>();
+            services.AddTransient<IValidator<AddAnnouncementDto>, AnnouncementValidator>();
         }
     }
 }

@@ -1,9 +1,9 @@
-﻿using DTOLayer.DTO.AnnouncementDto;
-using FluentValidation;
+﻿using FluentValidation;
+using Traversal.DTOLayer.AdminDTOs.AnnouncementDtos;
 
 namespace Traversal.BusinessLayer.ValidationRules
 {
-    public class AnnouncementValidator : AbstractValidator<AnnouncementAddDto>
+    public class AnnouncementValidator : AbstractValidator<AddAnnouncementDto>
     {
         public AnnouncementValidator()
         {

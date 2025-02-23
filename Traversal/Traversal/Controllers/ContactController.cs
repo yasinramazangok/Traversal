@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using DTOLayer.DTO.ContactDTO;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Traversal.BusinessLayer.Abstracts;
+using Traversal.DTOLayer.AdminDTOs.ContactDtos;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.Controllers

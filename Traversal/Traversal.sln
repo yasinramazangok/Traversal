@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal.EntityLayer", "En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traversal.DTOLayer", "DTOLayer\Traversal.DTOLayer.csproj", "{F7DAD837-F28B-448E-B797-3BE288CB2461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalSignalRApi", "TraversalSignalRApi\TraversalSignalRApi.csproj", "{859B67FE-3B69-4126-A118-B9CB54663A47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalSignalRApiForPostgreSQL", "TraversalSignalRApi\TraversalSignalRApiForPostgreSQL.csproj", "{859B67FE-3B69-4126-A118-B9CB54663A47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalSignalRApiConsume", "TraversalSignalRApiConsume\TraversalSignalRApiConsume.csproj", "{008D9DF8-0D01-4686-A805-DEF9A7197EB1}"
 EndProject

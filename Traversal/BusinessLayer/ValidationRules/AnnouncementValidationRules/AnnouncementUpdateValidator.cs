@@ -1,14 +1,9 @@
-﻿using DTOLayer.DTO.AnnouncementDto;
-using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FluentValidation;
+using Traversal.DTOLayer.AdminDTOs.AnnouncementDtos;
 
 namespace BusinessLayer.ValidationRules.AnnouncementValidationRules
 {
-    public class AnnouncementUpdateValidator : AbstractValidator<AnnouncementUpdateDto>
+    public class AnnouncementUpdateValidator : AbstractValidator<UpdateAnnouncementDto>
     {
         public AnnouncementUpdateValidator()
         {

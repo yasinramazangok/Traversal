@@ -2,7 +2,7 @@
 
 namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface ITestimonialService : IGenericService<Testimonial>
+    public interface ITestimonialService : IGenericReadonlyService<Testimonial, Testimonial>, IGenericWriteService<Testimonial, Testimonial>
     {
     }
 }

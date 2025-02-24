@@ -11,7 +11,6 @@ namespace Traversal.DataAccessLayer.Contexts
             optionsBuilder.UseSqlServer("server = YASINRAMAZANGOK; database = TraversalDatabase; user id = traversal; password = yasin12345; integrated security = false; trustservercertificate = true;");
         }
 
-        public DbSet<Contact> Contacts { get; set; }
         public DbSet<Destination> Destinations { get; set; }
         public DbSet<EmailSubscription> EmailSubscriptions { get; set; }
         public DbSet<Feature> Features { get; set; }

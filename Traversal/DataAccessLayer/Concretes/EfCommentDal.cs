@@ -7,7 +7,7 @@ namespace Traversal.DataAccessLayer.Concretes
 {
     public class EfCommentDal : GenericRepository<Comment>, ICommentDal
     {
-        public List<Comment> GetListCommentByDestination()
+        public List<Comment> GetCommentListByDestination()
         {
             using (var c = new TraversalContext())
             {
@@ -15,7 +15,7 @@ namespace Traversal.DataAccessLayer.Concretes
             }
         }
 
-        public List<Comment> GetListCommentWithDestinationAndUser(int id)
+        public List<Comment> GetCommentListWithDestinationAndUser(int id)
         {
             using (var c = new TraversalContext())
             {

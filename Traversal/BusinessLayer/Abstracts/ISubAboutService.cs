@@ -2,7 +2,7 @@
 
 namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface ISubAboutService : IGenericService<SubAbout>
+    public interface ISubAboutService : IGenericReadonlyService<SubAbout, SubAbout>, IGenericWriteService<SubAbout, SubAbout>
     {
     }
 }

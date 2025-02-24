@@ -13,7 +13,7 @@ namespace Traversal.ViewComponents.MemberDashboard
         }
         public IViewComponentResult Invoke()
         {
-            var values = _guideService.GetList();   
+            var values = _guideService.TGetList();   
             return View(values);
         }
     }

@@ -1,5 +1,7 @@
-﻿using Traversal.BusinessLayer.Abstracts;
+﻿using AutoMapper;
+using Traversal.BusinessLayer.Abstracts;
 using Traversal.DataAccessLayer.Abstracts;
+using Traversal.DTOLayer.AdminDTOs.CommentDtos;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Concretes
@@ -7,35 +9,12 @@ namespace Traversal.BusinessLayer.Concretes
     public class CommentManager : ICommentService
     {
         private readonly ICommentDal _commentDal;
+        private readonly IMapper _mapper;
 
-        public CommentManager(ICommentDal commentDal)
+        public CommentManager(ICommentDal commentDal, IMapper mapper)
         {
             _commentDal = commentDal;
-        }
-
-        public void Delete(Comment comment)
-        {
-            _commentDal.Delete(comment);
-        }
-
-        public Comment GetById(int id)
-        {
-            return _commentDal.GetById(id);
-        }
-
-        public List<Comment> GetCommentByDestinationId(int id)
-        {
-            return _commentDal.GetListByFilter(comment => comment.DestinationId == id);
-        }
-
-        public List<Comment> GetList()
-        {
-            return _commentDal.GetList();
-        }
-
-        public List<Comment> GetListCommentByDestination()
-        {
-            return _commentDal.GetListCommentByDestination();
+            _mapper = mapper;
         }
 
         public void Insert(Comment comment)
@@ -43,14 +22,47 @@ namespace Traversal.BusinessLayer.Concretes
             _commentDal.Insert(comment);
         }
 
-        public List<Comment> GetListCommentWithDestinationAndUser(int id)
-        {
-            return _commentDal.GetListCommentWithDestinationAndUser(id);
-        }
-
         public void Update(Comment comment)
         {
             _commentDal.Update(comment);
         }
+
+        public List<ListCommentDto> TGetCommentListByDestination()
+        {
+            return _mapper.Map<List<ListCommentDto>>(_commentDal.GetCommentListByDestination());
+        }
+
+        public List<ListCommentDto> TGetCommentListWithDestinationAndUser(int id)
+        {
+            return _mapper.Map<List<ListCommentDto>>(_commentDal.GetCommentListWithDestinationAndUser(id));
+        }
+
+        public void TDelete(int id)
+        {
+            var comment = _commentDal.GetById(id);
+            _commentDal.Delete(comment);
+        }
+
+        public List<ListCommentDto> TGetList()
+        {
+            return _mapper.Map<List<ListCommentDto>>(_commentDal.GetList());
+        }
+
+        public CommentDto TGetById(int id)
+        {
+            return _mapper.Map<CommentDto>(_commentDal.GetById(id));
+        }
+
+        public void TInsert(object dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TUpdate(object dto)
+        {
+            throw new NotImplementedException();
+        }
+
+
     }
 }

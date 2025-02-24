@@ -13,29 +13,30 @@ namespace Traversal.BusinessLayer.Concretes
             _subAboutDal = subAboutDal;
         }
 
-        public void Delete(SubAbout entity)
+        public void TDelete(int id)
         {
-            _subAboutDal.Delete(entity);
+            var subAbout = _subAboutDal.GetById(id);
+            _subAboutDal.Delete(subAbout);
         }
 
-        public SubAbout GetById(int id)
+        public SubAbout TGetById(int id)
         {
             return _subAboutDal.GetById(id);
         }
 
-        public List<SubAbout> GetList()
+        public List<SubAbout> TGetList()
         {
             return _subAboutDal.GetList();
         }
 
-        public void Insert(SubAbout entity)
+        public void TInsert(SubAbout dto)
         {
-            _subAboutDal.Insert(entity);
+            _subAboutDal.Insert(dto);
         }
 
-        public void Update(SubAbout entity)
+        public void TUpdate(SubAbout dto)
         {
-            _subAboutDal.Update(entity);
+            _subAboutDal.Update(dto);
         }
     }
 }

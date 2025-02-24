@@ -1,7 +1,9 @@
-﻿using FluentValidation.Results;
+﻿using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using Traversal.BusinessLayer.Abstracts;
 using Traversal.BusinessLayer.ValidationRules;
+using Traversal.DTOLayer.AdminDTOs.GuideDtos;
 using Traversal.EntityLayer.Concretes;
 
 
@@ -20,8 +22,7 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var values = _guideService.GetList();
-            return View(values);
+            return View(_guideService.TGetList());
         }
 
         [HttpGet]
@@ -31,43 +32,28 @@ namespace Traversal.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddGuide(Guide guide)
+        public IActionResult AddGuide(AddGuideDto dto)
         {
-            GuideValidator validationRules = new GuideValidator();
-            ValidationResult result = validationRules.Validate(guide);
-            if (result.IsValid)
-            {
-                _guideService.Insert(guide);
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                foreach (var item in result.Errors)
-                {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-                }
-                return View();
-            }
+            _guideService.TInsert(dto);
+            return RedirectToAction("Index");
         }
 
         public IActionResult DeleteGuide(int id)
         {
-            var value = _guideService.GetById(id);
-            _guideService.Delete(value);
+            _guideService.TDelete(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult UpdateGuide(int id)
         {
-            var values = _guideService.GetById(id);
-            return View(values);
+            return View(_guideService.TGetById(id));
         }
 
         [HttpPost]
         public IActionResult UpdateGuide(Guide guide)
         {
-            _guideService.Update(guide);
+            _guideService.TUpdate(guide);
             return RedirectToAction("Index");
         }
 

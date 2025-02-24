@@ -30,7 +30,7 @@ namespace Traversal.Controllers
         {
             comment.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             comment.Status = true;
-            _commentService.Insert(comment);
+            _commentService.TInsert(comment);
             return RedirectToAction("Home", "Destination");
         }
     }

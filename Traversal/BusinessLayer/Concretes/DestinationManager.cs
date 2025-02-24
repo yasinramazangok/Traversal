@@ -42,7 +42,8 @@ namespace Traversal.BusinessLayer.Concretes
 
         public List<ListDestinationDto> TGetList()
         {
-            return _mapper.Map<List<ListDestinationDto>>(_destinationDal.GetList());
+            var values = _destinationDal.GetList();
+            return _mapper.Map<List<ListDestinationDto>>(values);
         }
 
         public void TInsert(AddDestinationDto dto)
@@ -54,11 +55,6 @@ namespace Traversal.BusinessLayer.Concretes
         public void TUpdate(UpdateDestinationDto dto)
         {
             _destinationDal.Insert(_mapper.Map<Destination>(dto));
-        }
-
-        public void Update(Destination entity)
-        {
-            _destinationDal.Update(entity);
         }
     }
 }

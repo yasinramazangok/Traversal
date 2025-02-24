@@ -1,5 +1,10 @@
-﻿using Traversal.BusinessLayer.Abstracts;
+﻿using AutoMapper;
+using FluentValidation.Results;
+using Traversal.BusinessLayer.Abstracts;
+using Traversal.BusinessLayer.ValidationRules;
 using Traversal.DataAccessLayer.Abstracts;
+using Traversal.DataAccessLayer.Concretes;
+using Traversal.DTOLayer.AdminDTOs.GuideDtos;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Concretes
@@ -7,10 +12,12 @@ namespace Traversal.BusinessLayer.Concretes
     public class GuideManager : IGuideService
     {
         private readonly IGuideDal _guideDal;
+        private readonly IMapper _mapper;
 
-        public GuideManager(IGuideDal guideDal)
+        public GuideManager(IGuideDal guideDal, IMapper mapper)
         {
             _guideDal = guideDal;
+            _mapper = mapper;
         }
 
         public void ChangeGuideStatusToFalse(int id)
@@ -23,29 +30,38 @@ namespace Traversal.BusinessLayer.Concretes
             _guideDal.ChangeGuideStatusToTrue(id);
         }
 
-        public void Delete(Guide entity)
+        public void TDelete(int id)
         {
-            _guideDal.Delete(entity);
+            var guide = _guideDal.GetById(id);
+            _guideDal.Delete(guide);
         }
 
-        public Guide GetById(int id)
+        public GuideDto TGetById(int id)
         {
-            return _guideDal.GetById(id);
+            return _mapper.Map<GuideDto>(_guideDal.GetById(id));
         }
 
-        public List<Guide> GetList()
+        public List<ListGuideDto> TGetList()
         {
-            return _guideDal.GetList();
+            return _mapper.Map<List<ListGuideDto>>(_guideDal.GetList());
         }
 
-        public void Insert(Guide entity)
+        public void TInsert(AddGuideDto dto)
         {
-            _guideDal.Insert(entity);
+            AddGuideValidator validationRules = new AddGuideValidator();
+            ValidationResult result = validationRules.Validate(dto);
+            if (result.IsValid)
+                _guideDal.Insert(_mapper.Map<Guide>(dto));
         }
 
-        public void Update(Guide entity)
+        public void TUpdate(Guide dto)
         {
-            _guideDal.Update(entity);
+            _guideDal.Update(dto);
+        }
+
+        public void TUpdate(object dto)
+        {
+            throw new NotImplementedException();
         }
     }
 }

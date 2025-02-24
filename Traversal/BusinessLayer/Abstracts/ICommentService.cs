@@ -1,13 +1,10 @@
-﻿using Traversal.EntityLayer.Concretes;
+﻿using Traversal.DTOLayer.AdminDTOs.CommentDtos;
 
 namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface ICommentService : IGenericService<Comment>
+    public interface ICommentService : IGenericReadonlyService<CommentDto, ListCommentDto>, IGenericWriteService<object, object>
     {
-        List<Comment> GetCommentByDestinationId(int id);
-
-        List<Comment> GetListCommentByDestination();
-
-        public List<Comment> GetListCommentWithDestinationAndUser(int id);
+        List<ListCommentDto> TGetCommentListByDestination();
+        public List<ListCommentDto> TGetCommentListWithDestinationAndUser(int id);
     }
 }

@@ -16,14 +16,12 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var values = _commentService.GetListCommentByDestination();
-            return View(values);
+            return View(_commentService.TGetCommentListByDestination());
         }
 
         public IActionResult DeleteComment(int id)
         {
-            var values = _commentService.GetById(id);
-            _commentService.Delete(values);
+            _commentService.TDelete(id);
             return RedirectToAction("Index");
         }
     }

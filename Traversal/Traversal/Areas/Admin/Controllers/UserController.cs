@@ -19,34 +19,33 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var values = _traversalUserService.GetList();
+            var values = _traversalUserService.TGetList();
             return View(values);
         }
 
         public IActionResult DeleteUser(int id)
         {
-            var values = _traversalUserService.GetById(id);
-            _traversalUserService.Delete(values);
+            _traversalUserService.TDelete(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult UpdateUser(int id)
         {
-            var values = _traversalUserService.GetById(id);
+            var values = _traversalUserService.TGetById(id);
             return View(values);
         }
 
         [HttpPost]
         public IActionResult UpdateUser(TraversalUser traversalUser)
         {
-            _traversalUserService.Update(traversalUser);
+            _traversalUserService.TUpdate(traversalUser);
             return RedirectToAction("Index");
         }
 
         public IActionResult CommentUser(int id)
         {
-            _traversalUserService.GetList();
+            _traversalUserService.TGetList();
             return View();
         }
 

@@ -50,7 +50,7 @@ namespace Traversal.Areas.Member.Controllers
         [HttpGet]
         public IActionResult NewReservation()
         {
-            List<SelectListItem> values = (from x in _destinationService.GetList()
+            List<SelectListItem> values = (from x in _destinationService.TGetList()
                                            select new SelectListItem
                                            {
                                                Text = x.City,
@@ -73,7 +73,7 @@ namespace Traversal.Areas.Member.Controllers
 
             reservation.TraversalUserId = user.Id;
             reservation.Status = "Onay Bekliyor";
-            _reservationService.Insert(reservation);
+            _reservationService.TInsert(reservation);
             return RedirectToAction("Index", "Destination");
         }
         public IActionResult Deneme()

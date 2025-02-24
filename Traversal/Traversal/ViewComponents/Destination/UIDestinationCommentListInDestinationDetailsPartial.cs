@@ -17,8 +17,7 @@ namespace Traversal.ViewComponents.Comment
         public IViewComponentResult Invoke(int id)
         {
             ViewBag.commentCount = context.Comments.Where(x => x.DestinationId == id).Count();
-            var values = _commentService.GetListCommentWithDestinationAndUser(id);
-            return View(values);
+            return View(_commentService.TGetCommentListWithDestinationAndUser(id));
         }
     }
 }

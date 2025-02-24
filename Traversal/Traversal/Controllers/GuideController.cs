@@ -16,7 +16,7 @@ namespace Traversal.Controllers
 
         public IActionResult Home()
         {
-            var values = _guideService.GetList();
+            var values = _guideService.TGetList();
             return View(values);
         }
     }

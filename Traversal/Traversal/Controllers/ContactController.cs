@@ -30,7 +30,7 @@ namespace Traversal.Controllers
         {
             if (ModelState.IsValid)
             {
-                _contactUsService.Insert(new ContactUs()
+                _contactUsService.TInsert(new ContactUs()
                 {
                     Message = sendMessageDto.Message,
                     Email = sendMessageDto.Email,

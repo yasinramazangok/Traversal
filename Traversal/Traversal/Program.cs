@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Traversal.BusinessLayer.Containers;
+using Traversal.BusinessLayer.Mapping.AutoMapperProfile;
 using Traversal.CQRS.Handlers.DestinationHandlers;
 using Traversal.DataAccessLayer.Contexts;
 using Traversal.EntityLayer.Concretes;
@@ -54,7 +55,7 @@ public class Program
 
         builder.Services.AddHttpClient();
 
-        builder.Services.AddAutoMapper(typeof(Program));
+        builder.Services.AddAutoMapper(typeof(AdminMapProfile));
 
         builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
 
@@ -68,7 +69,7 @@ public class Program
 
         var app = builder.Build();
 
-        if (!app.Environment.IsDevelopment())
+        if (app.Environment.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
         }

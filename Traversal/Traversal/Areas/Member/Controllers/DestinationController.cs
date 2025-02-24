@@ -16,7 +16,7 @@ namespace Traversal.Areas.Member.Controllers
 
         public IActionResult Index()
         {
-            var values = _destinationService.GetList();
+            var values = _destinationService.TGetList();
             return View(values);
         }
         

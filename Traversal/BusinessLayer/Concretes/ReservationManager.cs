@@ -13,21 +13,6 @@ namespace Traversal.BusinessLayer.Concretes
             _reservationDal = reservationDal;
         }
 
-        public void Delete(Reservation entity)
-        {
-            _reservationDal.Delete(entity);
-        }
-
-        public Reservation GetById(int id)
-        {
-            return _reservationDal.GetById(id);
-        }
-
-        public List<Reservation> GetList()
-        {
-            return _reservationDal.GetList();
-        }
-
         public List<Reservation> GetListOfAcceptedReservations(int id)
         {
             return _reservationDal.GetListOfAcceptedReservations(id);
@@ -43,14 +28,30 @@ namespace Traversal.BusinessLayer.Concretes
             return _reservationDal.GetListOfPendingApprovalReservations(id);
         }
 
-        public void Insert(Reservation entity)
+        public void TDelete(int id)
         {
-            _reservationDal.Insert(entity);
+            var reservation = _reservationDal.GetById(id);
+            _reservationDal.Delete(reservation);
         }
 
-        public void Update(Reservation entity)
+        public Reservation TGetById(int id)
         {
-            _reservationDal.Update(entity);
+            return _reservationDal.GetById(id);
+        }
+
+        public List<Reservation> TGetList()
+        {
+            return _reservationDal.GetList();
+        }
+
+        public void TInsert(Reservation dto)
+        {
+            _reservationDal.Insert(dto);
+        }
+
+        public void TUpdate(Reservation dto)
+        {
+            _reservationDal.Update(dto);
         }
     }
 }

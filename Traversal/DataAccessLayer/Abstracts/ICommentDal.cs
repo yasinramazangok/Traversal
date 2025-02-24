@@ -9,8 +9,7 @@ namespace Traversal.DataAccessLayer.Abstracts
 {
     public interface ICommentDal : IGenericDal<Comment>
     {
-        public List<Comment> GetListCommentByDestination();
-
-        public List<Comment> GetListCommentWithDestinationAndUser(int id);
+        public List<Comment> GetCommentListByDestination();
+        public List<Comment> GetCommentListWithDestinationAndUser(int id);
     }
 }

@@ -1,5 +1,7 @@
-﻿using Traversal.BusinessLayer.Abstracts;
+﻿using AutoMapper;
+using Traversal.BusinessLayer.Abstracts;
 using Traversal.DataAccessLayer.Abstracts;
+using Traversal.DTOLayer.AdminDTOs.AnnouncementDtos;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Concretes
@@ -7,35 +9,40 @@ namespace Traversal.BusinessLayer.Concretes
     public class AnnouncementManager : IAnnouncementService
     {
         private readonly IAnnouncementDal _announcementDal;
+        private readonly IMapper _mapper;
 
-        public AnnouncementManager(IAnnouncementDal announcementDal)
+        public AnnouncementManager(IAnnouncementDal announcementDal, IMapper mapper)
         {
             _announcementDal = announcementDal;
+            _mapper = mapper;
+
         }
 
-        public void Delete(Announcement entity)
+        public void TDelete(int id)
         {
-            _announcementDal.Delete(entity);
+            var announcement = _announcementDal.GetById(id);
+            _announcementDal.Delete(announcement);
         }
 
-        public Announcement GetById(int id)
+        public AnnouncementDto TGetById(int id)
         {
-            return _announcementDal.GetById(id);
+            return _mapper.Map<AnnouncementDto>(_announcementDal.GetById(id));
         }
 
-        public List<Announcement> GetList()
+        public List<ListAnnouncementDto> TGetList()
         {
-            return _announcementDal.GetList();
+            return _mapper.Map<List<ListAnnouncementDto>>(_announcementDal.GetList());
         }
 
-        public void Insert(Announcement entity)
+        public void TInsert(AddAnnouncementDto dto)
         {
-            _announcementDal.Insert(entity);
+            dto.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            _announcementDal.Insert(_mapper.Map<Announcement>(dto));
         }
 
-        public void Update(Announcement entity)
+        public void TUpdate(UpdateAnnouncementDto dto)
         {
-            _announcementDal.Update(entity);
+            _announcementDal.Update(_mapper.Map<Announcement>(dto));
         }
     }
 }

@@ -4,7 +4,7 @@ using Traversal.BusinessLayer.Abstract.AbstractUow;
 using Traversal.BusinessLayer.Abstracts;
 using Traversal.BusinessLayer.Concretes;
 using Traversal.BusinessLayer.Concretes.ConcreteUow;
-using Traversal.BusinessLayer.ValidationRules;
+using Traversal.BusinessLayer.ValidationRules.AnnouncementValidationRules;
 using Traversal.DataAccessLayer.Abstracts;
 using Traversal.DataAccessLayer.Concretes;
 using Traversal.DataAccessLayer.UnitOfWork;

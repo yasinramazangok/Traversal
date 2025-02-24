@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Traversal.DTOLayer.AdminDTOs.AnnouncementDtos
 {
-    public class AddAnnouncementDto
+    public class AnnouncementDto
     {
+        public int AnnouncementId { get; set; }
         public string? Title { get; set; }
         public string? Content { get; set; }
-        public DateTime? Date { get; set; }
     }
 }

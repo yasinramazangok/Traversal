@@ -1,13 +1,20 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Traversal.DTOLayer.AdminDTOs.AccountDtos;
+using Traversal.DTOLayer.AdminDTOs.AnnouncementDtos;
+using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Mapping.AutoMapperProfile
 {
-    class AdminMapProfile : Profile
+    public class AdminMapProfile : Profile
     {
+        public AdminMapProfile()
+        {
+            CreateMap<BalanceTransferDto, List<Account>>();
+
+            CreateMap<AddAnnouncementDto, Announcement>().ReverseMap();
+            CreateMap<UpdateAnnouncementDto, Announcement>().ReverseMap();
+            CreateMap<AnnouncementDto, Announcement>().ReverseMap();
+            CreateMap<ListAnnouncementDto, Announcement>().ReverseMap();
+        }
     }
 }

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EntityLayer\Traversal.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

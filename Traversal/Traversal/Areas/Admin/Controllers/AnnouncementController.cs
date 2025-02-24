@@ -52,7 +52,7 @@ namespace Traversal.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult UpdateAnnouncement(UpdateAnnouncementDto dto)
+        public IActionResult UpdateAnnouncement(UpdateDestinationDto dto)
         {
             if (ModelState.IsValid)
             {

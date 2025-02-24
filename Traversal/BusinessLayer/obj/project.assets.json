@@ -2245,6 +2245,9 @@
       "Traversal.DTOLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Traversal.EntityLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Traversal.DTOLayer.dll": {}
         },

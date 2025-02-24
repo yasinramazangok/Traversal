@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
@@ -80,7 +79,7 @@
 
         $.ajax({
             type: "post",
-            url: "/Admin/City/AddCityDestination/",
+            url: "/Admin/City/AddCity/",
             data: cityvalues,
             success: function (func) {
                 let result = jQuery.parseJSON(func);

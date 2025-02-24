@@ -246,7 +246,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\yasinramazangok\\Desktop\\Traversal\\Traversal\\EntityLayer\\Traversal.EntityLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

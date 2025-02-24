@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "znNhQ50u6q6l976aXgz9Rw+CJXjm0HSWjd9kAWbITBo=",
+  "Source": "TraversalSignalRApiForPostgreSQL",
+  "BasePath": "_content/TraversalSignalRApiForPostgreSQL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

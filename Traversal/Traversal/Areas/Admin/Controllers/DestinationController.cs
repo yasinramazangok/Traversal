@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Traversal.BusinessLayer.Abstracts;
+using Traversal.DTOLayer.AdminDTOs.DestinationDtos;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.Areas.Admin.Controllers
@@ -17,7 +18,7 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var values = _destinationService.GetList();
+            var values = _destinationService.TGetList();
             return View(values);
         }
 
@@ -28,30 +29,29 @@ namespace Traversal.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddDestination(Destination destination)
+        public IActionResult AddDestination(AddDestinationDto dto)
         {
-            _destinationService.Insert(destination);
+            _destinationService.TInsert(dto);
             return RedirectToAction("Index");
         }
 
         public IActionResult DeleteDestination(int id)
         {
-            var values = _destinationService.GetById(id);
-            _destinationService.Delete(values);
+            _destinationService.TDelete(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult UpdateDestination(int id)
         {
-            var values = _destinationService.GetById(id);
+            var values = _destinationService.TGetById(id);
             return View(values);
         }
 
         [HttpPost]
-        public IActionResult UpdateDestination(Destination destination)
+        public IActionResult UpdateDestination(UpdateDestinationDto dto)
         {
-            _destinationService.Update(destination);
+            _destinationService.TUpdate(dto);
             return RedirectToAction("Index");
         }
     }

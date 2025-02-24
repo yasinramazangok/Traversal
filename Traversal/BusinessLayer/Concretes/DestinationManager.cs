@@ -1,5 +1,9 @@
-﻿using Traversal.BusinessLayer.Abstracts;
+﻿using AutoMapper;
+using Traversal.BusinessLayer.Abstracts;
 using Traversal.DataAccessLayer.Abstracts;
+using Traversal.DataAccessLayer.Concretes;
+using Traversal.DTOLayer.AdminDTOs.AnnouncementDtos;
+using Traversal.DTOLayer.AdminDTOs.DestinationDtos;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Concretes
@@ -7,40 +11,49 @@ namespace Traversal.BusinessLayer.Concretes
     public class DestinationManager : IDestinationService
     {
         private readonly IDestinationDal _destinationDal;
+        private readonly IMapper _mapper;
 
-        public DestinationManager(IDestinationDal destinationDal)
+        public DestinationManager(IDestinationDal destinationDal, IMapper mapper)
         {
             _destinationDal = destinationDal;
+            _mapper = mapper;
         }
 
-        public void Delete(Destination entity)
+        public DestinationDto GetDestinationWithGuide(int id)
         {
-            _destinationDal.Delete(entity);
+            return _mapper.Map<DestinationDto>(_destinationDal.GetDestinationWithGuide(id));
         }
 
-        public Destination GetById(int id)
+        public List<ListDestinationDto> GetRecentDestinations()
         {
-            return _destinationDal.GetById(id);
+            return _mapper.Map<List<ListDestinationDto>>(_destinationDal.GetRecentDestinations(4));
         }
 
-        public Destination GetDestinationWithGuide(int id)
+        public void TDelete(int id)
         {
-            return _destinationDal.GetDestinationWithGuide(id);
+            var destination = _destinationDal.GetById(id);
+            _destinationDal.Delete(destination);
         }
 
-        public List<Destination> GetList()
+        public DestinationDto TGetById(int id)
         {
-            return _destinationDal.GetList();
+            return _mapper.Map<DestinationDto>(_destinationDal.GetById(id));
         }
 
-        public List<Destination> GetRecentDestinations()
+        public List<ListDestinationDto> TGetList()
         {
-            return _destinationDal.GetRecentDestinations(4);
+            return _mapper.Map<List<ListDestinationDto>>(_destinationDal.GetList());
         }
 
-        public void Insert(Destination entity)
+        public void TInsert(AddDestinationDto dto)
         {
-            _destinationDal.Insert(entity);
+            dto.Status = true;
+            _destinationDal.Insert(_mapper.Map<Destination>(dto));
+        }
+
+        public void TUpdate(UpdateDestinationDto dto)
+        {
+            _destinationDal.Insert(_mapper.Map<Destination>(dto));
         }
 
         public void Update(Destination entity)

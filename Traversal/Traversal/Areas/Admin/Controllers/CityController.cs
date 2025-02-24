@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Traversal.BusinessLayer.Abstracts;
-using Traversal.EntityLayer.Concretes;
+using Traversal.DTOLayer.AdminDTOs.DestinationDtos;
 
 namespace Traversal.Areas.Admin.Controllers
 {
@@ -23,38 +23,35 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult CityList()
         {
-            var jsonCity = JsonConvert.SerializeObject(_destinationService.GetList());
-            return Json(jsonCity);
+            var jsonValues = JsonConvert.SerializeObject(_destinationService.TGetList());
+            return Json(jsonValues);
+        }
+
+        public IActionResult GetById(int destinationId)
+        {
+            var jsonValues = JsonConvert.SerializeObject(_destinationService.TGetById(destinationId));
+            return Json(jsonValues);
         }
 
         [HttpPost]
-        public IActionResult AddCityDestination(Destination destination)
+        public IActionResult AddCity(AddDestinationDto dto)
         {
-            destination.Status = true;
-            _destinationService.Insert(destination);
-            var values = JsonConvert.SerializeObject(destination);
-            return Json(values);
-        }
-
-        public IActionResult GetById(int DestinationId)
-        {
-            var values = _destinationService.GetById(DestinationId);
-            var jsonValues = JsonConvert.SerializeObject(values);
+            _destinationService.TInsert(dto);
+            var jsonValues = JsonConvert.SerializeObject(dto);
             return Json(jsonValues);
         }
 
         public IActionResult DeleteCity(int id)
         {
-            var values = _destinationService.GetById(id);
-            _destinationService.Delete(values);
+            _destinationService.TDelete(id);
             return NoContent();
         }
 
-        public IActionResult UpdateCity(Destination destination)
+        public IActionResult UpdateCity(UpdateDestinationDto dto)
         {
-            _destinationService.Update(destination);
-            var v = JsonConvert.SerializeObject(destination);
-            return Json(v);
+            _destinationService.TUpdate(dto);
+            var jsonValues = JsonConvert.SerializeObject(dto);
+            return Json(jsonValues);
         }
     }
 }

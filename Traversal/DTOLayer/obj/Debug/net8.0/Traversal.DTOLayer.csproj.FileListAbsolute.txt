@@ -1,11 +1,15 @@
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\bin\Debug\net8.0\Traversal.DTOLayer.deps.json
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\bin\Debug\net8.0\Traversal.DTOLayer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\bin\Debug\net8.0\Traversal.DTOLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\bin\Debug\net8.0\Traversal.EntityLayer.dll
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\bin\Debug\net8.0\Traversal.EntityLayer.pdb
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversal.DTOLayer.csproj.AssemblyReference.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversal.DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversal.DTOLayer.AssemblyInfoInputs.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversal.DTOLayer.AssemblyInfo.cs
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversal.DTOLayer.csproj.CoreCompileInputs.cache
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversal.DTOLayer.sourcelink.json
+C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversa.B0E23E5E.Up2Date
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversal.DTOLayer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\refint\Traversal.DTOLayer.dll
 C:\Users\yasinramazangok\Desktop\Traversal\Traversal\DTOLayer\obj\Debug\net8.0\Traversal.DTOLayer.pdb

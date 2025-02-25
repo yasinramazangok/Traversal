@@ -19,12 +19,12 @@ namespace Traversal.BusinessLayer.Concretes
 
         public void Insert(Comment comment)
         {
-            _commentDal.Insert(comment);
+            _commentDal.InsertAsync(comment);
         }
 
         public void Update(Comment comment)
         {
-            _commentDal.Update(comment);
+            _commentDal.UpdateAsync(comment);
         }
 
         public List<ListCommentDto> TGetCommentListByDestination()
@@ -37,32 +37,29 @@ namespace Traversal.BusinessLayer.Concretes
             return _mapper.Map<List<ListCommentDto>>(_commentDal.GetCommentListWithDestinationAndUser(id));
         }
 
-        public void TDelete(int id)
+        public async Task<List<ListCommentDto>> TGetListAsync()
         {
-            var comment = _commentDal.GetById(id);
-            _commentDal.Delete(comment);
+            return _mapper.Map<List<ListCommentDto>>(_commentDal.GetListAsync());
         }
 
-        public List<ListCommentDto> TGetList()
+        public async Task<CommentDto> TGetByIdAsync(int id)
         {
-            return _mapper.Map<List<ListCommentDto>>(_commentDal.GetList());
+            return _mapper.Map<CommentDto>(_commentDal.GetByIdAsync(id));
         }
 
-        public CommentDto TGetById(int id)
-        {
-            return _mapper.Map<CommentDto>(_commentDal.GetById(id));
-        }
-
-        public void TInsert(object dto)
+        public async Task TInsertAsync(object dto)
         {
             throw new NotImplementedException();
         }
 
-        public void TUpdate(object dto)
+        public async Task TUpdateAsync(object dto)
         {
             throw new NotImplementedException();
         }
 
-
+        public async Task TDeleteAsync(int id)
+        {
+            await _commentDal.DeleteAsync(id);
+        }
     }
 }

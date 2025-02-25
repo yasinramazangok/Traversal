@@ -7,21 +7,22 @@ namespace Traversal.DataAccessLayer.Concretes
 {
     public class EfDestinationDal : GenericRepositoryDal<Destination>, IDestinationDal
     {
+        private readonly TraversalContext _traversalContext;
+
+        public EfDestinationDal(TraversalContext traversalContext) : base(traversalContext)
+        {
+            _traversalContext = traversalContext;
+        }
+
         public Destination GetDestinationWithGuide(int id)
         {
-            using (var c = new TraversalContext())
-            {
-                return c.Destinations.Where(x => x.DestinationId == id).Include(x => x.Guide).FirstOrDefault();
-            }
+            return _traversalContext.Destinations.Where(x => x.DestinationId == id).Include(x => x.Guide).FirstOrDefault();
         }
 
         public List<Destination> GetRecentDestinations(int count = 4)
         {
-            using (var context = new TraversalContext())
-            {
-                var values = context.Destinations.Take(count).OrderByDescending(x => x.DestinationId).ToList();
-                return values;
-            }
+            var values = _traversalContext.Destinations.Take(count).OrderByDescending(x => x.DestinationId).ToList();
+            return values;
         }
     }
 }

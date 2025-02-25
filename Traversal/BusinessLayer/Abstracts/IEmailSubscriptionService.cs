@@ -2,7 +2,7 @@
 
 namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface IEmailSubscriptionService : IGenericReadonlyService<EmailSubscription, object>, IGenericWriteService<EmailSubscription, object>
+    public interface IEmailSubscriptionService : IGenericReadonlyService<EmailSubscription, EmailSubscription, object>, IGenericWriteService<EmailSubscription, object>
     {
     }
 }

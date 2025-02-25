@@ -13,30 +13,29 @@ namespace Traversal.BusinessLayer.Concretes
             _traversalUserDal = traversalUserDal;
         }
 
-        public void TDelete(int id)
+        public async Task TDeleteAsync(int id)
         {
-            var traversalUser = _traversalUserDal.GetById(id);
-            _traversalUserDal.Delete(traversalUser);
+            await _traversalUserDal.DeleteAsync(id);
         }
 
-        public TraversalUser TGetById(int id)
+        public async Task<TraversalUser> TGetByIdAsync(int id)
         {
-            return _traversalUserDal.GetById(id);
+            return await _traversalUserDal.GetByIdAsync(id);
         }
 
-        public List<TraversalUser> TGetList()
+        public async Task<List<TraversalUser>> TGetListAsync()
         {
-            return _traversalUserDal.GetList();
+            return await _traversalUserDal.GetListAsync();
         }
 
-        public void TInsert(TraversalUser dto)
+        public async Task TInsertAsync(TraversalUser dto)
         {
-            _traversalUserDal.Insert(dto);
+            await _traversalUserDal.InsertAsync(dto);
         }
 
-        public void TUpdate(TraversalUser dto)
+        public async Task TUpdateAsync(TraversalUser dto)
         {
-            _traversalUserDal.Update(dto);
+            await _traversalUserDal.UpdateAsync(dto);
         }
     }
 }

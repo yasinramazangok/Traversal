@@ -2,7 +2,7 @@
 
 namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface IFeatureService : IGenericReadonlyService<Feature, Feature>, IGenericWriteService<Feature, Feature>
+    public interface IFeatureService : IGenericReadonlyService<Feature, Feature, Feature>, IGenericWriteService<Feature, Feature>
     {
     }
 }

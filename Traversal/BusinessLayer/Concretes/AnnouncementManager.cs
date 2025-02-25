@@ -18,31 +18,32 @@ namespace Traversal.BusinessLayer.Concretes
 
         }
 
-        public void TDelete(int id)
+        public async Task TDeleteAsync(int id)
         {
-            var announcement = _announcementDal.GetById(id);
-            _announcementDal.Delete(announcement);
+            await _announcementDal.DeleteAsync(id);
         }
 
-        public AnnouncementDto TGetById(int id)
+        public async Task<AnnouncementDto> TGetByIdAsync(int id)
         {
-            return _mapper.Map<AnnouncementDto>(_announcementDal.GetById(id));
+            var values = await _announcementDal.GetByIdAsync(id);
+            return _mapper.Map<AnnouncementDto>(values);
         }
 
-        public List<ListAnnouncementDto> TGetList()
+        public async Task<List<ListAnnouncementDto>> TGetListAsync()
         {
-            return _mapper.Map<List<ListAnnouncementDto>>(_announcementDal.GetList());
+            var values = await _announcementDal.GetListAsync();
+            return _mapper.Map<List<ListAnnouncementDto>>(values);
         }
 
-        public void TInsert(AddAnnouncementDto dto)
+        public async Task TInsertAsync(AddAnnouncementDto dto)
         {
             dto.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
-            _announcementDal.Insert(_mapper.Map<Announcement>(dto));
+            await _announcementDal.InsertAsync(_mapper.Map<Announcement>(dto));
         }
 
-        public void TUpdate(UpdateAnnouncementDto dto)
+        public async Task TUpdateAsync(UpdateAnnouncementDto dto)
         {
-            _announcementDal.Update(_mapper.Map<Announcement>(dto));
+            await _announcementDal.UpdateAsync(_mapper.Map<Announcement>(dto));
         }
     }
 }

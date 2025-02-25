@@ -1,5 +1,6 @@
 ﻿using Traversal.BusinessLayer.Abstracts;
 using Traversal.DataAccessLayer.Abstracts;
+using Traversal.DataAccessLayer.Concretes;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Concretes
@@ -28,30 +29,29 @@ namespace Traversal.BusinessLayer.Concretes
             return _reservationDal.GetListOfPendingApprovalReservations(id);
         }
 
-        public void TDelete(int id)
+        public async Task TDeleteAsync(int id)
         {
-            var reservation = _reservationDal.GetById(id);
-            _reservationDal.Delete(reservation);
+            await _reservationDal.DeleteAsync(id);
         }
 
-        public Reservation TGetById(int id)
+        public async Task<Reservation> TGetByIdAsync(int id)
         {
-            return _reservationDal.GetById(id);
+            return await _reservationDal.GetByIdAsync(id);
         }
 
-        public List<Reservation> TGetList()
+        public async Task<List<Reservation>> TGetListAsync()
         {
-            return _reservationDal.GetList();
+            return await _reservationDal.GetListAsync();
         }
 
-        public void TInsert(Reservation dto)
+        public async Task TInsertAsync(Reservation dto)
         {
-            _reservationDal.Insert(dto);
+            await _reservationDal.InsertAsync(dto);
         }
 
-        public void TUpdate(Reservation dto)
+        public async Task TUpdateAsync(Reservation dto)
         {
-            _reservationDal.Update(dto);
+            await _reservationDal.UpdateAsync(dto);
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface ITraversalUserService : IGenericReadonlyService<TraversalUser, TraversalUser>, IGenericWriteService<TraversalUser, TraversalUser>
+    public interface ITraversalUserService : IGenericReadonlyService<TraversalUser, TraversalUser, TraversalUser>, IGenericWriteService<TraversalUser, TraversalUser>
     {
     }
 }

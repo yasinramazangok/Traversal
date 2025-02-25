@@ -7,14 +7,20 @@ namespace Traversal.DataAccessLayer.Concretes
 {
     public class EfReservationDal : GenericRepositoryDal<Reservation>, IReservationDal
     {
-        public override List<Reservation> GetList()
-        {
-            using var context = new TraversalContext();
+        private readonly TraversalContext _traversalContext;
 
-            return context.Reservations
-                .Include(reservation => reservation.TraversalUser)
-                .Include(reservation => reservation.Destination)
-                .ToList();
+        public EfReservationDal(TraversalContext traversalContext) : base(traversalContext)
+        {
+            _traversalContext = traversalContext;
+        }
+
+        public override async Task<List<Reservation>> GetListAsync()
+        {
+            return await _traversalContext.Reservations
+            .Include(reservation => reservation.TraversalUser)
+            .Include(reservation => reservation.Destination)
+            .ToListAsync();
+
         }
 
         public List<Reservation> GetListOfAcceptedReservations(int id)

@@ -16,9 +16,9 @@ namespace Traversal.Areas.Admin.Controllers
             _destinationService = destinationService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var values = _destinationService.TGetList();
+            var values = await _destinationService.TGetListAsync();
             return View(values);
         }
 
@@ -31,27 +31,27 @@ namespace Traversal.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult AddDestination(AddDestinationDto dto)
         {
-            _destinationService.TInsert(dto);
+            _destinationService.TInsertAsync(dto);
             return RedirectToAction("Index");
         }
 
         public IActionResult DeleteDestination(int id)
         {
-            _destinationService.TDelete(id);
+            _destinationService.TDeleteAsync(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult UpdateDestination(int id)
         {
-            var values = _destinationService.TGetById(id);
+            var values = _destinationService.TGetByIdAsync(id);
             return View(values);
         }
 
         [HttpPost]
         public IActionResult UpdateDestination(UpdateDestinationDto dto)
         {
-            _destinationService.TUpdate(dto);
+            _destinationService.TUpdateAsync(dto);
             return RedirectToAction("Index");
         }
     }

@@ -7,20 +7,21 @@ namespace Traversal.DataAccessLayer.Concretes
 {
     public class EfCommentDal : GenericRepositoryDal<Comment>, ICommentDal
     {
+        private readonly TraversalContext _traversalContext;
+
+        public EfCommentDal(TraversalContext traversalContext) : base(traversalContext)
+        {
+            _traversalContext = traversalContext;
+        }
+
         public List<Comment> GetCommentListByDestination()
         {
-            using (var c = new TraversalContext())
-            {
-                return c.Comments.Include(comment => comment.Destination).ToList();
-            }
+            return _traversalContext.Comments.Include(comment => comment.Destination).ToList();
         }
 
         public List<Comment> GetCommentListWithDestinationAndUser(int id)
         {
-            using (var c = new TraversalContext())
-            {
-                return c.Comments.Where(x => x.DestinationId == id).Include(x => x.TraversalUser).ToList();
-            }
+            return _traversalContext.Comments.Where(x => x.DestinationId == id).Include(x => x.TraversalUser).ToList();
         }
     }
 }

@@ -17,35 +17,35 @@ namespace Traversal.Areas.Admin.Controllers
             _reservationService = reservationService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var values = _traversalUserService.TGetList();
+            var values = await _traversalUserService.TGetListAsync();
             return View(values);
         }
 
         public IActionResult DeleteUser(int id)
         {
-            _traversalUserService.TDelete(id);
+            _traversalUserService.TDeleteAsync(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult UpdateUser(int id)
         {
-            var values = _traversalUserService.TGetById(id);
+            var values = _traversalUserService.TGetByIdAsync(id);
             return View(values);
         }
 
         [HttpPost]
         public IActionResult UpdateUser(TraversalUser traversalUser)
         {
-            _traversalUserService.TUpdate(traversalUser);
+            _traversalUserService.TUpdateAsync(traversalUser);
             return RedirectToAction("Index");
         }
 
         public IActionResult CommentUser(int id)
         {
-            _traversalUserService.TGetList();
+            _traversalUserService.TGetListAsync();
             return View();
         }
 

@@ -17,7 +17,7 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var values = _announcementService.TGetList();
+            var values = _announcementService.TGetListAsync();
             return View(values);
         }
 
@@ -32,7 +32,7 @@ namespace Traversal.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _announcementService.TInsert(dto);
+                _announcementService.TInsertAsync(dto);
                 return RedirectToAction("Index");
             }
             return View(dto);
@@ -40,14 +40,14 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult DeleteAnnouncement(int id)
         {
-            _announcementService.TDelete(id);
+            _announcementService.TDeleteAsync(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult UpdateAnnouncement(int id)
         {
-            var values = _announcementService.TGetById(id);
+            var values = _announcementService.TGetByIdAsync(id);
             return View(values);
         }
 
@@ -56,7 +56,7 @@ namespace Traversal.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _announcementService.TUpdate(dto);
+                _announcementService.TUpdateAsync(dto);
                 return RedirectToAction("Index");
             }
             return View(dto);

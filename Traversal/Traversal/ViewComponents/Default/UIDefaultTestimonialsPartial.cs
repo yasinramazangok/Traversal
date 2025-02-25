@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Runtime.CompilerServices;
 using Traversal.BusinessLayer.Abstracts;
 
 namespace Traversal.ViewComponents.Default
@@ -12,9 +13,9 @@ namespace Traversal.ViewComponents.Default
             _testimonialService = testimonialService;
         }
 
-        public IViewComponentResult Invoke()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
-            var values = _testimonialService.TGetList();
+            var values = await _testimonialService.TGetListAsync();
 
             return View(values);
         }

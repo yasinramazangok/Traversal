@@ -21,7 +21,7 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult DeleteComment(int id)
         {
-            _commentService.TDelete(id);
+            _commentService.TDeleteAsync(id);
             return RedirectToAction("Index");
         }
     }

@@ -1,48 +1,54 @@
 ﻿using Traversal.DataAccessLayer.Abstracts;
 using System.Linq.Expressions;
 using Traversal.DataAccessLayer.Contexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace Traversal.DataAccessLayer.Concretes
 {
     public class GenericRepositoryDal<T> : IGenericRepositoryDal<T> where T : class, new()
     {
-        public void Delete(T entity)
+        private readonly TraversalContext _traversalContext;
+
+        public GenericRepositoryDal(TraversalContext traversalContext)
         {
-            using var traversalContext = new TraversalContext();
-            traversalContext.Remove(entity);
-            traversalContext.SaveChanges();
+            _traversalContext = traversalContext;
         }
 
-        public T GetById(int id)
+        public async Task DeleteAsync(int id)
         {
-            using var traversalContext = new TraversalContext();
-            return traversalContext.Set<T>().Find(id);
+            var entity = await GetByIdAsync(id);
+            if (entity != null)
+            {
+                _traversalContext.Set<T>().Remove(entity);
+                await _traversalContext.SaveChangesAsync();
+            }
         }
 
-        public virtual List<T> GetList()
+        public async Task<T> GetByIdAsync(int id)
         {
-            using var traversalContext = new TraversalContext();
-            return traversalContext.Set<T>().ToList();
+            return await _traversalContext.Set<T>().FindAsync(id);
         }
 
-        public List<T> GetListByFilter(Expression<Func<T, bool>> filter)
+        public virtual async Task<List<T>> GetListAsync()
         {
-            using var traversalContext = new TraversalContext();
-            return traversalContext.Set<T>().Where(filter).ToList();
+            return await _traversalContext.Set<T>().ToListAsync();
         }
 
-        public void Insert(T entity)
+        public async Task<List<T>> GetListByFilterAsync(Expression<Func<T, bool>> filter)
         {
-            using var traversalContext = new TraversalContext();
-            traversalContext.Add(entity);
-            traversalContext.SaveChanges();
+            return await _traversalContext.Set<T>().Where(filter).ToListAsync();
         }
 
-        public void Update(T entity)
+        public async Task InsertAsync(T entity)
         {
-            using var traversalContext = new TraversalContext();
-            traversalContext.Update(entity);
-            traversalContext.SaveChanges();
+            await _traversalContext.Set<T>().AddAsync(entity);
+            await _traversalContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(T entity)
+        {
+            _traversalContext.Set<T>().Update(entity);
+            await _traversalContext.SaveChangesAsync();
         }
     }
 }

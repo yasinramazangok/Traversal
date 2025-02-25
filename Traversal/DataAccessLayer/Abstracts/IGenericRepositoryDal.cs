@@ -10,11 +10,11 @@ namespace Traversal.DataAccessLayer.Abstracts
 {
     public interface IGenericRepositoryDal<T> where T : class, new()
     {
-        void Insert(T t);
-        void Delete(T t);
-        void Update(T t);
-        List<T> GetList();
-        T GetById(int id);
-        List<T> GetListByFilter(Expression<Func<T, bool>> filter);
+        Task InsertAsync(T t);
+        Task DeleteAsync(int id);
+        Task UpdateAsync(T t);
+        Task<List<T>> GetListAsync();
+        Task<T> GetByIdAsync(int id);
+        Task<List<T>> GetListByFilterAsync(Expression<Func<T, bool>> filter);
     }
 }

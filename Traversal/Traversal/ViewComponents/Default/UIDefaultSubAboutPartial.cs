@@ -12,9 +12,9 @@ namespace Traversal.ViewComponents.Default
             _subAboutService = subAboutService;
         }
 
-        public IViewComponentResult Invoke()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
-            var values = _subAboutService.TGetList();
+            var values = await _subAboutService.TGetListAsync();
 
             return View(values);
         }

@@ -23,33 +23,33 @@ namespace Traversal.Areas.Admin.Controllers
 
         public IActionResult CityList()
         {
-            var jsonValues = JsonConvert.SerializeObject(_destinationService.TGetList());
+            var jsonValues = JsonConvert.SerializeObject(_destinationService.TGetListAsync());
             return Json(jsonValues);
         }
 
         public IActionResult GetById(int destinationId)
         {
-            var jsonValues = JsonConvert.SerializeObject(_destinationService.TGetById(destinationId));
+            var jsonValues = JsonConvert.SerializeObject(_destinationService.TGetByIdAsync(destinationId));
             return Json(jsonValues);
         }
 
         [HttpPost]
         public IActionResult AddCity(AddDestinationDto dto)
         {
-            _destinationService.TInsert(dto);
+            _destinationService.TInsertAsync(dto);
             var jsonValues = JsonConvert.SerializeObject(dto);
             return Json(jsonValues);
         }
 
         public IActionResult DeleteCity(int id)
         {
-            _destinationService.TDelete(id);
+            _destinationService.TDeleteAsync(id);
             return NoContent();
         }
 
         public IActionResult UpdateCity(UpdateDestinationDto dto)
         {
-            _destinationService.TUpdate(dto);
+            _destinationService.TUpdateAsync(dto);
             var jsonValues = JsonConvert.SerializeObject(dto);
             return Json(jsonValues);
         }

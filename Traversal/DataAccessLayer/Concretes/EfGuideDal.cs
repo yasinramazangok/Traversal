@@ -6,27 +6,30 @@ namespace Traversal.DataAccessLayer.Concretes
 {
     public class EfGuideDal : GenericRepositoryDal<Guide>, IGuideDal
     {
+        private readonly TraversalContext _traversalContext;
+
+        public EfGuideDal(TraversalContext traversalContext) : base(traversalContext)
+        {
+            _traversalContext = traversalContext;
+        }
+
         public void ChangeGuideStatusToFalse(int id)
         {
-            using var traversalContext = new TraversalContext();
-
-            var guide = traversalContext.Guides.FirstOrDefault(c => c.GuideId == id);
+            var guide = _traversalContext.Guides.FirstOrDefault(c => c.GuideId == id);
             if (guide != null)
             {
                 guide.Status = false;
-                traversalContext.SaveChanges();
+                _traversalContext.SaveChanges();
             }
         }
 
         public void ChangeGuideStatusToTrue(int id)
         {
-            using var traversalContext = new TraversalContext();
-
-            var guide = traversalContext.Guides.FirstOrDefault(c => c.GuideId == id);
+            var guide = _traversalContext.Guides.FirstOrDefault(c => c.GuideId == id);
             if (guide != null)
             {
                 guide.Status = true;
-                traversalContext.SaveChanges();
+                _traversalContext.SaveChanges();
             }
         }
     }

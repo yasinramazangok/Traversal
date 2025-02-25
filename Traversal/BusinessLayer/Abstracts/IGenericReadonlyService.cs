@@ -1,10 +1,10 @@
 ﻿namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface IGenericReadonlyService<TDto, TListDto>
+    public interface IGenericReadonlyService<TEntity, TDto, TListDto>
     where TDto : class
     where TListDto : class
     {
-        List<TListDto> TGetList();
-        TDto TGetById(int id);
+        Task<List<TListDto>> TGetListAsync();
+        Task<TDto> TGetByIdAsync(int id);
     }
 }

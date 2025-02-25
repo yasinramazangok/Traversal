@@ -3,7 +3,7 @@ using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface IContactUsService : IGenericReadonlyService<object, ListContactUsDto>, IGenericWriteService<object, object>
+    public interface IContactUsService : IGenericReadonlyService<ContactUs, object, ListContactUsDto>, IGenericWriteService<object, object>
     {
         List<ListContactUsDto> TGetListContactUsByTrue();
         List<ContactUs> GetListContactUsByFalse();

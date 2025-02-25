@@ -20,7 +20,7 @@ namespace Traversal.Controllers
 
         public IActionResult Home()
         {
-            var values = _destinationService.TGetList();
+            var values = _destinationService.TGetListAsync();
             return View(values);
         }
 

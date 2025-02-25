@@ -4,8 +4,8 @@
     where TAddDto : class
     where TUpdateDto : class
     {
-        void TInsert(TAddDto dto);
-        void TUpdate(TUpdateDto dto);
-        void TDelete(int id);
+        Task TInsertAsync(TAddDto dto);
+        Task TUpdateAsync(TUpdateDto dto);
+        Task TDeleteAsync(int id);
     }
 }

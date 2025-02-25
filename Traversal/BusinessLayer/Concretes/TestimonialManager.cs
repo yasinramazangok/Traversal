@@ -1,5 +1,6 @@
 ﻿using Traversal.BusinessLayer.Abstracts;
 using Traversal.DataAccessLayer.Abstracts;
+using Traversal.DataAccessLayer.Concretes;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Concretes
@@ -13,30 +14,29 @@ namespace Traversal.BusinessLayer.Concretes
             _testimonialDal = testimonialDal;
         }
 
-        public void TDelete(int id)
+        public async Task TDeleteAsync(int id)
         {
-            var testimonial = _testimonialDal.GetById(id);
-            _testimonialDal.Delete(testimonial);
+            await _testimonialDal.DeleteAsync(id);
         }
 
-        public Testimonial TGetById(int id)
+        public async Task<Testimonial> TGetByIdAsync(int id)
         {
-            return _testimonialDal.GetById(id);
+            return await _testimonialDal.GetByIdAsync(id);
         }
 
-        public List<Testimonial> TGetList()
+        public async Task<List<Testimonial>> TGetListAsync()
         {
-            return _testimonialDal.GetList();
+            return await _testimonialDal.GetListAsync();
         }
 
-        public void TInsert(Testimonial dto)
+        public async Task TInsertAsync(Testimonial dto)
         {
-            _testimonialDal.Insert(dto);
+            await _testimonialDal.InsertAsync(dto);
         }
 
-        public void TUpdate(Testimonial dto)
+        public async Task TUpdateAsync(Testimonial dto)
         {
-            _testimonialDal.Update(dto);
+            await _testimonialDal.UpdateAsync(dto);
         }
     }
 }

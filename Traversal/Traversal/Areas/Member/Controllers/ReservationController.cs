@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Threading.Tasks;
 using Traversal.BusinessLayer.Abstracts;
+using Traversal.DTOLayer.AdminDTOs.DestinationDtos;
 using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.Areas.Member.Controllers
@@ -48,14 +50,15 @@ namespace Traversal.Areas.Member.Controllers
         }
 
         [HttpGet]
-        public IActionResult NewReservation()
+        public async Task<IActionResult> NewReservation()
         {
-            List<SelectListItem> values = (from x in _destinationService.TGetList()
-                                           select new SelectListItem
-                                           {
-                                               Text = x.City,
-                                               Value = x.DestinationId.ToString()
-                                           }).ToList();
+            List<ListDestinationDto> destinations = await _destinationService.TGetListAsync();
+
+            List<SelectListItem> values = destinations.Select(x => new SelectListItem
+            {
+                Text = x.City,
+                Value = x.DestinationId.ToString()
+            }).ToList();
 
             if (!values.Any())
             {
@@ -73,7 +76,7 @@ namespace Traversal.Areas.Member.Controllers
 
             reservation.TraversalUserId = user.Id;
             reservation.Status = "Onay Bekliyor";
-            _reservationService.TInsert(reservation);
+            _reservationService.TInsertAsync(reservation);
             return RedirectToAction("Index", "Destination");
         }
         public IActionResult Deneme()

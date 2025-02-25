@@ -11,9 +11,9 @@ namespace Traversal.ViewComponents.AdminDashboard
         {
             _guideService = guideService;
         }
-        public IViewComponentResult Invoke()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
-            var values = _guideService.TGetList();
+            var values = await _guideService.TGetListAsync();
             return View(values);
         }
     }

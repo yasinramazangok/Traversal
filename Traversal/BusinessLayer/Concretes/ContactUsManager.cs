@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Traversal.BusinessLayer.Abstracts;
 using Traversal.DataAccessLayer.Abstracts;
+using Traversal.DataAccessLayer.Concretes;
 using Traversal.DTOLayer.AdminDTOs.ContactUsDtos;
 using Traversal.EntityLayer.Concretes;
 
@@ -22,44 +23,9 @@ namespace Traversal.BusinessLayer.Concretes
             throw new NotImplementedException();
         }
 
-        public void Delete(ContactUs entity)
-        {
-            _contactUsDal.Delete(entity);
-        }
-
-        public List<ContactUs> GetList()
-        {
-            return _contactUsDal.GetList();
-        }
-
         public List<ContactUs> GetListContactUsByFalse()
         {
             return _contactUsDal.GetListContactUsByFalse();
-        }
-
-        public void Insert(ContactUs entity)
-        {
-            _contactUsDal.Insert(entity);
-        }
-
-        public void Update(ContactUs entity)
-        {
-            _contactUsDal.Update(entity);
-        }
-
-        public void TDelete(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public object TGetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<ListContactUsDto> TGetList()
-        {
-            throw new NotImplementedException();
         }
 
         public List<ListContactUsDto> TGetListContactUsByTrue()
@@ -67,14 +33,29 @@ namespace Traversal.BusinessLayer.Concretes
             return _mapper.Map<List<ListContactUsDto>>(_contactUsDal.GetListContactUsByTrue());
         }
 
-        public void TInsert(object dto)
+        public async Task<List<ListContactUsDto>> TGetListAsync()
         {
             throw new NotImplementedException();
         }
 
-        public void TUpdate(object dto)
+        public async Task<object> TGetByIdAsync(int id)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task TInsertAsync(object dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task TUpdateAsync(object dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task TDeleteAsync(int id)
+        {
+            await _contactUsDal.DeleteAsync(id);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Traversal.BusinessLayer.Abstracts;
+﻿using AutoMapper.Features;
+using Traversal.BusinessLayer.Abstracts;
 using Traversal.DataAccessLayer.Abstracts;
 using Traversal.EntityLayer.Concretes;
 
@@ -13,30 +14,29 @@ namespace Traversal.BusinessLayer.Concretes
             _featureDal = featureDal;
         }
 
-        public void TDelete(int id)
+        public async Task TDeleteAsync(int id)
         {
-            var feature = _featureDal.GetById(id);
-            _featureDal.Delete(feature);
+            await _featureDal.DeleteAsync(id);
         }
 
-        public Feature TGetById(int id)
+        public async Task<Feature> TGetByIdAsync(int id)
         {
-            return _featureDal.GetById(id);
+            return await _featureDal.GetByIdAsync(id);
         }
 
-        public List<Feature> TGetList()
+        public async Task<List<Feature>> TGetListAsync()
         {
-            return _featureDal.GetList();
+            return await _featureDal.GetListAsync();
         }
 
-        public void TInsert(Feature dto)
+        public async Task TInsertAsync(Feature dto)
         {
-            _featureDal.Insert(dto);
+            await _featureDal.InsertAsync(dto);
         }
 
-        public void TUpdate(Feature dto)
+        public async Task TUpdateAsync(Feature dto)
         {
-            _featureDal.Update(dto);
+            await _featureDal.UpdateAsync(dto);
         }
     }
 }

@@ -3,7 +3,7 @@ using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Abstracts
 {
-    public interface IAnnouncementService : IGenericReadonlyService<AnnouncementDto, ListAnnouncementDto>, IGenericWriteService<AddAnnouncementDto, UpdateAnnouncementDto>
+    public interface IAnnouncementService : IGenericReadonlyService<Announcement, AnnouncementDto, ListAnnouncementDto>, IGenericWriteService<AddAnnouncementDto, UpdateAnnouncementDto>
     {
     }
 }

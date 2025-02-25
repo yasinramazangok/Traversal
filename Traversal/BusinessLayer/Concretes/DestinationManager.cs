@@ -29,32 +29,32 @@ namespace Traversal.BusinessLayer.Concretes
             return _mapper.Map<List<ListDestinationDto>>(_destinationDal.GetRecentDestinations(4));
         }
 
-        public void TDelete(int id)
+        public async Task TDeleteAsync(int id)
         {
-            var destination = _destinationDal.GetById(id);
-            _destinationDal.Delete(destination);
+            await _destinationDal.DeleteAsync(id);
         }
 
-        public DestinationDto TGetById(int id)
+        public async Task<DestinationDto> TGetByIdAsync(int id)
         {
-            return _mapper.Map<DestinationDto>(_destinationDal.GetById(id));
+            var values = await _destinationDal.GetByIdAsync(id);
+            return _mapper.Map<DestinationDto>(values);
         }
 
-        public List<ListDestinationDto> TGetList()
+        public async Task<List<ListDestinationDto>> TGetListAsync()
         {
-            var values = _destinationDal.GetList();
+            var values = await _destinationDal.GetListAsync();
             return _mapper.Map<List<ListDestinationDto>>(values);
         }
 
-        public void TInsert(AddDestinationDto dto)
+        public async Task TInsertAsync(AddDestinationDto dto)
         {
             dto.Status = true;
-            _destinationDal.Insert(_mapper.Map<Destination>(dto));
+            await _destinationDal.InsertAsync(_mapper.Map<Destination>(dto));
         }
 
-        public void TUpdate(UpdateDestinationDto dto)
+        public async Task TUpdateAsync(UpdateDestinationDto dto)
         {
-            _destinationDal.Insert(_mapper.Map<Destination>(dto));
+            await _destinationDal.UpdateAsync(_mapper.Map<Destination>(dto));
         }
     }
 }

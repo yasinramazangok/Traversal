@@ -20,9 +20,9 @@ namespace Traversal.Areas.Admin.Controllers
             _guideService = guideService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View(_guideService.TGetList());
+            return View(await _guideService.TGetListAsync());
         }
 
         [HttpGet]
@@ -34,26 +34,26 @@ namespace Traversal.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult AddGuide(AddGuideDto dto)
         {
-            _guideService.TInsert(dto);
+            _guideService.TInsertAsync(dto);
             return RedirectToAction("Index");
         }
 
         public IActionResult DeleteGuide(int id)
         {
-            _guideService.TDelete(id);
+            _guideService.TDeleteAsync(id);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
         public IActionResult UpdateGuide(int id)
         {
-            return View(_guideService.TGetById(id));
+            return View(_guideService.TGetByIdAsync(id));
         }
 
         [HttpPost]
         public IActionResult UpdateGuide(Guide guide)
         {
-            _guideService.TUpdate(guide);
+            _guideService.TUpdateAsync(guide);
             return RedirectToAction("Index");
         }
 

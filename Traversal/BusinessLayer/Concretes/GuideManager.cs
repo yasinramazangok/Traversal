@@ -30,36 +30,37 @@ namespace Traversal.BusinessLayer.Concretes
             _guideDal.ChangeGuideStatusToTrue(id);
         }
 
-        public void TDelete(int id)
+        public async Task TDeleteAsync(int id)
         {
-            var guide = _guideDal.GetById(id);
-            _guideDal.Delete(guide);
+            await _guideDal.DeleteAsync(id);
         }
 
-        public GuideDto TGetById(int id)
+        public async Task<GuideDto> TGetByIdAsync(int id)
         {
-            return _mapper.Map<GuideDto>(_guideDal.GetById(id));
+            var values = await _guideDal.GetListAsync();
+            return _mapper.Map<GuideDto>(values);
         }
 
-        public List<ListGuideDto> TGetList()
+        public async Task<List<ListGuideDto>> TGetListAsync()
         {
-            return _mapper.Map<List<ListGuideDto>>(_guideDal.GetList());
+            var values = await _guideDal.GetListAsync();
+            return _mapper.Map<List<ListGuideDto>>(values);
         }
 
-        public void TInsert(AddGuideDto dto)
+        public async Task TInsertAsync(AddGuideDto dto)
         {
             AddGuideValidator validationRules = new AddGuideValidator();
             ValidationResult result = validationRules.Validate(dto);
             if (result.IsValid)
-                _guideDal.Insert(_mapper.Map<Guide>(dto));
+                await _guideDal.InsertAsync(_mapper.Map<Guide>(dto));
         }
 
-        public void TUpdate(Guide dto)
+        public async Task TUpdateAsync(Guide dto)
         {
-            _guideDal.Update(dto);
+            await _guideDal.UpdateAsync(dto);
         }
 
-        public void TUpdate(object dto)
+        public Task TUpdateAsync(object dto)
         {
             throw new NotImplementedException();
         }

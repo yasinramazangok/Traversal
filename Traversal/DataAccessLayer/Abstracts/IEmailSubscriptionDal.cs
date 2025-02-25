@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Abstracts
 {
-    public interface IEmailSubscriptionDal : IGenericDal<EmailSubscription>
+    public interface IEmailSubscriptionDal : IGenericRepositoryDal<EmailSubscription>
     {
     }
 }

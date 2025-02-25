@@ -4,7 +4,7 @@ using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.DataAccessLayer.Concretes
 {
-    public class GenericRepository<T> : IGenericDal<T> where T : class, new()
+    public class GenericRepositoryDal<T> : IGenericRepositoryDal<T> where T : class, new()
     {
         public void Delete(T entity)
         {

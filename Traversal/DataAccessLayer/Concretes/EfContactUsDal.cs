@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Concretes
 {
-    public class EfContactUsDal : GenericRepository<ContactUs>, IContactUsDal
+    public class EfContactUsDal : GenericRepositoryDal<ContactUs>, IContactUsDal
     {
         public void ChangeContactUsStatusToFalse(int id)
         {

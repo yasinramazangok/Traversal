@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Abstracts
 {
-    public interface IReservationDal : IGenericDal<Reservation>
+    public interface IReservationDal : IGenericRepositoryDal<Reservation>
     {
         List<Reservation> GetListOfPendingApprovalReservations(int id);
         List<Reservation> GetListOfAcceptedReservations(int id);

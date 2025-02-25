@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Abstracts
 {
-    public interface IDestinationDal : IGenericDal<Destination>
+    public interface IDestinationDal : IGenericRepositoryDal<Destination>
     {
         public Destination GetDestinationWithGuide(int id);
 

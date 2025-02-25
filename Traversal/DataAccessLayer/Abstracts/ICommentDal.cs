@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Abstracts
 {
-    public interface ICommentDal : IGenericDal<Comment>
+    public interface ICommentDal : IGenericRepositoryDal<Comment>
     {
         public List<Comment> GetCommentListByDestination();
         public List<Comment> GetCommentListWithDestinationAndUser(int id);

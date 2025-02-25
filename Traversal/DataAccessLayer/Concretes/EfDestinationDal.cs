@@ -5,7 +5,7 @@ using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.DataAccessLayer.Concretes
 {
-    public class EfDestinationDal : GenericRepository<Destination>, IDestinationDal
+    public class EfDestinationDal : GenericRepositoryDal<Destination>, IDestinationDal
     {
         public Destination GetDestinationWithGuide(int id)
         {

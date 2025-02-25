@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Concretes
 {
-    public class EfTraversalUserDal : GenericRepository<TraversalUser>, ITraversalUserDal
+    public class EfTraversalUserDal : GenericRepositoryDal<TraversalUser>, ITraversalUserDal
     {
     }
 }

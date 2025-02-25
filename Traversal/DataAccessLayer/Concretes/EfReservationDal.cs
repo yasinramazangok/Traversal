@@ -5,7 +5,7 @@ using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.DataAccessLayer.Concretes
 {
-    public class EfReservationDal : GenericRepository<Reservation>, IReservationDal
+    public class EfReservationDal : GenericRepositoryDal<Reservation>, IReservationDal
     {
         public override List<Reservation> GetList()
         {

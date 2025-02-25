@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Abstracts
 {
-    public interface IContactUsDal : IGenericDal<ContactUs>
+    public interface IContactUsDal : IGenericRepositoryDal<ContactUs>
     {
         List<ContactUs> GetListContactUsByTrue();
 

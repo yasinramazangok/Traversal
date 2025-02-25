@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Abstracts
 {
-    public interface IGuideDal : IGenericDal<Guide>
+    public interface IGuideDal : IGenericRepositoryDal<Guide>
     {
         void ChangeGuideStatusToTrue(int id);
 

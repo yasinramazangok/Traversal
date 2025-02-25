@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Concretes
 {
-    public class EfEmailSubscriptionDal : GenericRepository<EmailSubscription>, IEmailSubscriptionDal
+    public class EfEmailSubscriptionDal : GenericRepositoryDal<EmailSubscription>, IEmailSubscriptionDal
     {
     }
 }

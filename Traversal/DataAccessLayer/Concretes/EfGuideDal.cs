@@ -4,7 +4,7 @@ using Traversal.DataAccessLayer.Contexts;
 
 namespace Traversal.DataAccessLayer.Concretes
 {
-    public class EfGuideDal : GenericRepository<Guide>, IGuideDal
+    public class EfGuideDal : GenericRepositoryDal<Guide>, IGuideDal
     {
         public void ChangeGuideStatusToFalse(int id)
         {

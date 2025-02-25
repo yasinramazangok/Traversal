@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Traversal.DataAccessLayer.Abstracts
 {
-    public interface ITestimonialDal : IGenericDal<Testimonial>
+    public interface ITestimonialDal : IGenericRepositoryDal<Testimonial>
     {
     }
 }

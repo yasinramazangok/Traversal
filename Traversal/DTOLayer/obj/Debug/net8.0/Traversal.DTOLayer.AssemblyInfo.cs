@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Traversal.DTOLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc88415b13c4dd829fb160e29c45051892cfa310")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+491beb8bb600aa04731e7dbbcdb2ca74978e34ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Traversal.DTOLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Traversal.DTOLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

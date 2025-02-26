@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Traversal.Areas.Admin.Models;
-using Traversal.BusinessLayer.Abstract.AbstractUow;
+using Traversal.BusinessLayer.Abstracts;
 using Traversal.DTOLayer.AdminDTOs.AccountDtos;
 using Traversal.EntityLayer.Concretes;
 
@@ -25,22 +25,8 @@ namespace Traversal.Areas.Admin.Controllers
 
         [HttpPost]
         public IActionResult Index(BalanceTransferDto balanceTransferDto)
-        {
-            var valueSender = _accountService.TGetById(balanceTransferDto.SenderId);
-            var valueReceiver = _accountService.TGetById(balanceTransferDto.ReceiverId);
-            //senderid,receiverid,amount
-
-            valueSender.Balance -= balanceTransferDto.Amount;
-            valueReceiver.Balance += balanceTransferDto.Amount;
-
-            List<Account> modifiedAccounts = new List<Account>()
-            {
-                valueSender,
-                valueReceiver
-            };
-
-            _accountService.TMultiUpdate(modifiedAccounts);
-
+        {      
+            _accountService.TMultiUpdate(balanceTransferDto);
             return View();
         }
     }

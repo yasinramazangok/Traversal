@@ -5,8 +5,10 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h3>Unit Of Work Personel Prim Tranferi</h3>
-
+<h3>Bakiye Tranferi</h3>
+<label>Bu işlem Unit of Work Design Pattern kullanılarak yapılmaktadır!</label>
+<br />
+<br />
 <form method="post">
     <label>Gönderen</label>
     <input type="text" asp-for="SenderId" class="form-control" />
@@ -15,7 +17,7 @@
     <input type="text" asp-for="ReceiverId" class="form-control" />
     <br />
     <label>Miktar</label>
-    <input type="text" asp-for="Amount" class="form-control" />
+    <input type="number" asp-for="Amount" class="form-control" />
     <br />
     <button class="btn btn-outline-warning">Hesaba Aktar</button>
 </form>

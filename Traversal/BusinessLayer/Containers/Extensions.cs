@@ -1,14 +1,13 @@
 ﻿using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-using Traversal.BusinessLayer.Abstract.AbstractUow;
 using Traversal.BusinessLayer.Abstracts;
 using Traversal.BusinessLayer.Concretes;
-using Traversal.BusinessLayer.Concretes.ConcreteUow;
 using Traversal.BusinessLayer.ValidationRules.AnnouncementValidationRules;
 using Traversal.DataAccessLayer.Abstracts;
 using Traversal.DataAccessLayer.Concretes;
 using Traversal.DataAccessLayer.UnitOfWork;
 using Traversal.DTOLayer.AdminDTOs.AnnouncementDtos;
+using Traversal.EntityLayer.Concretes;
 
 namespace Traversal.BusinessLayer.Containers
 {
@@ -52,7 +51,7 @@ namespace Traversal.BusinessLayer.Containers
             services.AddScoped<IAccountService, AccountManager>();
             services.AddScoped<IAccountDal, EfAccountDal>();
 
-            services.AddScoped<IUowDal, UowDal>();
+            services.AddScoped<IGenericUowDal<Account>, GenericUowDal<Account>>();
         }
 
         public static void CustomValidator(this IServiceCollection services)

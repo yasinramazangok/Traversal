@@ -7,9 +7,9 @@ namespace Traversal.Areas.Admin.Controllers
     [Route("Admin/[controller]/[action]")]
     public class CommentController : Controller
     {
-        private readonly ICommentService _commentService;
+        private readonly IAdminCommentService _commentService;
 
-        public CommentController(ICommentService commentService)
+        public CommentController(IAdminCommentService commentService)
         {
             _commentService = commentService;
         }

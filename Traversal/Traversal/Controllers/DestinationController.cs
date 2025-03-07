@@ -18,7 +18,7 @@ namespace Traversal.Controllers
             _traversalUserManager = traversalUserManager;
         }
 
-        public IActionResult Home()
+        public async Task<IActionResult> Home()
         {
             var values = _destinationService.TGetListAsync();
             return View(values);

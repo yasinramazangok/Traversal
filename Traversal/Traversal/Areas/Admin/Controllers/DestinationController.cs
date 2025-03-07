@@ -9,9 +9,9 @@ namespace Traversal.Areas.Admin.Controllers
     [Route("Admin/[controller]/[action]")]
     public class DestinationController : Controller
     {
-        private readonly IDestinationService _destinationService;
+        private readonly IAdminDestinationService _destinationService;
 
-        public DestinationController(IDestinationService destinationService)
+        public DestinationController(IAdminDestinationService destinationService)
         {
             _destinationService = destinationService;
         }

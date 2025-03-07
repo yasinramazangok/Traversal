@@ -5,9 +5,9 @@ namespace Traversal.ViewComponents.MemberDashboard
 {
     public class MemberDashboardLastDestinationsPartial : ViewComponent
     {
-        private readonly IDestinationService _destinationService;
+        private readonly IAdminDestinationService _destinationService;
 
-        public MemberDashboardLastDestinationsPartial(IDestinationService destinationService)
+        public MemberDashboardLastDestinationsPartial(IAdminDestinationService destinationService)
         {
             _destinationService = destinationService;
         }

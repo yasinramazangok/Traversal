@@ -2,9 +2,9 @@
 using Traversal.DTOLayer.AdminDTOs.AccountDtos;
 using Traversal.EntityLayer.Concretes;
 
-namespace Traversal.BusinessLayer.Abstracts
+namespace Traversal.BusinessLayer.Abstracts.AdminAbstracts
 {
-    public interface IAccountService : IGenericUowService<Account>
+    public interface IAdminAccountService : IGenericUowService<Account>
     {
         void TMultiUpdate(BalanceTransferDto balanceTransferDto);
     }

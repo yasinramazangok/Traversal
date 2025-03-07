@@ -8,9 +8,9 @@ namespace Traversal.Areas.Admin.Controllers
     [Route("Admin/[controller]/[action]")]
     public class AnnouncementController : Controller
     {
-        private readonly IAnnouncementService _announcementService;
+        private readonly IAdminAnnouncementService _announcementService;
 
-        public AnnouncementController(IAnnouncementService announcementService)
+        public AnnouncementController(IAdminAnnouncementService announcementService)
         {
             _announcementService = announcementService;
         }

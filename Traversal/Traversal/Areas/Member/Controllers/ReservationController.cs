@@ -12,13 +12,13 @@ namespace Traversal.Areas.Member.Controllers
     [Route("Member/[controller]/[action]")]
     public class ReservationController : Controller
     {
-        private readonly IReservationService _reservationService;
+        private readonly IAdminReservationService _reservationService;
 
-        private readonly IDestinationService _destinationService;
+        private readonly IAdminDestinationService _destinationService;
 
         private readonly UserManager<TraversalUser> _userManager;
 
-        public ReservationController(UserManager<TraversalUser> userManager, IDestinationService destinationService, IReservationService reservationService)
+        public ReservationController(UserManager<TraversalUser> userManager, IAdminDestinationService destinationService, IAdminReservationService reservationService)
         {
             _userManager = userManager;
             _destinationService = destinationService;

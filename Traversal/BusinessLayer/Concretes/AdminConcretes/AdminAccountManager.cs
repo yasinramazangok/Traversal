@@ -1,12 +1,12 @@
-﻿using Traversal.BusinessLayer.Abstracts;
+﻿using Traversal.BusinessLayer.Abstracts.AdminAbstracts;
 using Traversal.DataAccessLayer.Abstracts;
 using Traversal.DataAccessLayer.UnitOfWork;
 using Traversal.DTOLayer.AdminDTOs.AccountDtos;
 using Traversal.EntityLayer.Concretes;
 
-namespace Traversal.BusinessLayer.Concretes
+namespace Traversal.BusinessLayer.Concretes.AdminConcretes
 {
-    public class AccountManager : IAccountService
+    public class AccountManager : IAdminAccountService
     {
         private readonly IAccountDal _accountDal;
         private readonly IGenericUowDal<Account> _genericUowDal;
@@ -19,13 +19,12 @@ namespace Traversal.BusinessLayer.Concretes
 
         public Account TGetById(int id)
         {
-            return _accountDal.GetById(id);
+            throw new NotImplementedException();
         }
 
         public void TInsert(Account t)
         {
-            _accountDal.Insert(t);
-            _genericUowDal.Save();
+            throw new NotImplementedException();
         }
 
         public void TMultiUpdate(BalanceTransferDto balanceTransferDto)
@@ -74,8 +73,7 @@ namespace Traversal.BusinessLayer.Concretes
 
         public void TUpdate(Account t)
         {
-            _accountDal.Update(t);
-            _genericUowDal.Save();
+            throw new NotImplementedException();
         }
     }
 }

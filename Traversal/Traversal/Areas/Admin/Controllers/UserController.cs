@@ -8,13 +8,11 @@ namespace Traversal.Areas.Admin.Controllers
     [Route("Admin/[controller]/[action]")]
     public class UserController : Controller
     {
-        private readonly ITraversalUserService _traversalUserService;
-        private readonly IReservationService _reservationService;
+        private readonly IAdminTraversalUserService _traversalUserService;
 
-        public UserController(ITraversalUserService traversalUserService, IReservationService reservationService)
+        public UserController(IAdminTraversalUserService traversalUserService)
         {
             _traversalUserService = traversalUserService;
-            _reservationService = reservationService;
         }
 
         public async Task<IActionResult> Index()
@@ -41,18 +39,6 @@ namespace Traversal.Areas.Admin.Controllers
         {
             _traversalUserService.TUpdateAsync(traversalUser);
             return RedirectToAction("Index");
-        }
-
-        public IActionResult CommentUser(int id)
-        {
-            _traversalUserService.TGetListAsync();
-            return View();
-        }
-
-        public IActionResult UserReservationList(int id)
-        {
-            var values = _reservationService.GetListOfAcceptedReservations(id);
-            return View(values);
         }
     }
 }

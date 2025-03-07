@@ -7,9 +7,9 @@ namespace Traversal.Areas.Admin.Controllers
     [Route("Admin/[controller]/[action]")]
     public class ContactUsController : Controller
     {
-        private readonly IContactUsService _contactUsService;
+        private readonly IAdminContactUsService _contactUsService;
 
-        public ContactUsController(IContactUsService contactUsService)
+        public ContactUsController(IAdminContactUsService contactUsService)
         {
             _contactUsService = contactUsService;
         }

@@ -5,9 +5,9 @@ namespace Traversal.ViewComponents.AdminDashboard
 {
     public class AdminDashboardGuideListPartial : ViewComponent
     {
-        private readonly IGuideService _guideService;
+        private readonly IAdminGuideService _guideService;
 
-        public AdminDashboardGuideListPartial(IGuideService guideService)
+        public AdminDashboardGuideListPartial(IAdminGuideService guideService)
         {
             _guideService = guideService;
         }

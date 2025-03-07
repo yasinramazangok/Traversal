@@ -5,9 +5,9 @@ namespace Traversal.ViewComponents.Destination
 {
     public class UIDestinationDetailsGuideInformationsPartial : ViewComponent
     {
-        private readonly IGuideService _guideService;
+        private readonly IAdminGuideService _guideService;
 
-        public UIDestinationDetailsGuideInformationsPartial(IGuideService guideService)
+        public UIDestinationDetailsGuideInformationsPartial(IAdminGuideService guideService)
         {
             _guideService = guideService;
         }

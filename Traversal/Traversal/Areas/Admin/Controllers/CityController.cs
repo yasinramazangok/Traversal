@@ -9,9 +9,9 @@ namespace Traversal.Areas.Admin.Controllers
     [Route("Admin/[controller]/[action]")]
     public class CityController : Controller
     {
-        private readonly IDestinationService _destinationService;
+        private readonly IAdminDestinationService _destinationService;
 
-        public CityController(IDestinationService destinationService)
+        public CityController(IAdminDestinationService destinationService)
         {
             _destinationService = destinationService;
         }
@@ -21,7 +21,7 @@ namespace Traversal.Areas.Admin.Controllers
             return View();
         }
 
-        public IActionResult CityList()
+        public IActionResult GetCityList()
         {
             var jsonValues = JsonConvert.SerializeObject(_destinationService.TGetListAsync());
             return Json(jsonValues);
@@ -47,6 +47,7 @@ namespace Traversal.Areas.Admin.Controllers
             return NoContent();
         }
 
+        [HttpPost]
         public IActionResult UpdateCity(UpdateDestinationDto dto)
         {
             _destinationService.TUpdateAsync(dto);

@@ -5,9 +5,9 @@ namespace Traversal.ViewComponents.Default
 {
     public class UIDefaultPopularDestinationsPartial : ViewComponent
     {
-        private readonly IDestinationService _destinationService;
+        private readonly IAdminDestinationService _destinationService;
 
-        public UIDefaultPopularDestinationsPartial(IDestinationService destinationService)
+        public UIDefaultPopularDestinationsPartial(IAdminDestinationService destinationService)
         {
             _destinationService = destinationService;
         }

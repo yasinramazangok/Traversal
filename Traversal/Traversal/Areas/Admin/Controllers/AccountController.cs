@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Traversal.Areas.Admin.Models;
-using Traversal.BusinessLayer.Abstracts;
+using Traversal.BusinessLayer.Abstracts.AdminAbstracts;
 using Traversal.DTOLayer.AdminDTOs.AccountDtos;
 using Traversal.EntityLayer.Concretes;
 
@@ -10,9 +10,9 @@ namespace Traversal.Areas.Admin.Controllers
     [Route("Admin/[controller]/[action]")]
     public class AccountController : Controller
     {
-        private readonly IAccountService _accountService;
+        private readonly IAdminAccountService _accountService;
 
-        public AccountController(IAccountService accountService)
+        public AccountController(IAdminAccountService accountService)
         {
             _accountService = accountService;
         }

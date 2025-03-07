@@ -7,9 +7,9 @@ namespace Traversal.Controllers
     [AllowAnonymous]
     public class GuideController : Controller
     {
-        private readonly IGuideService _guideService;
+        private readonly IAdminGuideService _guideService;
 
-        public GuideController(IGuideService guideService)
+        public GuideController(IAdminGuideService guideService)
         {
             _guideService = guideService;
         }

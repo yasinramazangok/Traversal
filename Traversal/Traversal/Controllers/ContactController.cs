@@ -10,10 +10,10 @@ namespace Traversal.Controllers
     [AllowAnonymous]
     public class ContactController : Controller
     {
-        private readonly IContactUsService _contactUsService;
+        private readonly IAdminContactUsService _contactUsService;
         private readonly IMapper _mapper;
 
-        public ContactController(IContactUsService contactUsService, IMapper mapper)
+        public ContactController(IAdminContactUsService contactUsService, IMapper mapper)
         {
             _contactUsService = contactUsService;
             _mapper = mapper;

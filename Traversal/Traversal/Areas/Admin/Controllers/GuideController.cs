@@ -13,9 +13,9 @@ namespace Traversal.Areas.Admin.Controllers
     [Route("Admin/[controller]/[action]")]
     public class GuideController : Controller
     {
-        private readonly IGuideService _guideService;
+        private readonly IAdminGuideService _guideService;
 
-        public GuideController(IGuideService guideService)
+        public GuideController(IAdminGuideService guideService)
         {
             _guideService = guideService;
         }
@@ -32,7 +32,7 @@ namespace Traversal.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddGuide(AddGuideDto dto)
+        public async Task<IActionResult> AddGuide(AddGuideDto dto)
         {
             _guideService.TInsertAsync(dto);
             return RedirectToAction("Index");
@@ -41,19 +41,6 @@ namespace Traversal.Areas.Admin.Controllers
         public IActionResult DeleteGuide(int id)
         {
             _guideService.TDeleteAsync(id);
-            return RedirectToAction("Index");
-        }
-
-        [HttpGet]
-        public IActionResult UpdateGuide(int id)
-        {
-            return View(_guideService.TGetByIdAsync(id));
-        }
-
-        [HttpPost]
-        public IActionResult UpdateGuide(Guide guide)
-        {
-            _guideService.TUpdateAsync(guide);
             return RedirectToAction("Index");
         }
 
